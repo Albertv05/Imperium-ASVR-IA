@@ -35,11 +35,12 @@ más oro y refuerzos a las fortalezas atacadas.
 **Correcciones:** héroes parados más de 3 min sin combatir vuelven a la fortaleza más cercana; los druidas ya no
 se bloquean por investigaciones largas; carros de comida limitados a 20, sin peticiones desde dentro de una
 fortaleza y con descarga de los parados (sin verificar); el Inmortal persa (`PINMORTAL.SC.XML`) pasa a raza
-Egipto para poder unirse al héroe egipcio (sin verificar).
+Egipto (verificado: ya se une al héroe egipcio); el Hoplita (`EHOPLITA`) pasa a raza República Romana y el Hipatista
+(`HIPATISTA`) a Imperio Romano para poder unirse a los héroes romanos (sin verificar).
 
 **Sin cambios:** prioridad de los campamentos teutones, niveles Fácil y Normal.
 
 ## Archivos
 `DATA/AI/` — `AI.INI`, `ES_STRONGHOLD.VS`, `ESH_BUILDARMY.VS`, `ESH_MARKET.VS`, `ES_VILLAGE.VS`,
 `GETARMYNEED.VS`, `GSH_SYNCHAPPROACH.VS`, `GS_CAPTURE.VS`, `SQUADMONITOR.VS`, `TS_*TACTIC*.VS`, `TS_ATTACKATWILL.VS`.
-`DATA/CLASSES/PINMORTAL.SC.XML`.
+`DATA/CLASSES/PINMORTAL.SC.XML`, `EHOPLITA.SC.XML`, `HIPATISTA.SC.XML`.
