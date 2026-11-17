@@ -48,7 +48,7 @@ if (!set.IsAlly(AIPlayer))
 
 		if (gaika.GetStrat(AIPlayer) != GS_KillEnemies)
 			break;
-		if (GetTime - gtStart > 45000) break; // IA Plus: never wait more than 45 s
+		if (GetTime - gtStart > 45000) if (own + ally >= gaika.MinNeed(AIPlayer, own, ally, enemy) * 7 / 10) break; // IA Plus: after 45 s fight, but never when badly outnumbered
 		if (bWait)
 			Sleep(AIVar(AIPlayer, AIV_Sleep_GS));
 	}

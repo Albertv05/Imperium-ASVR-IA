@@ -65,7 +65,7 @@ while (set.IsEnemy(AIPlayer) && gaika.GetStrat(AIPlayer) == GS_Capture)
 	}
 	if (!bWait)
 		break;
-	if (GetTime - gtStart > 45000) break; // IA Plus: never gather/wait more than 45 s before attacking
+	if (GetTime - gtStart > 45000) if (own + ally >= nMinNeed * 7 / 10) break; // IA Plus: after 45 s attack, but never when badly outnumbered
 	Sleep(AIVar(AIPlayer, AIV_Sleep_GS));
 }
 
