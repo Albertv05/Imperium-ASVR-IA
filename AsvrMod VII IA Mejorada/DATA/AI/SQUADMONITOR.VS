@@ -241,16 +241,24 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 	}
 
 	// retreat idle units from tower range
-	if (nSqState == SS_IDLE || nSqState == SS_Wait)
+	// IA Plus: also while waiting (approach wait) and also from ranged enemy units (archers on the walls) - don't stand still under fire
+	if (nSqState == SS_IDLE || nSqState == SS_Wait || nSqState == SS_ApproachWait)
 	if (sqLeader.command == "idle" || sqLeader.command == "stand_position") 
 	if (sq.LastFightTime > GetTime-3000)
 	if (sq.GetLastAttacker.IsValid)
-	if (sq.GetLastAttacker.AsBuilding.IsValid || sq.GetLastAttacker.IsSentry)
 	{
 		point pt;
-		pt = sq.pos - sq.GetLastAttacker.pos;
-		pt.SetLen(100);
-		sq.SetCmd(SS_IDLE, 0, SF_ADVCHOOSER, "advance", sq.pos + pt);
+		int nAtkDist, nBack;
+		nAtkDist = sq.pos.Dist(sq.GetLastAttacker.pos);
+		nBack = 0;
+		if (sq.GetLastAttacker.AsBuilding.IsValid || sq.GetLastAttacker.IsSentry) nBack = 100;
+		else if (nAtkDist > 350) nBack = 200;
+		if (nBack > 0)
+		{
+			pt = sq.pos - sq.GetLastAttacker.pos;
+			pt.SetLen(nBack);
+			sq.SetCmd(nSqState, 0, SF_ADVCHOOSER, "advance", sq.pos + pt);
+		}
 	}
 
 	// use ruins

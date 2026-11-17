@@ -74,14 +74,14 @@ if (!bWait) {
   return;
 }
 
-// IA Plus: never wait more than 60 s for stragglers (an army stuck in a jam stopped everybody)
+// IA Plus: never wait more than 30 s for stragglers (an army stuck in a jam stopped everybody)
 {
   int nSynchStart;
   nSynchStart = EnvReadInt(AIPlayer, "SynchStart" + g.ID);
   if (nSynchStart == 0)
     EnvWriteInt(AIPlayer, "SynchStart" + g.ID, GetTime);
   else
-    if (GetTime - nSynchStart > 60000)
+    if (GetTime - nSynchStart > 30000)
       bWait = false;
 }
 if (!bWait) {

@@ -27,7 +27,10 @@ Arqueros: máximo 35 % del ejército (`AIV_ArcherPercent`, antes 60).
 **Ejércitos y combate:** aperturas más grandes en las 8 civilizaciones con esperas más cortas, segundas fases
 reforzadas en Egipto y Britania, mayor fuerza necesaria antes de atacar, ejércitos de ataque más grandes
 (mínimos 30/38/41/45 según el minuto), más de 20 unidades reunidas para asaltar una fortaleza, espera de
-sincronización de 60 s como máximo, búsqueda de ruinas hasta 9000 de distancia, curanderos desde 5 bajas.
+sincronización de 30 s como máximo, búsqueda de ruinas hasta 9000 de distancia, curanderos desde 5 bajas.
+
+**Esperas bajo fuego:** los ejércitos que esperan (reunirse o sincronizar la llegada) ya no se quedan quietos mientras los
+arqueros o torres enemigas les disparan: retroceden fuera del alcance.
 
 **Defensa:** las 3 defensas de fortaleza se activan antes (20 y 30 min, y la tercera pasados 40) y se asigna
 más oro y refuerzos a las fortalezas atacadas.
