@@ -55,7 +55,7 @@ if (set.food < 2000)
 			bBuyFood = true;
 	} else {
 		// IA Plus: keep a food reserve so food wagons can always be loaded for marching armies
-		if (set.food < 1500)
+		if (set.food < 300 && set.gold > 1500)
 			bBuyFood = true;
 	}
 	if (bBuyFood)
