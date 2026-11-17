@@ -16,7 +16,7 @@ Versión: 7a 0.8 + IA Plus 1.2. Afecta solo a la dificultad **Difícil**. Sin pr
 ## Cambios
 **Agilidad:** intervalos de decisión más cortos (economía 2000 ms, estrategia 500 ms, reclutamiento 1000 ms,
 vigilancia de escuadras 500 ms), puntos de atención 14, máximo de unidades militares 1200. La bonificación
-oculta de recursos de la IA (`ESH_MARKET.VS`) se mantiene y se reescala para que el total por segundo no cambie.
+oculta de recursos que el mod original daba a la IA (`ESH_MARKET.VS`) ha sido **eliminada**: la IA ya no recibe oro ni comida gratis.
 
 **Economía y reclutamiento:** entrenamiento más temprano, presupuesto de tecnología 40, menos oro sin gastar
 (umbral 8000 en vez de 15000), más oro mínimo para reclutar ejércitos y poblaciones objetivo 50/70/90,

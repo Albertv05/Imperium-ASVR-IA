@@ -34,20 +34,7 @@ strTechMarket[6] = "GrainTrade";
 strTechMarket[7] = "TGrainTrade";
 
 //pr("test market");
-// grant :)
-if(nRace==Germany){
-	if(set.gold < 15000)
-		set.SetGold(set.gold + 106 * nGrantScale / 3000);
-
-	if(set.food < 15000)
-		set.SetFood(set.food + 120 * nGrantScale / 3000);
-} else {
-	if(set.gold < 15000)
-		set.SetGold(set.gold + 112 * nGrantScale / 3000);
-
-	if(set.food < 15000)
-		set.SetFood(set.food + 66 * nGrantScale / 3000);
-}
+// IA Plus: hidden AI-only resource grant REMOVED (the original gave every AI stronghold free gold/food each economy cycle)
 
 for (i = 0; i < 8; i += 1)
 	if (IsResearched(set, strTechMarket[i]))
