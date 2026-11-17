@@ -625,35 +625,6 @@ while (set.player == AIPlayer && EnvReadInt(set, "RestartEconomyScript") == 0)
 	//if (NeedTraining(AIPlayer))
 		{ EnvWriteInt(AIPlayer, "NeedTraining", 1); nNeedTraining = 1; }
 
-	// IA Plus: idle wagons parked inside the stronghold unload their cargo instead of piling up as units
-	{
-		ObjList olWg;
-		int iWg, nWgDone, nWgIdle;
-		olWg = set.Units;
-		nWgDone = 0;
-		nWgIdle = 0;
-		// first count idle wagons: a few are kept untouched because they may be waiting to leave with a hero (food for the march)
-		for (iWg = 0; iWg < olWg.count; iWg += 1)
-		{
-			Wagon wgc;
-			wgc = olWg[iWg].AsWagon();
-			if (!wgc.IsValid()) continue;
-			if (wgc.command == "idle") nWgIdle += 1;
-		}
-		for (iWg = 0; iWg < olWg.count; iWg += 1)
-		{
-			Wagon wgn;
-			wgn = olWg[iWg].AsWagon();
-			if (!wgn.IsValid()) continue;
-			if (wgn.command != "idle") continue;
-			if (nWgIdle <= 8) break; // only the excess over 8 idle wagons is unloaded
-			if (nWgDone >= 5) break;
-			nWgIdle -= 1;
-			wgn.SetCommand("unload", set.GetCentralBuilding());
-			nWgDone += 1;
-		}
-	}
-
 	// sleep
 	Sleep(AIVar(AIPlayer, AIV_Sleep_ES));
 }
