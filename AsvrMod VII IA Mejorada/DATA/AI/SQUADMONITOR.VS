@@ -340,7 +340,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 
 	if (AIVar(AIPlayer, AIV_FeedWithWagons) != 0)
 	if (nSqState != SS_Flee)
-	if (Count(AIPlayer, "Wagon") < 60) // IA Plus: only a high cap; idle/wait states are NOT excluded (marching squads often carry those states)
+	if (Count(AIPlayer, "Wagon") < 100) // IA Plus: only a high cap; idle/wait states are NOT excluded (marching squads often carry those states)
 	if (sq.Eval >= 3000)
 	{ // check feeding
 		int dist, food, needed;
