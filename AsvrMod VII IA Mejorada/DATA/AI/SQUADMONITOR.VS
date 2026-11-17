@@ -19,8 +19,8 @@ bLog = AIVar(AIPlayer, AIV_LogFlee) != 0 && UEnabled(AIVar(AIPlayer, AIV_LogPlay
 nMagePerc = AIVar(AIPlayer, AIV_DruidAttach);
 
 time = GetTime / 60000;
-if (time < 10) min = 30;
-else if (time < 20) min = 38;
+if (time < 10) min = 25;
+else if (time < 20) min = 30;
 else if (time < 30) min = 41;
 else min = 45;
 
@@ -96,7 +96,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 	{
 		int own, ally, enemy, enemy_hidden;
 		sq.AIDest.Eval(AI_ALL, AIPlayer, own, ally, enemy, enemy_hidden);
-		if (own + ally + sq.Eval > 5 * enemy / 2)	{
+		if (own + ally + sq.Eval > 2 * enemy)	{
 			sq.SetCmd(SS_KillAll, 0, SF_ADVCHOOSER, "advance", setGDest.GetCentralBuilding.pos);
 			continue;
 		}
@@ -221,48 +221,21 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 		}
 	}
 
-	// IA Plus: watchdog. A hero army standing idle outside for 3+ minutes with no fighting goes back to the nearest stronghold
-	// (to refill and be sent again) instead of waiting forever
-	if (nSqState == SS_IDLE || nSqState == SS_Wait || nSqState == SS_ApproachWait)
-	if (sqLeader.AsHero)
-	if (!sq.InHolder)
-	if (sqLeader.command == "idle")
-	if (nSqStateTime > 180000)
-	if (sq.LastFightTime < GetTime - 60000)
-	{
-		Settlement sWd;
-		sWd = NearestStronghold(sq.pos, sq.Player);
-		if (sWd.IsValid)
-		{
-			sq.SetCmd(SS_Flee, 0, SF_ADVCHOOSER, "enter", sWd.GetCentralBuilding);
-			Sleep(100);
-			continue;
-		}
-	}
-
 	// retreat idle units from tower range
-	// IA Plus: also while waiting (approach wait) and also from ranged enemy units (archers on the walls) - don't stand still under fire
-	if (nSqState == SS_IDLE || nSqState == SS_Wait || nSqState == SS_ApproachWait)
+	if (nSqState == SS_IDLE || nSqState == SS_Wait)
 	if (sqLeader.command == "idle" || sqLeader.command == "stand_position") 
 	if (sq.LastFightTime > GetTime-3000)
 	if (sq.GetLastAttacker.IsValid)
+	if (sq.GetLastAttacker.AsBuilding.IsValid || sq.GetLastAttacker.IsSentry)
 	{
 		point pt;
-		int nAtkDist, nBack;
-		nAtkDist = sq.pos.Dist(sq.GetLastAttacker.pos);
-		nBack = 0;
-		if (sq.GetLastAttacker.AsBuilding.IsValid || sq.GetLastAttacker.IsSentry) nBack = 100;
-		else if (nAtkDist > 350) nBack = 200;
-		if (nBack > 0)
-		{
-			pt = sq.pos - sq.GetLastAttacker.pos;
-			pt.SetLen(nBack);
-			sq.SetCmd(nSqState, 0, SF_ADVCHOOSER, "advance", sq.pos + pt);
-		}
+		pt = sq.pos - sq.GetLastAttacker.pos;
+		pt.SetLen(100);
+		sq.SetCmd(SS_IDLE, 0, SF_ADVCHOOSER, "advance", sq.pos + pt);
 	}
 
 	// use ruins
-	if (rand(3) == 1)
+	if (rand(5) == 3)
 	if (AIVar(AIPlayer, AIV_UseRuins) != 0)
 	if (sq.InHolder)
 	if (sqLeader.AsHero)
@@ -271,7 +244,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 		Obj ruins;
 		if (nSqState == SS_Ruins)
 			sq.SetState(SS_IDLE);
-		ruins = FindRuins(sq.pos, 9000, sqLeader.level);
+		ruins = FindRuins(sq.pos, 6500, sqLeader.level);
 		if (ruins.IsValid)
 		{
 			sqLeader.AsHero.DetachArmy;
@@ -361,7 +334,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 	if (!sqLeader.BestTargetInSquadSight.IsValid)
 	if (sq.food > 100)
 	{
-		int nHealers, nThreshold = 5;
+		int nHealers, nThreshold = 7;
 		nHealers = sq.Count("GAncientDruid");
 		if (nHealers < nThreshold)
 			nHealers += sq.Count("RPriest");
@@ -389,7 +362,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 			bool bDetachArmy = false;
 			int nFlee = 0; // 1 - smallarmy | 2 - herosick | 4 - armysick | 8 - losing
   
-			//if (sq.Size < min - 10) nFlee += 1; // army too small in number (IA Plus: left disabled, it kept heroes from being refilled)
+			//if (sq.Size < min - 10) nFlee += 1; // army too small in number
 			if (sqLeader.AsHero)
 			if (sqLeader.health < sqLeader.maxhealth / 2)
 			if (sqLeader.BestTargetInSquadSight.IsAlive)

@@ -2,11 +2,11 @@
 SquadList SL;
 Squad sqFarest, sqNearest;
 int nMinDist = 100000, nMaxDist = 0;
-int tolerance = 160; // allowed delta distance (in pixels)
+int tolerance = 256; // allowed delta distance (in pixels)
 int own, ally, enemy, enemy_hidden, nMinNeed, coming = 0;
 bool bWait;
 
-g.GetSquads(SL, AI_COMING, AIPlayer, AI_OWN + AI_ALLY); if (SL.EOL) { EnvWriteInt(AIPlayer, "SynchStart" + g.ID, 0); return; } // IA Plus: nobody coming, reset the wait timer
+g.GetSquads(SL, AI_COMING, AIPlayer, AI_OWN + AI_ALLY); if (SL.EOL) return;
 
 // check whether to wait at all
 if (SL.Size == 1) bWait = false;
@@ -65,25 +65,6 @@ if (own + ally + coming >= nMinNeed) {
   bWait = false;
 
 // stop waiting if not necessary (second check)
-if (!bWait) {
-  SL.Lock;
-  for (SL.Rewind; !SL.EOL; SL.Next)
-    if (SL.Cur.State == SS_ApproachWait) if (SL.Cur.Player == AIPlayer)
-      SL.Cur.SendTo(g, 100);
-  SL.Unlock;
-  return;
-}
-
-// IA Plus: never wait more than 30 s for stragglers (an army stuck in a jam stopped everybody)
-{
-  int nSynchStart;
-  nSynchStart = EnvReadInt(AIPlayer, "SynchStart" + g.ID);
-  if (nSynchStart == 0)
-    EnvWriteInt(AIPlayer, "SynchStart" + g.ID, GetTime);
-  else
-    if (GetTime - nSynchStart > 30000)
-      bWait = false;
-}
 if (!bWait) {
   SL.Lock;
   for (SL.Rewind; !SL.EOL; SL.Next)
