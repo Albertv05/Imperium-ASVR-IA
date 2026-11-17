@@ -1,0 +1,9 @@
+<class id="RHero1d" cpp_class="CVXHero" parent="RepublicanRomanHero" entity="Units/RHero1/RHero1.ent.xml">
+
+	<properties display_name="Stolo" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/RHero15.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/R Stolo"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Assault, Frenzy"/>
+
+</class>

@@ -1,0 +1,36 @@
+<class id="Fenrir" cpp_class="CVXUnit" parent="AttackAnimal" entity="Units/Wolf/Wolf.ent.xml">
+	<properties edittree_pos=""/>
+
+	<properties damage_type="slash"/>
+	<properties maxhealth="250"/>
+	<properties damage="40" armor_slash="4" armor_pierce="4"/>
+	<properties speed="200"/>
+	<properties damaged_by_ghost="1"/>
+	<properties can_be_invisible="0" always_visible_on_minimap="0"/>
+	<properties does_not_regenerate="1"/>
+	<properties inventory_size="4"/>
+	<properties feeds="0"/>
+	<properties sight="600"/>
+
+	<properties unit_specials="Ferocity, Death blow, Freedom"/>
+
+	<properties formation_priority="1600"/>
+
+	<properties icon="gameres/icons/fenrir.bmp"/>
+	<properties display_name="Hijo de Fenrir" display_name_plural="Hijos de Fenrir"/>
+	<properties help="contents/units/Wolf"/>
+	<properties edittree_pos="Units/Animals/Lobo hijo de Fenrir"/>
+
+	<behavior script="data/subai/Bonus contra heroes.vs"/>
+
+	<behavior script="data/subai/keensight_observe.vs"/>
+	<behavior script="data/subai/Aterrador.vs"/>
+	<behavior script="data/subai/valor.vs"/>
+	<behavior script="data/subai/contraheroes.vs"/>
+
+	<sounds 
+		die="Sounds/animals/wolf/wolf_die.wav"
+		attack="WolfAttack"
+		command="Sounds/animals/wolf/wolf_command.wav"
+	/>
+</class>

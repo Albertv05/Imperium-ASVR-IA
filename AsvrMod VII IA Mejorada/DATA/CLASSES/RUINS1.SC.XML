@@ -1,0 +1,67 @@
+<class id="Ruins1" cpp_class="CVXBuilding" parent="BaseRuins"
+	entity="MapObjects/Oracul/oracul.ent.xml">
+
+	<properties edittree_pos="Structures/Interactive/Ruins"/>
+	<properties radius="250" selection_radius="255"/>
+	<properties display_name="Ruins"/>
+	<properties hides_units="0"/>
+	<properties icon="gameres/icons/Oracul.bmp"/>
+	<properties minimap_icon_type="black"/>
+
+	<properties itemtype="Yelmo ceremonial"/>
+	<properties itemtype="Mascara de los sacrificios"/>
+	<properties itemtype="Hoplon de las embestidas"/>
+	<properties itemtype="Hombreras punzantes"/>
+	<properties itemtype="Hoz de oro de Litha"/>
+	<properties itemtype="Secreto del bosque"/>
+	<properties itemtype="King's Belt"/>
+	<properties itemtype="Ojo de las grayas"/>
+	<properties itemtype="Bubo el buho mecanico"/>
+	<properties itemtype="Amuleto de los heroes caidos"/>
+	<properties itemtype="Armadura de fand"/>
+	<properties itemtype="Yelmo de fand"/>
+	<properties itemtype="Escudo del bifrost"/>
+	<properties itemtype="Hacha del bifrost"/>
+	<properties itemtype="Coraje de Troya"/>
+	<properties itemtype="Defensa de Troya"/>
+
+	<properties itemtype="Amuleto de Nemea"/>
+	<properties itemtype="Anillo de los dvergar"/>
+	<properties itemtype="Anillo de Morrigan"/>
+	<properties itemtype="Fur gloves of health"/>
+	<properties itemtype="Yelmo alado"/>
+	<properties itemtype="Corona negra de Pluton"/>
+	<properties itemtype="Corona invernal de Yule"/>
+	<properties itemtype="Colmillo de Fenrir"/>
+	<properties itemtype="Anillo de los aullidos"/>
+	<properties itemtype="Fauces pavorosas"/>
+	<properties itemtype="Yelmo enmascarado de Heracles"/>
+	<properties itemtype="Efigie de la fuerza de Heracles"/>
+	<properties itemtype="Peto olimpico de Heracles"/>
+
+	<properties itemtype="Yelmo de Moloch"/>
+	<properties itemtype="Escudo de Minerva"/>
+	<properties itemtype="Mazo igneo de Vulcano"/>
+	<properties itemtype="Egida de Marte"/>
+	<properties itemtype="Mjolnir el tormentoso"/>
+	<properties itemtype="Corona laurea de Romulo"/>
+	<properties itemtype="Corona de Wotan"/>
+	<properties itemtype="Aro de los reyes"/>
+	<properties itemtype="Espada flamigera de Belenos"/>
+
+
+	<properties itemtype="Pocion extraordinaria"/>
+	<properties itemtype="Roca supurante"/>
+	<properties itemtype="Orbe del fuego destructor"/>
+	<properties itemtype="Cristal de sangre"/>
+	<properties itemtype="Cornucopia de la abundancia"/>
+	<properties itemtype="Gema aurea de Midas"/>
+	<properties itemtype="Arco solar"/>
+	<properties itemtype="Arco lunar"/>
+	<properties itemtype="Odre del agua inagotable"/>
+	<properties itemtype="Colgante estelar"/>
+	<properties itemtype="Tesoro"/>
+	<properties itemtype="Daga de la manticora"/>
+
+
+</class>

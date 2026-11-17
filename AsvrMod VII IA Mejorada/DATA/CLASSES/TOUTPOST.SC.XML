@@ -1,0 +1,29 @@
+<class id="TOutpost" cpp_class="CVXOutpost" parent="Outpost" entity="Buildings/TOutpost/TOutpost.ent.xml">
+
+	<properties race="German"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/TOutpost.bmp"/>
+	<properties display_name="Fortin germano"/>
+	<properties radius="345" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Fortin germano"/>
+	<properties help="/contents/buildings/TOutpost"/>
+	<properties description="Cambia el oro almacenado por viveres y otorga una mayor recompensa por la venta de botines de guerra, trofeos de caza o tesoros. Puede entrenar aldeanos convirtiendolos en guerreros si estan alimentados."/>
+	<properties sentry_class_name="TSentry2"/>
+	<properties
+		range = "1000"
+		settlement_food="500"
+		settlement_gold="1000"
+	    defender_cls_1  = "THuntress"	
+	    defenders_max_1 = "10"
+	    defenders_out_1 = "10"
+	    start_level_1   = "12"
+	    end_level_1     = "25"
+	    defender_cls_2  = "TAxeman"	
+	    defenders_max_2 = "10"
+	    defenders_out_2 = "10"
+	    start_level_2   = "12"
+	    end_level_2     = "25"    
+	/>
+
+	<method sig="toutpost_sellgold" vs="data/subai/toutpost_sellgold.vs"/>
+</class>

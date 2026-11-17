@@ -1,0 +1,10 @@
+<class id="IHero2d" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero2/IHero2.ent.xml">
+
+	<properties display_name="Zadornin" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero25.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Zadornin"/>
+
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Epic endurance, Charge"/>
+
+
+</class>

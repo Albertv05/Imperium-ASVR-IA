@@ -1,0 +1,11 @@
+<class id="THero1e" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero1/THero1.ent.xml">
+
+	<properties display_name="Wagner" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero16.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Wagner"/>
+	
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Defensive cry, Egoism"/>
+
+
+</class>

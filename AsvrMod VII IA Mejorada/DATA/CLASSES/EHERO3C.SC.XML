@@ -1,0 +1,9 @@
+<class id="EHero3c" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties display_name="Tefibi" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero34.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Tefibi"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Administration, Wisdom"/>
+
+</class>

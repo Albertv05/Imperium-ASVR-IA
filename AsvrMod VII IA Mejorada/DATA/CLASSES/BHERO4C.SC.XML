@@ -1,0 +1,18 @@
+<class id="BHero4c" cpp_class="CVXHero" parent="BritonHero" entity="Units/Larax/Larax.ent.xml">
+
+	<properties display_name="Egbert" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/BHERO44.bmp"/>
+	<properties maxhealth="1300"/>
+	<properties sight="600"/>
+	<properties damage="50" armor_slash="4" armor_pierce="4"/>
+	<properties damage_type="slash"/>
+	<properties range="17" min_range="2"/>
+	<properties edittree_pos="Units/Britain/Heroes/Egbert"/>
+
+
+	<properties HeroSkills="Epic attack, Epic endurance, Team attack, Frenzy, Wisdom"/>
+
+	<sounds command="data/sound entities/VoiceBVikingLord.xml" attack="HorseUnitSwordFight"/>
+
+
+</class>

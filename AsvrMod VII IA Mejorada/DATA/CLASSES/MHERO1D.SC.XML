@@ -1,0 +1,9 @@
+<class id="MHero1d" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero4/RHero4.ent.xml">
+
+	<properties display_name="Acilius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero15.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Acilius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Recovery"/>
+
+</class>

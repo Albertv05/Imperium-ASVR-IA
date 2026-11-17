@@ -1,0 +1,22 @@
+<class id="GTracio" cpp_class="CVXUnit" parent="Melee" entity="Units/RLiberatus/RLiberatus.ent.xml">
+
+	<properties race="Iberia"/>
+	<properties maxhealth="400"/>
+	<properties damage="40" armor_slash="8" armor_pierce="8"/>
+	<properties speed="90"/>
+	<properties unit_specials="Offensive tactics, Defensive tactics"/>
+	<properties feeds="0"/>
+
+	<properties icon="gameres/icons/guerrero.bmp"/>
+	<properties display_name="Guerrero aquitano" display_name_plural="Guerreros aquitanos"/>
+	<properties help="contents/units/RLiberatus"/>
+	<properties edittree_pos="Units/Iberia/Guerrero aquitano"/>
+	<properties description="-No necesita comer. \n-Detecta unidades ocultas."/>
+	<sounds command="data/sound entities/VoiceTAxeman.xml"/>
+
+	<behavior script="data/subai/Rastreo.vs"/>
+	<behavior script="data/subai/Supervivencia.vs"/>
+
+	<behavior script="data/subai/keensight_observe.vs"/>
+
+</class>

@@ -1,0 +1,9 @@
+<class id="THero3a" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero3/THero3.ent.xml">
+
+	<properties display_name="Mangod" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero32.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Mangod"/>
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team attack, Rush"/>
+
+</class>

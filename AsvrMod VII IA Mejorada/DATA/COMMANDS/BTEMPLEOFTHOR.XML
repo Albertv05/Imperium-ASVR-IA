@@ -1,0 +1,133 @@
+<commands>
+
+<!-- TEMPLE COMMANDS -->
+<!-- NOTE : train command must have names like this:"trainClassName" -->
+<!--        where ClassName is the class of the unit to be trained -->
+
+<cmd name="repair Temple of Thor" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay="60000">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="trainBDruid" priority="1"
+	button="actions/train BDruid.bmp"
+	queueicon="gameres/icons/BDruid.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	transpicon="1"
+	traincommand="yes"
+	key="d"
+	help="/contents/units/BDruid"
+	costgold = "400"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "20000"
+	rollover="Call Druid"
+	method="train"
+	param="BDruid"
+	sclass="BDruid">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Britain chamber" priority="2"
+	button="research/ritual chamber2.bmp"
+	queueicon="gameres/icons/upgrades/ritual chamber2.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	key="r"
+	costgold = "1000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Gran consejo"
+	description="Allows druids to gain experience by learning from warriors"
+	method="research"
+	param="NamePlr, Gran consejo, default,NameSet, Gran consejo, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+<cmd name="Britain Ghoul Summoning" priority="6"
+	queueicon="gameres/icons/upgrades/Ghost.bmp"
+	button="research/Ghost.bmp"
+	key="g"
+	help="/contents/units/Ghost"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1600"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Ghoul summoning"
+	description="Allows druids to sacrifice themselves and summon a Ghoul, which drains the life of all enemies nearby for about 10 seconds"
+	method="research"
+	param="ReqSet, Gran consejo, default, NamePlr, Ghoul Summoning, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Wolf Summoning" priority="8"
+	queueicon="gameres/icons/upgrades/summon wolf.bmp"
+	button="actions/summon wolf.bmp"
+	key="w"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "400"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Wolf summoning"
+	description="Allows druids to sacrifice themselves and summon a wolf, which remains under your control for about 3 minutes"
+	method="research"
+	param="ReqSet, Gran consejo, default, NamePlr, Wolf Summoning, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Britain Mass Heal" priority="9"
+	queueicon="gameres/icons/upgrades/Mass Healing.bmp"
+	button="research/Mass Healing.bmp"
+	key="m"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Mass heal"
+	description="Allows druids to sacrifices themselves to heal nearby allies"
+	method="research"
+	param="ReqSet, Gran consejo, default, NamePlr, Mass Heal, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+<cmd name="Ira de Taranis" priority="9"
+	queueicon="gameres/icons/upgrades/taranis2.bmp"
+	button="actions/taranis2.bmp"
+	key="i"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Ira de Taranis"
+	description="Los druidas a costa de su vida pueden desencadenar una tormenta que cuyos rayos hieren a las unidades sobre las que caen."
+	method="research"
+	param="ReqSet, Gran consejo, default, NamePlr, Ira de Taranis, default">
+	<src obj="BTempleOfThor"/>
+</cmd>
+
+<cmd name="Bendicion de Thor" priority="10"
+	button="upgrades/TORMENTA DIVINA.bmp"
+	queueicon="gameres/icons/upgrades/bendiciondethor.bmp"
+	key="t"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Favoritos de Thor"
+	description="Los nuevos jefes y jinetes normandos estan equipados con la bendicion de Thor, que puede desencadenar poderosos rayos contra sus enemigos cada vez que causan una baja."
+	method="research"
+	param="ReqPlr, Gran consejo, default, NameSet, Bendicion de Thor, default, SetsSet, items/Bendicion de Thor, 1">
+	<src obj="BTempleOfThor"/>
+</cmd>
+</commands>

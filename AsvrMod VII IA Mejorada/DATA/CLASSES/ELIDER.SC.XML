@@ -1,0 +1,13 @@
+<class id="ELider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1700"/>
+	<properties damage="30" armor_slash="8" armor_pierce="8"/>
+	<properties race="Egypt"/>
+	<properties help="/contents/units/CHero"/>
+
+
+	<sounds command="data/sound entities/VoiceEHero.xml"/>
+
+
+
+</class>

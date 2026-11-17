@@ -1,0 +1,10 @@
+<class id="IHero4d" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero4/IHero4.ent.xml">
+
+
+	<properties display_name="Palben" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero45.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Palben"/>
+
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Quick March, Discipline"/>
+
+</class>

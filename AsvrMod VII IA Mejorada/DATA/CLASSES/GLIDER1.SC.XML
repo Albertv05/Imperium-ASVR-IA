@@ -1,0 +1,14 @@
+<class id="GLider1" cpp_class="CVXHero" parent="GLider" entity="Units/GHero1/GHero1.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties help="/contents/units/GHero"/>
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Concealment, Defensive cry, Battle cry"/>
+	<properties display_name="Gran Jefe Garnix" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Gran jefe Garnix"/>
+	<properties icon="gameres/icons/GLIDER1.bmp"/>
+
+	<sounds command="data/sound entities/VoiceGHero.xml"/>
+
+
+
+</class>

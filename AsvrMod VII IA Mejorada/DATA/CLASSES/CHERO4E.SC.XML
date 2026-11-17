@@ -1,0 +1,10 @@
+<class id="CHero4e" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero4/CHero4.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties display_name="Hailama" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO45.bmp"/>
+	<properties HeroSkills="Administration, Leadership, Euphoria, Team defense, Vigor"/>
+<properties edittree_pos="Units/Carthage/Heroes/Hailama"/>
+
+	<sounds command="data/sound entities/VoiceCHero.xml"/>
+</class>

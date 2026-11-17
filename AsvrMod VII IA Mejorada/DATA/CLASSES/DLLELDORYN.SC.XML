@@ -1,0 +1,15 @@
+<class id="DLleldoryn" cpp_class="CVXDruid" parent="GDruid" entity="Units/GDruid/GDruid.ent.xml">
+
+	<properties race="Gaul"/>
+
+	<properties icon="gameres/icons/Lleo.bmp"/>
+	<properties display_name="Lleldoryn" display_name_plural="Druids"/>
+	<sounds command="data/sound entities/VoiceGDruid.xml"/>
+	<properties edittree_pos="Units/Others/Lleldoryn"/>
+
+	<defaultcmd target="ShipBattle">
+		<cmd name="boardship"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+</class>

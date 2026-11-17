@@ -1,0 +1,19 @@
+<class id="BLider2" cpp_class="CVXHero" parent="BLider" entity="Units/BHero2/BHero2.ent.xml">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1200"/>
+	<properties range="500"/>
+	<properties damage="40" armor_slash="10" armor_pierce="10"/>
+	<properties damage_type="pierce"/>
+	<properties help="/contents/units/BHero"/>
+	<properties HeroSkills="Charge, Scout, Assault, Ceasefire, Discipline, Wisdom"/>
+	<properties display_name="Rey Brayan" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Britain/Heroes/Rey Brayan"/>
+	<properties icon="gameres/icons/BLIDER2.bmp"/>
+
+	<sounds command="data/sound entities/VoiceBHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+
+
+</class>

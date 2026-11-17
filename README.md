@@ -1,17 +1,17 @@
 # Imperium ASVR IA — IA mejorada para AsvrMod VII (dificultad Difícil)
 
-Cambios sobre **AsvrMod VII: Ancient Generals 7a 0.8** (de Asur,
-https://gamebanana.com/mods/729311) para Imperivm III Great Battles of Rome HD.
-Este repositorio contiene **solo los archivos modificados** (scripts de IA y un archivo de datos);
-no incluye gráficos ni sonidos del mod original.
+Mod completo **AsvrMod VII IA Mejorada (Hard)**: AsvrMod VII "Ancient Generals" 7a 0.8 de **Asur**
+(https://gamebanana.com/mods/729311) con la IA de dificultad Difícil mejorada, para Imperivm III Great Battles of Rome HD
+(cargador Imperivm Resurrected). Los créditos del contenido original son de Asur; los ajustes de IA son de David.
+Se ha excluido la carpeta `musica` (música original del juego).
 
 Versión: 7a 0.8 + IA Plus 1.2. Afecta solo a la dificultad **Difícil**. Sin probar en todas las situaciones.
 
 ## Instalación
-1. Copia la carpeta del mod original `AsvrMod VII_ Ancient Generals` a otra, p. ej. `AsvrMod VII IA Mejorada`.
-2. Copia encima la carpeta `DATA` de este repositorio (sobrescribe los archivos).
-3. En su `mod.json` cambia `id` y `name` para que no choque con el original.
-4. Todos los jugadores de una sala online necesitan exactamente los mismos archivos.
+1. Copia la carpeta `AsvrMod VII IA Mejorada` de este repositorio dentro de la carpeta `mods` del juego.
+2. Crea un perfil (`mods\_profiles\<nombre>.json`) que use solo ese mod: `{"name":"IA mejorada","mods":["AsvrMod VII IA Mejorada"]}`.
+3. En el juego carga ese perfil. No lo mezcles con el AsvrMod original.
+4. Todos los jugadores de una sala online necesitan exactamente los mismos archivos (misma clave de versión).
 
 ## Cambios
 **Agilidad:** intervalos de decisión más cortos (economía 2000 ms, estrategia 500 ms, reclutamiento 1000 ms,
@@ -41,6 +41,6 @@ Egipto (verificado: ya se une al héroe egipcio); el Hoplita (`EHOPLITA`) pasa a
 **Sin cambios:** prioridad de los campamentos teutones, niveles Fácil y Normal.
 
 ## Archivos
-`DATA/AI/` — `AI.INI`, `ES_STRONGHOLD.VS`, `ESH_BUILDARMY.VS`, `ESH_MARKET.VS`, `ES_VILLAGE.VS`,
+En `AsvrMod VII IA Mejorada/DATA/AI/` — `AI.INI`, `ES_STRONGHOLD.VS`, `ESH_BUILDARMY.VS`, `ESH_MARKET.VS`, `ES_VILLAGE.VS`,
 `GETARMYNEED.VS`, `GSH_SYNCHAPPROACH.VS`, `GS_CAPTURE.VS`, `SQUADMONITOR.VS`, `TS_*TACTIC*.VS`, `TS_ATTACKATWILL.VS`.
-`DATA/CLASSES/PINMORTAL.SC.XML`, `EHOPLITA.SC.XML`, `HIPATISTA.SC.XML`.
+En `AsvrMod VII IA Mejorada/DATA/CLASSES/`: `PINMORTAL.SC.XML`, `EHOPLITA.SC.XML`, `HIPATISTA.SC.XML`.

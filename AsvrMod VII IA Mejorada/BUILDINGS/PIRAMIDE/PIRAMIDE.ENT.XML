@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../entity.xsl"?>
+<entity name="PIRAMIDE" type="vx/building" variations="1" pass_file="PIRAMIDE.pass">
+<images>
+<image idx="1" file="shadow.rle" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="2" file="layer1.rle" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="3" file="layer1b.rle" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="4" file="layer2.rle" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="5" file="layer2b.rle" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+</images>
+<points>
+<point idx="1" type="2" x="-88" y="25"/>
+<point idx="2" type="1" x="-89" y="24"/>
+</points>
+<layers>
+<layer idx="1" name="shadow" image="1" z="800" offsetx="-348" offsety="-383" sortoffsetx="0" sortoffsety="0" xray="0"/>
+<layer idx="2" name="layer1" image="2" z="1000" offsetx="-268" offsety="-4" sortoffsetx="0" sortoffsety="30" xray="0"/>
+<layer idx="3" name="layer1b" image="3" z="1000" offsetx="-268" offsety="-203" sortoffsetx="0" sortoffsety="30" xray="0"/>
+<layer idx="4" name="layer2" image="4" z="1000" offsetx="-268" offsety="-4" sortoffsetx="0" sortoffsety="30" xray="0"/>
+<layer idx="5" name="layer2b" image="5" z="1100" offsetx="-268" offsety="-89" sortoffsetx="0" sortoffsety="30" xray="0"/>
+</layers>
+<states>
+<state idx="1" name="idle" image_idx="0" image_row="0" offsetx="0" offsety="0" anim_idx="65536" anim_frame="65536"/>
+</states>
+<anims>
+</anims>
+</entity>

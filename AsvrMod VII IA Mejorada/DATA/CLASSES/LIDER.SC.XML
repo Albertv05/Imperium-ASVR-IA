@@ -1,0 +1,13 @@
+<class id="Lider" cpp_class="CVXHero" parent="HeroMounted" entity="">
+
+	<properties inventory_size="4"/>
+	<properties max_army="50"/>
+	<properties heroarmyexpgain="20"/>
+
+	<behavior script="data/subai/especialidad.vs"/>
+
+
+
+
+
+</class>

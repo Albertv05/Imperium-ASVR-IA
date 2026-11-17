@@ -1,0 +1,198 @@
+<commands>
+<!-- STONEHENGE COMMANDS-->
+<cmd
+	name="oso"
+	offset="1"
+	button="Actions/OSO.bmp"
+	groupverifier="data/subai/stonehenge_oso_verify.vs"
+	groupdispatch="data/subai/stonehenge_oso_dispatch.vs"
+	coststamina = "10"
+	rollover = "Guardian de la naturaleza"
+	description="Invoca un oso guardian"
+	key="w">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="momia"
+	offset="1"
+	button="Actions/MOMIA.bmp"
+	groupverifier="data/subai/stonehenge_momia_verify.vs"
+	groupdispatch="data/subai/stonehenge_momia_dispatch.vs"
+	coststamina = "10"
+	rollover = "Criatura del inframundo"
+	description="Invoca una momia"
+	key="w">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="wisdom"
+	offset="1"
+	button="Actions/Wise Wind.bmp"
+	groupverifier="data/subai/stonehenge_wisdom_verify.vs"
+	groupdispatch="data/subai/stonehenge_wisdom_dispatch.vs"
+	coststamina = "20"
+	rollover = "Wind of wisdom"
+	description="Incrementa en 1 el nivel de todas las unidades una vez completado el ritual (max. nivel 20)"
+	key="r">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="starvation"
+	offset="1"
+	button="Actions/Hunger.bmp"
+	groupverifier="data/subai/stonehenge_starvation_verify.vs"
+	groupdispatch="data/subai/stonehenge_starvation_dispatch.vs"
+	coststamina = "20"
+	rollover="Starvation"
+	description="Constantly decreases all food supplies. Lasts for 2 minutes"
+	key="r">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="soothing"
+	offset="1"
+	button="Actions/TORMENTA DIVINA.bmp"
+	groupverifier="data/subai/stonehenge_soothing_verify.vs"
+	groupdispatch="data/subai/stonehenge_soothing_dispatch.vs"
+	coststamina = "40"
+	rollover="Soothing rain"
+	description="Restores the stamina of everyone every 5 seconds. Lasts 30 seconds"
+	key="s">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="bloodlust"
+	offset="1"
+	button="Actions/Bloodlust.bmp"
+	groupverifier="data/subai/stonehenge_bloodlust_verify.vs"
+	groupdispatch="data/subai/stonehenge_bloodlust_dispatch.vs"
+	coststamina = "40"
+	rollover="Bloodlust"
+	description="Causes all warriors to ignore enemy armor. Lasts for 1 minute"
+	key="s">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="tormenta"
+	offset="1"
+	button="Actions/curaciondivina.bmp"
+	groupverifier="data/subai/stonehenge_tormenta_verify.vs"
+	groupdispatch="data/subai/stonehenge_tormenta_dispatch.vs"
+	coststamina = "50"
+	rollover="Curacion divina"
+	description="Todas las unidades heridas se curan constantemente durante un minuto"
+	key="z">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="sacrifice"
+	offset="1"
+	button="Actions/castigo.bmp"
+	groupverifier="data/subai/stonehenge_sacrifice_verify.vs"
+	groupdispatch="data/subai/stonehenge_sacrifice_dispatch.vs"
+	coststamina = "50"
+	rollover="Divine sacrifice"
+	description="Constantly damages all sages. Lasts for 1 minute"
+	key="z">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="abundancia"
+	offset="1"
+	button="Actions/GOLD RAIN.bmp"
+	groupverifier="data/subai/stonehenge_abundancia_verify.vs"
+	groupdispatch="data/subai/stonehenge_abundancia_dispatch.vs"
+	coststamina = "70"
+	rollover="Ritual de la abundancia"
+	description="Todos los foros, fortines, aldeas y asentamientos no neutrales aumentan paulatinamente la cantidad de viveres y oro de su interior."
+	key="p">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="suicidio"
+	offset="1"
+	button="Actions/ULTIMO ESTERTOR.bmp"
+	groupverifier="data/subai/stonehenge_suicidio_verify.vs"
+	groupdispatch="data/subai/stonehenge_suicidio_dispatch.vs"
+	coststamina = "70"
+	rollover="Muerte silenciosa"
+	description="Los aldeanos del mapa mueren constantemente durante un minuto"
+	key="p">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="paz"
+	offset="1"
+	button="Actions/paz.bmp"
+	groupverifier="data/subai/stonehenge_paz_verify.vs"
+	groupdispatch="data/subai/stonehenge_paz_dispatch.vs"
+	coststamina = "85"
+	rollover="Cesar violencia"
+	description="Todas las unidades fallan todos sus ataques durante un minuto."
+	key="l">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="locura"
+	offset="1"
+	button="Actions/LOCURA DEMONIACA.bmp"
+	groupverifier="data/subai/stonehenge_locura_verify.vs"
+	groupdispatch="data/subai/stonehenge_locura_dispatch.vs"
+	coststamina = "85"
+	rollover="Furia salvaje"
+	description="Durante un minuto todos los guerreros van aumentando su ataque, para finalmente volver a su valor inicial"
+	key="l">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+
+<cmd
+	name="terremoto"
+	offset="1"
+	button="Actions/terremoto.bmp"
+	groupverifier="data/subai/stonehenge_terremoto_verify.vs"
+	groupdispatch="data/subai/stonehenge_terremoto_dispatch.vs"
+	coststamina = "100"
+	rollover="Ira de la tierra"
+	description="Todos los foros, fortines y aldeas no neutrales pierden salud constantemente durante un minuto"
+	key="e">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Shrine"/>
+</cmd>
+
+<cmd
+	name="estertor"
+	offset="1"
+	button="Actions/plaga.bmp"
+	groupverifier="data/subai/stonehenge_estertor_verify.vs"
+	groupdispatch="data/subai/stonehenge_estertor_dispatch.vs"
+	coststamina = "100"
+	rollover="Plaga mortal"
+	description="Todas las unidades son constantemente envenenadas durante un minuto"
+	key="e">
+	<src obj="Stonehenge" sticky="no"/>
+	<nsrc obj="Stonehenge2"/>
+</cmd>
+</commands>

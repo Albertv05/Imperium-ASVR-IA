@@ -1,0 +1,9 @@
+<class id="MHero1b" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero4/RHero4.ent.xml">
+
+	<properties display_name="Nasennius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero13.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Nasennius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Vigor"/>
+
+</class>

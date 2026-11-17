@@ -1,0 +1,9 @@
+<class id="IHero3d" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero3/IHero3.ent.xml">
+
+	<properties display_name="Avaros" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero35.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Avaros"/>
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Recovery, Epic endurance"/>
+
+
+</class>

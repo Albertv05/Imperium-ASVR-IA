@@ -1,0 +1,19 @@
+<class id="Ranged1" cpp_class="CVXUnit" parent="Ranged" entity="">
+
+	<properties formation_priority="700"/>
+	<properties sight="500" range="450" min_range="150" damage_type="pierce"/>
+	<properties maxhealth="150"/>
+	<properties radius="15" selection_radius="15"/>
+
+	<sounds attack="UnitArrowFight" die="UnitDeath"/>
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+	
+	
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

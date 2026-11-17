@@ -1,0 +1,20 @@
+<class id="Boadicea" cpp_class="CVXHero" parent="Lider" entity="Units/BHero1/BHero1.ent.xml">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1350"/>
+	<properties range="500"/>
+	<properties damage="40" armor_slash="20" armor_pierce="20"/>
+	<properties damage_type="pierce"/>
+	<properties help="/contents/units/BHero"/>
+	<properties HeroSkills="Charge, Scout, Assault, Quick March, Ceasefire, Euphoria"/>
+	<properties display_name="Boadicea" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Heroes/Boadicea"/>
+	<properties icon="gameres/icons/BOADICEA.bmp"/>
+
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+
+
+</class>

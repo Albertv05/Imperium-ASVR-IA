@@ -1,0 +1,14 @@
+<class id="BritonHero" cpp_class="CVXHero" parent="Hero" entity="">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1000"/>
+	<properties range="500"/>
+	<properties sight="700"/>
+	<properties damage="30" armor_slash="6" armor_pierce="6"/>
+	<properties damage_type="pierce"/>
+	<properties max_food="25"/>
+	<properties HeroSkills="Charge, Scout, Assault, Quick March, Epic attack"/>
+
+
+
+</class>

@@ -1,0 +1,15 @@
+<class id="ILider2" cpp_class="CVXHero" parent="ILider" entity="Units/IHero2/IHero2.ent.xml">
+
+
+	<properties race="Iberia"/>
+	<properties help="/contents/units/IHero"/>
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Epic endurance, Recovery, Vigor"/>
+	<properties display_name="Lider Bilisteges" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Lider Bilisteges"/>
+	<properties icon="gameres/icons/ILIDER2.bmp"/>
+
+	<sounds command="data/sound entities/VoiceIHero.xml"/>
+
+
+
+</class>

@@ -1,0 +1,15 @@
+<class id="RLider3" cpp_class="CVXHero" parent="RLider" entity="Units/RHero3/RHero3.ent.xml">
+
+
+	<properties race="ImperialRome"/>
+	<properties help="/contents/units/RHero"/>
+	<properties HeroSkills="Administration, Team attack, Team defense, Ceasefire, Egoism, Frenzy"/>
+	<properties display_name="Consul Mergvs" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Roman/Heroes/Consul Mergvs"/>
+	<properties icon="gameres/icons/RLIDER3.bmp"/>
+
+	<sounds command="data/sound entities/VoiceRRepublicanHero.xml"/>
+
+
+
+</class>

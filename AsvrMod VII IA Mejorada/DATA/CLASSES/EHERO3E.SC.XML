@@ -1,0 +1,9 @@
+<class id="EHero3e" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties display_name="Nefertum" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero36.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Nefertum"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Administration, Charge"/>
+
+</class>

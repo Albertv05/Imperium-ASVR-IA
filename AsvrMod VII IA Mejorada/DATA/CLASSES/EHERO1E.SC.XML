@@ -1,0 +1,9 @@
+<class id="EHero1e" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero1/EHero1.ent.xml">
+
+	<properties display_name="Omarion" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero16.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Omarion"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Quick March, Leadership"/>
+
+</class>

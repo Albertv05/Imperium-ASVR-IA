@@ -1,0 +1,64 @@
+<class id="MercadoArcano" cpp_class="CVXBuilding" parent="Building"  entity="Buildings/MERCADOARCANO/MERCADOARCANO.ent.xml">
+	<properties display_name="Mercado Arcano" icon="gameres/icons/Mercado Arcano.bmp"/>
+	<properties radius="250" selection_radius="255"/>
+	<properties edittree_pos="Structures/Interactive/Mercado Arcano"/>
+	<properties help="/contents/buildings/ETavern"/>
+	<properties description="Los heroes pueden entrar y comprar objetos si se entrega el oro suficiente."/>
+	<properties hides_units="0"/>
+	<properties minimap_icon_type="black"/>
+	<properties inventory_size="4"/>
+
+	<properties interface="thumb,building,items,holder"/>
+
+	<properties
+		is_central_building="1"
+		can_be_captured="1"
+		can_be_attacked="0"
+		produces_gold="0"
+		produces_food="0"
+		is_single_building="1"
+		settlement_food="0"
+		settlement_gold="0"
+		settlement_maxfood="0"
+		settlement_maxgold="100000"
+		population="0"
+		efficiency="1"
+		max_population="0"
+		max_units="1"
+		settlement_icon_name=""
+	/>
+
+	<sounds select="Sounds/selection/Egyptian_market.wav"/>
+
+	<behavior script="data/subai/mercadoarcano.vs"/>
+
+	<behavior script="data/subai/mercadoarcano1.vs"/>
+	<behavior script="data/subai/mercadoarcano2.vs"/>
+	<behavior script="data/subai/mercadoarcano3.vs"/>
+	<behavior script="data/subai/mercadoarcano4.vs"/>
+
+	<method sig="mercadoarcanocomprar1"     vs="data/subai/mercadoarcanocomprar1.vs"/>
+	<method sig="mercadoarcanocomprar2"     vs="data/subai/mercadoarcanocomprar2.vs"/>
+	<method sig="mercadoarcanocomprar3"     vs="data/subai/mercadoarcanocomprar3.vs"/>
+	<method sig="mercadoarcanocomprar4"     vs="data/subai/mercadoarcanocomprar4.vs"/>
+
+	<value0
+		icon="gameres/infobar/common/gold ico.bmp"
+		script="Settlement set; set=.AsBuilding.settlement; if(set.loan > 0)return set.gold + '(' + Translate('Debt') + ':' + set.loan +')'; else return set.gold; return '';"
+		flags="5"
+		help="/contents/resources"
+		rollover="Gold"/>
+
+	<value1
+		icon="gameres/infobar/common/Loyality.bmp"
+		script="return .AsBuilding.settlement.loyalty;"
+		flags="-1"
+		help="/contents/capturing"
+		rollover="Loyalty"/>
+
+	/>
+
+
+
+
+</class>

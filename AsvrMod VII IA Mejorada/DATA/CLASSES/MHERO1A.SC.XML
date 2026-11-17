@@ -1,0 +1,9 @@
+<class id="MHero1a" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero4/RHero4.ent.xml">
+
+	<properties display_name="Plinius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHERO12.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Plinius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Assault"/>
+
+</class>

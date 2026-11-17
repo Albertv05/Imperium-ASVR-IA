@@ -1,0 +1,9 @@
+<class id="GHero1" cpp_class="CVXHero" parent="GaulHero" entity="Units/NHero1/NHero1.ent.xml">
+
+	<properties display_name="Mraxis" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero1.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Mraxis"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Ceasefire, Assault"/>
+
+</class>

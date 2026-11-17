@@ -1,0 +1,1849 @@
+<items>
+
+<!--   Otros   -->
+
+	<item id="NO1"
+	      image="gameres/icons/items/no.bmp"
+	      sound=""
+	      level="0"
+	      name=""
+	      description="Ningun objeto"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="NO2"
+	      image="gameres/icons/items/no.bmp"
+	      sound=""
+	      level="0"
+	      name=""
+	      description="Ningun objeto"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="NO3"
+	      image="gameres/icons/items/no.bmp"
+	      sound=""
+	      level="0"
+	      name=""
+	      description="Ningun objeto"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="NO4"
+	      image="gameres/icons/items/no.bmp"
+	      sound=""
+	      level="0"
+	      name=""
+	      description="Ningun objeto"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Tesoro"
+	      image="gameres/icons/items/tesoro.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Tesoro"
+	      description="Al entrar en un edificio se cambia por 10000 de oro."
+	      cursed="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Piel de lobo"
+	      image="gameres/icons/items/pieldelobo.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Piel de lobo"
+	      description="Al entrar en un edificio se cambia por 100 de oro cada piel."
+	      usecount="1"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Piel de oso"
+	      image="gameres/icons/items/pieldeoso.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Piel de oso"
+	      description="Al entrar en un edificio se cambia por 150 de oro cada piel."
+	      usecount="1"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Piel de leon"
+	      image="gameres/icons/items/pieldeleon.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Piel de leon"
+	      description="Al entrar en un edificio se cambia por 200 de oro cada piel."
+	      usecount="1"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Cornamenta de ciervo"
+	      image="gameres/icons/items/cuernosdeciervo.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Cornamenta"
+	      description="Al entrar en un edificio se cambia por 50 de oro cada cornamenta."
+	      usecount="1"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Spoils of War"
+	      image="gameres/icons/items/Spoils of War.bmp"
+	      sound=""
+	      level="0"
+	      usecount="1"
+	      use_script="Item item; int idx; item = GetThis; idx = owner.GetItemIndex(item); if (idx) owner.RemoveItem(idx);"
+	      name="Spoils of War"
+	      description="Al entrar en un edificio los botines de guerra se intercambian por 100 de oro cada uno. Las unidades pueden llevar max.5 botines de guerra."
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Carne"
+	      image="gameres/icons/items/carne.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Carne"
+	      description="Al entrar en un edificio se cambia por viveres."
+	      usecount="50"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+<!--   Rangos   -->
+
+	<item id="Guerrero"
+	      image="gameres/icons/rangos/1.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Guerrero]"
+	      description="[100 puntos para el siguiente rango] \nLos puntos de rango se consiguen al matar enemigos. Cuanto mas poderoso sea el enemigo, mas puntos de rango proporcionara a su asesino al morir."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/Rangos/guerrero.vs"
+	      important="no">
+	  <bonus health_percent="0" damage_percent="0" armor_slash_percent="0" armor_pierce_percent="0"/>
+	</item>
+	<item id="Veterano"
+	      image="gameres/icons/rangos/2.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Veterano]"
+	      description="[200 puntos para el siguiente rango] \nLos puntos de rango se consiguen al matar enemigos. Cuanto mas poderoso sea el enemigo, mas puntos de rango proporcionara a su asesino al morir."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/Rangos/veterano.vs"
+	      important="no">
+	  <bonus health_percent="10" damage_percent="10" armor_slash_percent="10" armor_pierce_percent="10" health="10" damage="1" armor_slash="1"  armor_pierce="1"/>
+	</item>
+	<item id="Elite"
+	      image="gameres/icons/rangos/3.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Elite]"
+	      description="[350 puntos para el siguiente rango] \nLos puntos de rango se consiguen al matar enemigos. Cuanto mas poderoso sea el enemigo, mas puntos de rango proporcionara a su asesino al morir."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/Rangos/elite.vs"
+	      important="no">
+	  <bonus health_percent="15" damage_percent="15" armor_slash_percent="15" armor_pierce_percent="15" health="20" damage="2" armor_slash="2"  armor_pierce="2"/>
+	</item>
+	<item id="Campeon"
+	      image="gameres/icons/rangos/4.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Campeon]"
+	      description="[550 puntos para el siguiente rango] \nLos puntos de rango se consiguen al matar enemigos. Cuanto mas poderoso sea el enemigo, mas puntos de rango proporcionara a su asesino al morir."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/Rangos/campeon.vs"
+	      important="no">
+	  <bonus health_percent="20" damage_percent="20" armor_slash_percent="20" armor_pierce_percent="20" health="40" damage="4" armor_slash="3"  armor_pierce="3"/>
+	</item>
+	<item id="Leyenda"
+	      image="gameres/icons/rangos/5.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Leyenda]"
+	      description="El rango [Leyenda] esta reservado a los guerreros que han logrado grandes proezas en el campo de batalla."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/Rangos/leyenda.vs"
+	      important="no">
+	  <bonus health_percent="25" damage_percent="25" armor_slash_percent="25" armor_pierce_percent="25" health="80" damage="8" armor_slash="5"  armor_pierce="5"/>
+	</item>
+	<item id="Yule"
+	      image="gameres/icons/rangos/6.bmp"
+	      sound=""
+	      level="0"
+	      name="Rango: [Campeon de Yule]"
+	      description="El rango [Campeon de Yule] esta reservado a los legendarios guerreros del Rey del invierno."
+	      cursed="1"
+	      usecount="0"
+	      important="no">
+	  <bonus health_percent="25" damage_percent="25" armor_slash_percent="25" armor_pierce_percent="25" health="80" damage="8" armor_slash="5"  armor_pierce="5" level="15"/>
+	</item>
+
+
+<!--   Caracteristicas   -->
+
+	<item id="Aterrador"
+	      image="gameres/icons/caracteristicas/ATERRADOR.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum"
+	      level="0"
+	      name="Aterrador"
+	      description="La unidad causa miedo a los enemigos con nivel inferior restandoles energia y haciendoles huir cada vez que mata a uno de ellos."
+	      cursed="1"
+		kill_script="file://data/ItemScripts/aterrador.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Valeroso"
+	      image="gameres/icons/caracteristicas/VALOR.bmp"
+	      sound=""
+	      level="0"
+	      name="Valeroso"
+	      description="La unidad no sufre miedo."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bonus contra caballeria"
+	      image="gameres/icons/caracteristicas/CONTRACABALLERIA.bmp"
+	      sound=""
+	      level="0"
+	      name="Bonus contra caballeria"
+	      description="Aumenta en 40 el ataque cuando se enfrenta a caballeria y en 80 contra elefantes de guerra."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bonus contra heroes"
+	      image="gameres/icons/caracteristicas/CONTRAHEROES.bmp"
+	      sound=""
+	      level="0"
+	      name="Bonus contra heroes"
+	      description="Aumenta en 100 el ataque cuando se enfrenta a un heroe."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Inmune a los espiritus"
+	      image="gameres/icons/caracteristicas/NOGHOST.bmp"
+	      sound=""
+	      level="0"
+	      name="Inmune a los espiritus"
+	      description=""
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Emboscada"
+	      image="gameres/icons/caracteristicas/SIGILO.bmp"
+	      sound=""
+	      level="0"
+	      name="Emboscada"
+	      description="La unidad se oculta si permanece 20 segundos sin atacar."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Rastreo"
+	      image="gameres/icons/caracteristicas/RASTREO.bmp"
+	      sound=""
+	      level="0"
+	      name="Rastreo"
+	      description="Revela las unidades enemigas ocultas."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Supervivencia"
+	      image="gameres/icons/caracteristicas/SUPERVIVENCIA.bmp"
+	      sound=""
+	      level="0"
+	      name="Supervivencia"
+	      description="La unidad no necesita consumir viveres."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Guia"
+	      image="gameres/icons/caracteristicas/guia.BMP"
+	      level="0"
+	      name="Guia"
+	      kill_script="file://data/ItemScripts/guia.vs"
+	      description="Cuando las valkirias acaban con un enemigo, aumentan los puntos de experiencia del heroe al que sirven."
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bendicion de Osiris"
+	      image="gameres/icons/caracteristicas/representacion djed osiris.bmp"
+	      sound="data/sound entities/ItemUse_WaterAura.xml"
+	      level="0"
+	      name="Bendicion de Osiris"
+	      description="Los carros de Osiris aumentan en 5 su energia maxima."
+	      cursed="1"
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/bendicionosiris.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bendicion de Anubis"
+	      image="gameres/icons/caracteristicas/bendicionanubis.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="0"
+	      name="Bendicion de Anubis"
+	      description="Cuando el ejecutor de Anubis elimina un adversario hay un 10% de posibilidades de que este regrese como un espiritu."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/bendicionanubis.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bendicion de Horus"
+	      image="gameres/icons/caracteristicas/bendicionhorus.bmp"
+	      sound="data/sound entities/ItemUse_SoftEnchantment.xml"
+	      level="0"
+	      name="Bendicion de Horus"
+	      description="Cuando el vengador de Horus elimina un adversario hay un 10% de posibilidades de que recupere toda su vida y energia."
+	      cursed="1"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/bendicionhorus.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Ira de Moloch"
+	      image="gameres/icons/caracteristicas/iramoloch.bmp"
+	      sound="data/sound entities/ItemUse_SoftEnchantment.xml"
+	      level="0"
+	      name="Ira de Moloch"
+	      description="Los nobles tienen la habilidad furia y causan miedo hasta que matan a su primer enemigo."
+	      cursed="1"
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/iramoloch.vs"
+	      kill_script="file://data/ItemScripts/iramoloch2.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+
+
+
+	<item id="Favor de Taranis"
+	      image="gameres/icons/items/TARANIS.bmp"
+	      sound=""
+	      level="0"
+	      name="Favor de Taranis"
+	      description="Aumenta en 50% el ataque pero reduce la vida."
+	      cursed="1"
+	      usecount="0"
+	      important="no">
+	  <bonus health_percent="-25" damage_percent="50"  armor_slash_percent="0"  armor_pierce_percent="0"/>
+	</item>
+	<item id="Favor de Teutates"
+	      image="gameres/icons/items/TEUTATES.bmp"
+	      sound=""
+	      level="0"
+	      name="Favor de Teutates"
+	      description="Aumenta en 100% la defensa pero reduce el ataque."
+	      cursed="1"
+	      usecount="0"
+	      important="no">
+	  <bonus health_percent="0" damage_percent="-50"  armor_slash_percent="100"  armor_pierce_percent="100"/>
+	</item>
+	<item id="Favor de Esus"
+	      image="gameres/icons/items/ESUS.bmp"
+	      sound=""
+	      level="0"
+	      name="Favor de Esus"
+	      description="Aumenta en 25% la vida pero reduce la defensa."
+	      cursed="1"
+	      usecount="0"
+	      important="no">
+	  <bonus health_percent="25" damage_percent="0"  armor_slash_percent="-100"  armor_pierce_percent="-100"/>
+	</item>
+
+	<item id="Veteran Guild"
+	      image="gameres/icons/items/Veteran Guild.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      name="Veteran Guild"
+	      description="Becomes 'Veteran Medal' after its bearer kills an enemy"
+	      kill_script="file://data/ItemScripts/veteran guild.vs"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Veteran Medal"
+	      image="gameres/icons/items/Veteran Medal.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      name="Veteran Medal"
+	      description="Adds 6 to damage"
+	      cursed="1"
+	      important="no">
+	  <bonus health="0" damage="6" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Veteran Offence"
+	      image="gameres/icons/items/Veteran Offence.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      name="Insignia del combate"
+	      description="Increases the bearer's damage by 20%">
+	  <bonus health="0" damage="0" damage_percent="20" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Veteran Defence"
+	      image="gameres/icons/items/Veteran Defence.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      name="Insignia de la proteccion"
+	      description="Increases the bearer's armor by 20%">
+	  <bonus health="0" damage="0" armor_slash="0"  armor_pierce="0"  armor_slash_percent="20"  armor_pierce_percent="20" level="0" experience="0"/>
+	</item>
+	<item id="Veteran Health"
+	      image="gameres/icons/items/Veteran Health.bmp"
+	      sound=""
+	      important="no"
+	      level="0"
+	      name="Insignia de la fortaleza"
+	      description="Increases the bearer's health by 20%">
+	  <bonus health="0" health_percent="20" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Noble Offence"
+	      image="gameres/icons/items/MORRIGAN.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      name="Favor de Morrigan"
+	      description="Aumenta en 4 el ataque y el nivel">
+	  <bonus health="0" damage="4" damage_percent="0" armor_slash="0" armor_pierce="0" level="4" experience="0"/>
+	</item>
+	<item id="Noble Defence"
+	      image="gameres/icons/items/DAGDA.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      name="Favor de Dagda"
+	      description="Aumenta en 4 la defensa y en 20 la salud">
+	  <bonus health="20" damage="0" armor_slash="4"  armor_pierce="4"  armor_slash_percent="0"  armor_pierce_percent="0" level="0" experience="0"/>
+	</item>
+
+
+<!--   Magicos   -->
+
+
+	<item id="Amuleto de los caidos"
+	      image="gameres/icons/items/Skull.bmp"
+	      sound=""
+	      level="0"
+	      name="Amuleto de los caidos"
+	      description="Aumenta los puntos de rango que gana en combate su portador. Una vez alcanzado el rango Leyenda, el amuleto desaparece."
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bendicion de Thor"
+	      image="gameres/icons/items/SIGN OF THE HAMMER.bmp"
+	      sound="data/sound entities/ItemUse_TribalBeat.xml"
+	      level="0"
+	      name="Bendicion de Thor"
+	      description="Cuando su portador mata a un enemigo, hay un 50% de posibilidades de desencadenar un rayo contra un enemigo cercano."
+	      cursed="0"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/bendiciondethor.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bear teeth amulet"
+	      image="gameres/icons/items/Bear Teeth.bmp"
+	      sound=""
+	      level="0"
+	      name="Bear teeth amulet"
+	      description="Adds 4 to damage"
+	      important="no">
+	  <bonus health="0" damage="4" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Belt of might"
+	      image="gameres/icons/items/Belt of might.bmp"
+	      sound=""
+	      level="0"
+	      name="Belt of might"
+	      description="Adds 4 to armor"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="4" armor_pierce="4" level="0" experience="0"/>
+	</item>
+	<item id="Talisman de Osiris"
+	      image="gameres/icons/items/CHARM OF OSIRIS.bmp"
+	      sound=""
+	      level="0"
+	      name="Talisman de Osiris"
+	      description="Su portador tiene un 10% de posibilidades de alzarse como un espiritu al morir."
+	      usecount="0"
+	      die_script="file://data/ItemScripts/talismanosiris.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Talisman de Ra"
+	      image="gameres/icons/items/CHARM OF RA.bmp"
+	      sound=""
+	      level="0"
+	      name="Talisman de Ra"
+	      description="Recupera 50 puntos de vida cada vez que mata a un enemigo."
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/talismanra.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0"  armor_pierce="0"  armor_slash_percent="0"  armor_pierce_percent="0" level="0" experience="0"/>
+	</item>
+	<item id="Talisman de Bastet"
+	      image="gameres/icons/items/CHARM OF BASTET.bmp"
+	      sound=""
+	      level="0"
+	      name="Talisman de Bastet"
+	      description="Recupera 2 puntos de energia cada vez que mata a un enemigo."
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/talismanbastet.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0"  armor_pierce="0"  armor_slash_percent="0"  armor_pierce_percent="0" level="0" experience="0"/>
+	</item>
+	<item id="Talisman de Seth"
+	      image="gameres/icons/items/CHARM OF SETH.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      cursed="0"
+	      name="Talisman de Seth"
+	      description="Aumenta en 6 el ataque.">
+	  <bonus health="0" damage="6"/>
+	</item>
+	<item id="Talisman de Isis"
+	      image="gameres/icons/items/CHARM OF ISIS.bmp"
+	      sound=""
+	      level="0"
+	      usecount="0"
+	      important="no"
+	      cursed="0"
+	      name="Talisman de Isis"
+	      description="Aumenta en 4 la defensa.">
+	  <bonus armor_slash="4"  armor_pierce="4"/>
+	</item>
+	<item id="Talisman de Thot"
+	      image="gameres/icons/items/CHARM OF THOTH.bmp"
+	      sound=""
+	      level="0"
+	      important="no"
+	      usecount="0"
+	      cursed="0"
+	      name="Talisman de Thot"
+	      description="Aumenta en 4 el nivel.">
+	  <bonus health="0" damage="0" armor_slash="0"  armor_pierce="0"  armor_slash_percent="0"  armor_pierce_percent="0" level="4" experience="0"/>
+	</item>
+	<item id="Talisman de Ptah"
+	      image="gameres/icons/items/CHARM OF PTAH.bmp"
+	      sound=""
+	      level="0"
+	      name="Talisman de Ptah"
+	      description="Su portador gana un punto de experiencia adicional cuando acaba con un enemigo."
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/talismanptah.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Talisman de Sobek"
+	      image="gameres/icons/items/CHARM OF SOBEK.bmp"
+	      sound=""
+	      level="0"
+	      name="Talisman de Sobek"
+	      description="Aumenta en 50 la salud."
+	      usecount="0"
+	      important="no">
+	  <bonus health="50"/>
+	</item>
+	<item id="Regalo de Jupiter"
+	      image="gameres/icons/items/Gods Gift.bmp"
+	      sound=""
+	      level="0"
+	      name="Regalo de Jupiter"
+	      description="Restaura la salud al matar a un enemigo, despues desaparece."
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/gods gift.vs"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Regalo de Marte"
+	      image="gameres/icons/items/regalodemarte.bmp"
+	      sound=""
+	      level="0"
+	      name="Regalo de Marte"
+	      description="Aumenta en 10 el ataque hasta que mata a un enemigo, despues desaparece."
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/regalodemarte.vs"
+	      cursed="0"
+	      important="no">
+	  <bonus health="0" damage="10" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Rye spikes"
+	      image="gameres/icons/items/Rye Spikes.bmp"
+	      sound=""
+	      level="0"
+	      usecount="200"
+	      name="Rye spikes"
+	      description="Distributes up to 200 food among nearby allies"
+	      use_script="file://data/ItemScripts/rye spikes.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Poison Mushroom"
+	      image="gameres/icons/items/Poison Mushrooms.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="0"
+	      name="Poison Mushroom"
+	      description="When used adds 1 level permanently. The bearer must have at least 90% health"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/mushroom.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Healing water"
+	      image="gameres/icons/items/Healing water.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Healing water"
+	      description="Restores up to 2000 health among nearby allies"
+	      level="0"
+	      usecount="2000"
+	      use_script="file://data/ItemScripts/healing water.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+	<item id="Hechizo misterioso"
+	      image="gameres/icons/items/hechizos/hechizo misterioso.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo misterioso"
+	      description="Un sacerdote debe descifrarlo"
+	      level="0"
+	      equip_script="file://data/ItemScripts/hechizo misterioso.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo convocar espiritus"
+	      image="gameres/icons/items/hechizos/convocacion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Convocar espiritus]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa aparecen constantemente espiritus alrededor del portador. La duracion del hechizo depende del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Convocar espiritus.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo tormenta"
+	      image="gameres/icons/items/hechizos/rayo.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Tormenta]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa, alrededor del portador se desata una tormenta que hiere a todas las unidades. La duracion del hechizo depende del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Convocar tormenta.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo deflagracion"
+	      image="gameres/icons/items/hechizos/deflagracion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Deflagracion]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa, las unidades alrededor del portador son heridas por las llamas. El area de efecto del hechizo y el dano causado dependen del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Deflagracion.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo sanacion"
+	      image="gameres/icons/items/hechizos/sanacion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Restauracion divina]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa, las unidades aliadas alrededor del portador recuperan su vida. El area de efecto del hechizo y la cantidad de vida restaurada dependen del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Sanacion.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo corrupcion"
+	      image="gameres/icons/items/hechizos/corrupcion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Corrupcion enfermiza]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa, las unidades enemigas alrededor del portador quedan envenenadas y pierden su energia. El area de efecto del hechizo depende del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Corrupcion.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo proteccion arcana"
+	      image="gameres/icons/items/hechizos/proteccion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Proteccion arcana]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa aparecen energias arcanas que protegen a los aliados. La duracion del hechizo depende del nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/Proteccion arcana.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hechizo iluminacion"
+	      image="gameres/icons/items/hechizos/iluminacion.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Hechizo: [Iluminacion]"
+	      description="[Solo pueden usarlo los sacerdotes] \nCuando se usa los aliados cercanos adquieren el nivel del sacerdote."
+	      level="0"
+	      use_script="file://data/ItemScripts/iluminacion.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+	<item id="Pocion misteriosa"
+	      image="gameres/icons/items/pocion1.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion misteriosa"
+	      description=""
+	      level="0"
+	      equip_script="file://data/ItemScripts/pocion misteriosa.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pocion venenosa"
+	      image="gameres/icons/items/pocion2.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion venenosa"
+	      description="Al usarla aumenta entre 1 y 5 niveles permanentemente. El portador quedara envenenado."
+	      level="0"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/pocion venenosa.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Healing herbs"
+	      image="gameres/icons/items/pocion3.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion curativa"
+	      description="Al usarse, restablece la salud maxima del portador."
+	      level="0"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/pocion curativa.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pocion energizante"
+	      image="gameres/icons/items/pocion4.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion energizante"
+	      description="Al usarse, restablece por completo la energia del portador."
+	      level="0"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/pocion energizante.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pocion reveladora"
+	      image="gameres/icons/items/pocion5.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion reveladora"
+	      description="Al usarse, el portador puede ver durante unos segundos una zona del mapa y revelar a las unidades ocultas que alli se encuentren."
+	      level="0"
+	      usecount="1"
+	      location_script="file://data/ItemScripts/pocion reveladora.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pocion sombria"
+	      image="gameres/icons/items/pocion6.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion sombria"
+	      description="Al usarse, el portador queda oculto."
+	      level="0"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/pocion sombria.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Anillo misterioso"
+	      image="gameres/icons/items/anillo misterioso.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Anillo misterioso"
+	      description=""
+	      level="0"
+	      equip_script="file://data/ItemScripts/Anillo misterioso.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Snake skin"
+	      image="gameres/icons/items/anillo.bmp"
+	      sound=""
+	      level="0"
+	      name="Anillo de la proteccion"
+	      description="Aumenta en 10 la defensa"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="10" armor_pierce="10" level="0" experience="0"/>
+	</item>
+	<item id="Belt of snakes"
+	      image="gameres/icons/items/anillo2.bmp"
+	      sound=""
+	      level="0"
+	      name="Anillo de la fuerza"
+	      description="Aumenta en 15 el ataque"
+	      important="no">
+	  <bonus health="0" damage="15" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Eagle feather"
+	      image="gameres/icons/items/anillo3.bmp"
+	      sound=""
+	      level="0"
+	      name="Anillo de la vitalidad"
+	      description="Aumenta en 100 la salud"
+	      important="no">
+	  <bonus health="100" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>	
+	<item id="Anillo de la sabiduria"
+	      image="gameres/icons/items/anillo4.bmp"
+	      sound=""
+	      level="0"
+	      name="Anillo de la sabiduria"
+	      description="Aumenta en 5 el nivel"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="5" experience="0"/>
+	</item>	
+
+
+<!--   Epicos  -->
+
+	<item id="Roca supurante"
+	      image="gameres/icons/items/POISON STONE.bmp"
+	      sound=""
+	      level="10"
+	      name="Roca supurante"
+	      description="Si el portador muere se de desatara una terrible plaga."
+	      usecount="0"
+	      die_script="file://data/ItemScripts/RocaSupurante.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Mascara de los sacrificios"
+	      image="gameres/icons/items/Mascara de los sacrificios.bmp"
+	      sound=""
+	      level="10"
+	      name="Mascara de los sacrificios"
+	      description="El portador recupera una pequeña cantidad de vida cada vez que una de sus unidades asignadas mueren."
+	      attacheddie_script="file://data/ItemScripts/mascarasacrificios.vs"
+	      usecount="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Impetu faraonico"
+	      image="gameres/icons/items/coraza egipcia.bmp"
+	      sound=""
+	      level="10"
+	      name="Impetu faraonico"
+	      description="Aumenta en un 25% la velocidad de ataque y de carga."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/impetu.vs"
+	      remove_script="file://data/ItemScripts/impetu2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hoplon de las embestidas"
+	      image="gameres/icons/items/Escudo Toro.bmp"
+	      sound=""
+	      level="10"
+	      name="Hoplon de las embestidas"
+	      description="Otorga la habilidad carga al heroe que lo porte."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/hoplon.vs"
+	      remove_script="file://data/ItemScripts/hoplon2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hombreras punzantes"
+	      image="gameres/icons/items/hombreras.bmp"
+	      sound=""
+	      level="10"
+	      name="Hombreras punzantes"
+	      description="Otorga la habilidad dano reflejado al heroe que lo porte."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/hombreras.vs"
+	      remove_script="file://data/ItemScripts/hombreras2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="King's Belt"
+	      image="gameres/icons/items/amuleto.bmp"
+	      sound=""
+	      level="10"
+	      name="Amuleto ancestral"
+	      description="Aumenta en 100 la vida, en 15 el ataque, en 10 la defensa y en 5 el nivel de su portador."
+	      important="yes">
+	  <bonus health="100" damage="15" armor_slash="10" armor_pierce="10" level="5"/>
+	</item>
+	<item id="Daga de la manticora"
+	      image="gameres/icons/items/daga.bmp"
+	      name="Daga de la manticora"
+	      description="Al ser usada, envenena, deja sin energia y causa dano al objetivo ignorando su defensa."
+	      level="10"
+	      object_script="file://data/ItemScripts/Daga de la manticora.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pocion extraordinaria"
+	      image="gameres/icons/items/pocion7.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Pocion extraordinaria"
+	      description="Al usarse aumenta permanentemente el nivel, el ataque y la defensa de su portador."
+	      level="10"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/pocion extraordinaria.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Yelmo ceremonial"
+	      image="gameres/icons/items/Yelmoceremonial.bmp"
+	      sound=""
+	      level="10"
+	      name="Yelmo ceremonial"
+	      description="El portador adquirira el rango [Leyenda] tras matar al proximo enemigo, despues desaparecera."
+	      cursed="0"
+	      kill_script="file://data/ItemScripts/yelmoceremonial.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hoz de oro de Litha"
+	      image="gameres/icons/items/hoz de oro.bmp"
+	      sound=""
+	      level="10"
+	      name="Hoz de oro de Litha"
+	      description="Si su portador es un sacerdote, aumenta en 20 su nivel."
+	      cursed="0"
+	      equip_script="file://data/ItemScripts/hozdeoro.vs"
+	      remove_script="file://data/ItemScripts/hozdeoro2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Secreto del bosque"
+	      image="gameres/icons/items/secreto.bmp"
+	      sound="data/sound entities/ItemUse_ClinkAndSpell.xml"
+	      level="10"
+	      name="Secreto del bosque"
+	      description="Al usarse invoca un poderoso oso guardian."
+	      usecount="1"
+	      use_script="file://data/ItemScripts/secreto.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Conjuro oscuro"
+	      image="gameres/icons/items/scroll of death.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="10"
+	      name="Conjuro oscuro"
+	      description="Al usarse invoca una aterradora momia."
+	      usecount="1"
+	      use_script="file://data/ItemScripts/conjuro.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Pluma de fenix"
+	      image="gameres/icons/items/plumafenix.bmp"
+	      sound="data/sound entities/ItemUse_WaterAura.xml"
+	      level="10"
+	      name="Pluma de Fenix"
+	      description="Devuelve a la vida a su portador, despues desaparece"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/plumadefenix.vs"  
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Ojo de las grayas"
+	      image="gameres/icons/items/Ojo de las grayas.bmp"
+	      sound=""
+	      level="10"
+	      name="Ojo de las grayas"
+	      description="Aumenta el campo de vision de su portador y le permite revelar las unidades enemigas ocultas."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/ojograyas.vs"
+	      remove_script="file://data/ItemScripts/ojograyas2.vs"
+		  cursed="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Bubo el buho mecanico"
+	      image="gameres/icons/items/buhomecanico.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="10"
+	      name="Bubo, el buho mecanico"
+	      description="Al usarse permite usar a Bubo para explorar, cuando su energia se acabe deberas esperar a que se recargue."
+	      usecount="100"
+	      equip_script="file://data/ItemScripts/bubo2.vs"
+	      use_script="file://data/ItemScripts/bubo.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" damage_percent="0" armor_slash="0" armor_pierce="0" armor_slash_percent="0"  armor_pierce_percent="0" level="0" experience="0"/>
+	</item>
+	<item id="Amuleto de los heroes caidos"
+	      image="gameres/icons/items/skull2.bmp"
+	      sound=""
+	      level="10"
+	      name="Amuleto de los heroes caidos"
+	      description="Las unidades asignadas al portador duplican los puntos de rango que ganan en combate."
+	      usecount="0"
+	      important="yes">
+	  <bonus health="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Odre del agua inagotable"
+	      image="gameres/icons/items/WINE SKIN 01.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      name="Odre del agua inagotable"
+	      description="Se llena constantemente de agua, pudiendo distribuir hasta 1000 puntos de salud entre las unidades aliadas cercanas cada vez que se usa."
+	      level="10"
+	      usecount="1000"
+	      equip_script="file://data/ItemScripts/bota.vs"
+	      use_script="file://data/ItemScripts/bota2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Colgante estelar"
+	      image="gameres/icons/items/Colgante estelar.bmp"
+	      name="Colgante estelar"
+	      description="Permite a su portador teletransportarse instantaneamente a cualquier punto del mapa. Tras cada uso debe esperarse a que se recargue su poder."
+	      level="10"
+	      usecount="100"
+	      location_script="file://data/ItemScripts/Colgante estelar.vs"
+	      equip_script="file://data/ItemScripts/Colgante estelar2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Golden Ankh"
+	      image="gameres/icons/items/golden ankh.bmp"
+	      sound=""
+	      level="10"
+	      name="Ankh de oro"
+		description="Aumenta en 500 la salud de su portador. \n[Ankh Sagrados]: Si se posee tambien el Ankh de plata y el Ankh de cobre, puede formar el Talisman de los tres ankhs que mejora un 50% los beneficios de los tres ankh."
+	      equip_script="file://data/ItemScripts/ankh.vs"
+	      important="yes"
+	      cursed="0">
+	  <bonus health="500"/>
+	</item>
+	<item id="Ankh de plata"
+	      image="gameres/icons/items/silver ankh.bmp"
+	      sound=""
+	      level="10"
+	      name="Ankh de plata"
+	      description="Aumenta en 10 el nivel de su portador. \n[Ankh Sagrados]: Si se posee tambien el Ankh de oro y el Ankh de cobre, puede formar el Talisman de los tres ankhs que mejora un 50% los beneficios de los tres ankh."
+	      equip_script="file://data/ItemScripts/ankh.vs"
+	      important="yes"
+	      cursed="0">
+	  <bonus level="10"/>
+	</item>
+	<item id="Ankh de cobre"
+	      image="gameres/icons/items/ankh cobre.bmp"
+	      sound=""
+	      level="10"
+	      name="Ankh de cobre"
+	      description="Aumenta en 20 el ataque y en 10 la defensa de su portador. \n[Ankh Sagrados]: Si se posee tambien el Ankh de plata y el Ankh de oro, puede formar el Talisman de los tres ankhs que mejora un 50% los beneficios de los tres ankh."
+	      equip_script="file://data/ItemScripts/ankh.vs"
+	      important="yes"
+	      cursed="0">
+	  <bonus damage="20" armor_slash="10" armor_pierce="10"/>
+	</item>
+	<item id="Talisman de los tres Ankh"
+	      image="gameres/icons/items/ankh.bmp"
+	      sound=""
+	      level="20"
+	      name="Talisman de los tres Ankh"
+	      description="Aumenta en 750 la salud, en 30 el ataque, en 15 la defensa y en 15 nivel de su portador."
+	      important="yes"
+	      cursed="0">
+	  <bonus damage="30" armor_slash="15" armor_pierce="15" level="15" health="750"/>
+	</item>
+	<item id="Armadura de fand"
+	      image="gameres/icons/items/armadurafand.bmp"
+	      sound=""
+	      level="10"
+	      name="Coraza de fand"
+	      description="Las unidades asignadas a su portador le otorgan al morir un punto de experiencia. \n[Armadura de Fand]: Duplica los puntos de experiencia si se posee tambien el Yelmo de Fand."
+	      attacheddie_script="file://data/ItemScripts/fand.vs"
+	      usecount="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Yelmo de fand"
+	      image="gameres/icons/items/yelmofand.bmp"
+	      sound=""
+	      level="10"
+	      name="Yelmo de fand"
+	      description="Las unidades asignadas a su portador le otorgan un punto de experiencia cuando matan a un enemigo. \n[Armadura de Fand]: Duplica los puntos de experiencia si se posee tambien la Coraza de Fand."
+	      attachedkill_script="file://data/ItemScripts/fand.vs"
+	      usecount="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Escudo del bifrost"
+	      image="gameres/icons/items/escudocristal.bmp"
+	      sound=""
+	      level="10"
+	      name="Protector del bifrost"
+	      description="Da a su portador la habilidad determinacion. \n[Forja de Asgard]: Recupera la energia de los aliados cercanos cada vez que acaba con un enemigo si se posee tambien el Filo del Bifrost."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/escudobifrost.vs"
+	      remove_script="file://data/ItemScripts/escudobifrost2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Hacha del bifrost"
+	      image="gameres/icons/items/hachacristal.bmp"
+	      sound=""
+	      level="10"
+	      name="Filo del bifrost"
+	      description="Da a su portador la habilidad reanimacion. \n[Forja de Asgard]: Recupera la energia de los aliados cercanos cada vez que acaba con un enemigo si se posee tambien el Protector del Bifrost."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/hachabifrost.vs"
+	      remove_script="file://data/ItemScripts/hachabifrost2.vs"
+	      kill_script="file://data/ItemScripts/bifrost.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Coraje de Troya"
+	      image="gameres/icons/items/yelmotroya.bmp"
+	      sound=""
+	      level="10"
+	      name="Coraje de Troya"
+	      description="Aumenta en 30 la defensa a distancia de su portador. \n[Proteccion de Troya]: Si se posee tambien la Defensa de Troya, cada vez que el portador acaba con un enemigo se crea un manto magico que protege a los aliados cercanos."
+	      kill_script="file://data/ItemScripts/troya.vs"
+	      usecount="0"
+	      important="yes">
+	  <bonus armor_pierce="30"/>
+	</item>
+	<item id="Defensa de Troya"
+	      image="gameres/icons/items/corazatroya.bmp"
+	      sound=""
+	      level="10"
+	      name="Defensa de Troya"
+	      description="Aumenta en 30 la defensa cuerpo a cuerpo de su portador. \n[Proteccion de Troya]: Si se posee tambien el Coraje de Troya, cada vez que el portador acaba con un enemigo se crea un manto magico que protege a los aliados cercanos."  
+	      usecount="0"
+	      important="yes">
+	  <bonus armor_slash="30"/>
+	</item>
+
+
+<!--   Legendarios  -->
+
+	<item id="Orbe del fuego destructor"
+	      image="gameres/icons/items/esfera2.bmp"
+	      level="20"
+	      name="Orbe del fuego destructor"
+	      description="El proximo ataque cuerpo a cuerpo del heroe sera devastador. Tras acabar con un enemigo el orbe se desvanecera."
+	      equip_script="file://data/ItemScripts/Orbe.vs"
+	      kill_script="file://data/ItemScripts/Orbe2.vs"
+	      remove_script="file://data/ItemScripts/Orbe3.vs"
+	      usecount="1" 
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Cornucopia de la abundancia"
+	      image="gameres/icons/items/cornucopia.bmp"
+	      sound=""
+	      level="20"
+	      name="Cornucopia de la abundancia"
+	      description="Su portador, los aliados cercanos y el fortin o foro en que se encuentre reciben constantemente viveres."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/cornucopia.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Gema aurea de Midas"
+	      image="gameres/icons/items/Gema aurea de Midas.bmp"
+	      sound=""
+	      level="20"
+	      name="Gema aurea de Midas"
+	      description="Produce oro constantemente aumentando la riqueza del foro o edificio en el que se encuentre su portador o acumulandolo en su inventario."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/midas.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Amuleto de Nemea"
+	      image="gameres/icons/items/Leon de Nemea.bmp"
+	      sound="data/sound entities/ItemUse_ClinkAndSpell.xml"
+	      level="20"
+	      name="Amuleto de Nemea"
+	      description="Permite invocar al poderoso Leon de Nemea"
+	      usecount="1"
+	      use_script="file://data/ItemScripts/Amuleto de Nemea.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Anillo de los dvergar"
+	      image="gameres/icons/items/dvergar.bmp"
+	      sound="data/sound entities/ItemUse_WaterAura.xml"
+	      level="20"
+	      name="Aro del Ragnarok"
+	      description="Aumenta el ataque. Cada vez que su portador acaba con un enemigo, el poder del anillo disminuye y se reduce la bonificacion de ataque. Una vez agotada su energia, desaparece."
+	      equip_script="file://data/ItemScripts/Destruccion.vs"
+	      kill_script="file://data/ItemScripts/Destruccion2.vs"
+	      remove_script="file://data/ItemScripts/Destruccion3.vs"
+	      usecount="5" 
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Anillo de Morrigan"
+	      image="gameres/icons/items/AnilloMorrigan.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      usecount="0"
+	      name="Anillo devoraalmas de Morrigan"
+	      description="Cuando su portador elimina a un enemigo mas experimentado, adquiere su nivel."
+	      kill_script="file://data/ItemScripts/Devoraalmas.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Cristal de sangre"
+	      image="gameres/icons/items/Cristaldesangre.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      usecount="0"
+	      name="Cristal de sangre"
+	      description="Cada vez que su portador elimina a un enemigo crece el poder del cristal, aumentando en 1 su nivel. Tras 20 victimas, el cristal libera la energia acumulada, acabando con la vida de su portador y reiniciando su poder."
+	      kill_script="file://data/ItemScripts/CristaldeSangre.vs"
+	      remove_script="file://data/ItemScripts/CristaldeSangre2.vs"
+	      equip_script="file://data/ItemScripts/CristaldeSangre3.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Fur gloves of health"
+	      image="gameres/icons/items/baculo.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="20"
+	      usecount="0"
+	      name="Baculo de madera de Yggdrasil"
+	      description="Duplica los puntos de vida maximos de su portador. Al usarse cura a las unidades cercanas a costa de sus puntos de vida."
+	      use_script="file://data/ItemScripts/fur gloves of health.vs"
+	      important="yes">
+	  <bonus health_percent="100"/>
+	</item>
+	<item id="Yelmo alado"
+	      image="gameres/icons/items/yelmoalado.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="20"
+	      name="Yelmo alado de Mercurio"
+	      description="Aumenta la experiencia de su portador constantemente."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/yelmoalado.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Concentration stone"
+	      image="gameres/icons/items/espadahorus.bmp"
+	      sound="data/sound entities/ItemUse.xml"
+	      level="20"
+	      name="Venganza de Horus"
+	      description="Aumenta en 60 el ataque de su portador. Al usarlo, el portador roba la vida de un aliado para curarse."
+	      usecount="0"
+	      object_script="file://data/ItemScripts/concentration stone.vs"
+	      equip_script="file://data/ItemScripts/venganzahorus.vs"
+	      remove_script="file://data/ItemScripts/venganzahorus2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Corona negra de Pluton"
+	      image="gameres/icons/items/Corona negra Pluton.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      name="Corona negra de Pluton"
+	      description="Oculta a su portador."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/coronanegra.vs"
+	      remove_script="file://data/ItemScripts/coronanegra2.vs"
+		cursed="0"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Corona invernal de Yule"
+	      image="gameres/icons/items/Corona Invierno.bmp"
+	      sound=""
+	      level="20"
+	      name="Corona invernal de Yule"
+	      description="Los guerreros asignados a su portador que superen el rango [Campeon], adquiriran el rango [Campeon de Yule] que ademas de otorgar las ventajas del rango [Leyenda], aumenta en 15 su nivel. Los que ya tengan adquirido el rango [Leyenda], tambien podran adquirir el rango [Campeon de Yule] al acabar con un enemigo."
+	      usecount="0"
+	      important="yes">
+	      cursed="0">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Arco solar"
+	      image="gameres/icons/items/Arco solar.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      name="Arco solar"
+	      description="Si su portador ataca a distancia, al matar ciega a los enemigos cercanos haciendo que fallen sus ataques."
+	      kill_script="file://data/ItemScripts/arcosolar.vs"
+	      important="yes">
+	  <bonus damage="0"/>
+	</item>
+	<item id="Arco lunar"
+	      image="gameres/icons/items/Arco lunar.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      name="Arco lunar"
+	      description="Si su portador ataca a distancia, al matar merma la energia de los enemigos cercanos."
+	      kill_script="file://data/ItemScripts/arcolunar.vs"
+	      important="yes">
+	  <bonus damage="0"/>
+	</item>
+	<item id="Peto del Nilo"
+	      image="gameres/icons/items/Peto del Nilo.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="20"
+	      name="Peto del Nilo"
+	      description="Aumenta la energia maxima de su portador en 5. \n[Gemas del Nilo]: Otorga a su portador la habilidad vitalidad si tambien posee los Brazaletes del Nilo."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/nilo.vs"
+	      remove_script="file://data/ItemScripts/nilo3.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Brazaletes del Nilo"
+	      image="gameres/icons/items/Brazaletes del Nilo.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="20"
+	      name="Brazaletes del Nilo"
+	      description="Aumenta la energia maxima de su portador en 5. \n[Gemas del Nilo]: Otorga a su portador la habilidad vitalidad si tambien posee el Peto del Nilo."
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/nilo2.vs"
+	      remove_script="file://data/ItemScripts/nilo3.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Colmillo de Fenrir"
+	      image="gameres/icons/items/Colmillo Fenrir.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      name="Filo comehombres de Fenrir"
+	      description="Aumenta en 30 el ataque. Cuando su portador elimina un enemigo recupera un 10% de la vida de este, tanta energia como tuviera y los viveres por completo. \n[Reliquias de Fenrir]: Aumenta a 20 la cantidad de hijos de Fenrir que puedes liderar si se poseen tambien el Anillo de los aullidos y las Fauces pavorosas."
+	      kill_script="file://data/ItemScripts/Colmillo de Fenrir.vs"
+	      important="yes">
+	  <bonus damage="30"/>
+	</item>
+	<item id="Anillo de los aullidos"
+	      image="gameres/icons/items/Anillo Fenrir.bmp"
+	      sound="data/sound entities/ItemUse_ClinkAndSpell.xml"
+	      level="20"
+	      name="Anillo de los aullidos"
+	      description="Hasta un maximo de 5 poderosos lobos hijos de fenrir pueden acudir en la ayuda del poseedor si sus tropas estan en apuros. \n[Reliquias de Fenrir]: Aumenta a 20 la cantidad de hijos de Fenrir que puedes liderar si se poseen tambien las Fauces pavorosas y el Filo comehombres de Fenrir"
+	      attacheddie_script="file://data/ItemScripts/Fenrir.vs"
+	      important="yes">
+	  <bonus health="0"/>
+	</item>
+	<item id="Fauces pavorosas"
+	      image="gameres/icons/items/Fauces Fenrir.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="20"
+	      name="Fauces pavorosas de Fenrir"
+	      description="Cuando su portador elimina a un enemigo, el miedo invade a las unidades enemigas incluso aunque sean inmunes al miedo. \n[Reliquias de Fenrir]: Aumenta a 20 la cantidad de hijos de Fenrir que puedes liderar si se poseen tambien el Anillo de los aullidos y el Filo comehombres de Fenrir."	    
+	      kill_script="file://data/ItemScripts/Fauces pavorosas.vs"
+	      
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Yelmo enmascarado de Heracles"
+	      image="gameres/icons/items/Yelmo de Heracles.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="20"
+	      name="Yelmo enmascarado de Heracles"
+	      description="Restaura 30 puntos de vida cada segundo a su portador. \n[Poder de Heracles]: Restaura 30 puntos de vida extra cada segundo si tambien se poseen el Peto olimpico de Heracles y la Efigie de la fuerza de Heracles."
+	      equip_script="file://data/ItemScripts/Heracles.vs"
+	      important="yes">
+	  <bonus damage="0"/>
+	</item>
+	<item id="Efigie de la fuerza de Heracles"
+	      image="gameres/icons/items/Efigie de Heracles.bmp"
+	      sound="data/sound entities/ItemUse_ClinkAndSpell.xml"
+	      level="20"
+	      name="Efigie de la fuerza de Heracles"
+	      description="Aumenta en 80 el ataque de su portador, sin embargo reduce a la mitad su defensa. \n[Poder de Heracles]: Restaura 30 puntos de vida extra cada segundo si tambien se poseen el Peto olimpico de Heracles y el Yelmo enmascarado de Heracles."
+	      important="yes">
+	  <bonus damage="80" armor_slash_percent="-50"  armor_pierce_percent="-50"/>
+	</item>
+	<item id="Peto olimpico de Heracles"
+	      image="gameres/icons/items/Coraza de Heracles.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="20"
+	      name="Coraza olimpica de Heracles"
+	      description="Aumenta en 2000 los puntos de vida maximos de su portador, sin embargo reduce a la mitad su defensa.  \n[Poder de Heracles]: Restaura 30 puntos de vida extra cada segundo si tambien se poseen el Yelmo enmascarado de Heracles y la Efigie de la fuerza de Heracles."	    
+	      important="yes">
+	  <bonus health="2000" armor_slash_percent="-50"  armor_pierce_percent="-50"/>
+	</item>
+
+
+
+
+<!--   Divinos  -->
+
+	<item id="Yelmo de Moloch"
+	      image="gameres/icons/items/YelmoMoloch.bmp"
+	      name="Yelmo deflagrador de Moloch"
+	      description="Sacrifica la salud de su portador para hacer arder a todas las unidades en el area seleccionada. El dano producido y el tamano del area aumentan con la cantidad de salud del portador."
+	      level="30"
+	      usecount="0"
+	      location_script="file://data/ItemScripts/YelmoMoloch.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Piedad de Isis"
+	      image="gameres/icons/items/Piedad de Isis.bmp"
+	      sound="data/sound entities/ItemUse_ClinkAndSpell.xml"
+	      level="30"
+	      name="Piedad de Isis"
+	      description="Cada vez que un guerrero aliado muere, la piedad de Isis crea un manto protector que protege a los aliados cercanos."
+	      usecount="0"
+	      attacheddie_script="file://data/ItemScripts/piedadisis.vs"
+	      important="yes">
+	  <bonus health="0" health_percent="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Orbe del conocimiento de Thot"
+	      image="gameres/icons/items/Orbe del conocimiento de Thot.BMP"
+	      level="30"
+	      name="Orbe del conocimiento de Thot"
+	      	  description="Aumenta en 25 el nivel de su portador."
+		  cursed="0"
+	      important="yes">
+	  <bonus level="25"/>
+	</item>
+	<item id="Escudo de Minerva"
+	      image="gameres/icons/items/Escudo de Minerva.bmp"
+	      sound="data/sound entities/ItemUse_MagicWord.xml"
+	      level="30"
+	      name="Escudo de Minerva"
+	      description="Permite acabar con la vida con cualquier enemigo de menor nivel quel portador. Tras cada uso debe esperarse a que se recargue su poder."
+	      usecount="100"
+	      equip_script="file://data/ItemScripts/medusa2.vs"
+	      object_script="file://data/ItemScripts/medusa.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Mazo igneo de Vulcano"
+	      image="gameres/icons/items/Mazo igneo de Vulcano.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum.xml"
+	      level="30"
+	      name="Mazo igneo de Vulcano"
+	      description="Da a su portador la habilidad dano expansivo y 20% de posibilidades de que al matar a un enemigo se desate un templor que debilita a los enemigos cercanos."
+	      cursed="0"
+	      usecount="0"
+	      equip_script="file://data/ItemScripts/martillovulcano.vs"
+	      remove_script="file://data/ItemScripts/martillovulcano3.vs"
+	      kill_script="file://data/ItemScripts/martillovulcano2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Egida de Marte"
+	      image="gameres/icons/items/Egida de Marte.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum.xml"
+	      level="30"
+	      name="Egida de Marte"
+	      description="Los guerreros asignados a su portador que superen el rango [Elite] adquieren directamente el rango [Leyenda]. Los que ya tengan adquirido el rango [Campeon], adquiriran el rango [Leyenda] al acabar con un enemigo."
+	      usecount="0"  
+	      cursed="0" 
+	      important="yes">
+	  <bonus damage="0"/>
+	</item>
+	<item id="Mascara funeraria de Anubis"
+	      image="gameres/icons/items/Mascara funeraria de Anubis.bmp"
+	      sound="data/sound entities/ItemUse_DarkChant.xml"
+	      level="30"
+	      name="Mascara funeraria de Anubis"
+	      description="Los guerreros caidos en combate pueden volver convertidos en aterradores fantasmas."
+	      cursed="0"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/tinieblas2.vs"
+	      attachedkill_script="file://data/ItemScripts/tinieblas2.vs"
+	      attacheddie_script="file://data/ItemScripts/tinieblas.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Mjolnir el tormentoso"
+	      image="gameres/icons/items/Mjolnir el tormentoso.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum.xml"
+	      level="30"
+	      name="Mjolnir el tormentoso"
+	      description="Cada vez que su portador mata a un enemigo acumula energia y aumenta el ataque. Una vez llegado al limite crea una tormenta que debilita a los enemigos proximos y restaura el ataque original."
+	      cursed="0"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/mjolnir.vs"
+	      remove_script="file://data/ItemScripts/mjolnir2.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Efigie divina de Ra"
+	      image="gameres/icons/items/Efigie de Ra.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum.xml"
+	      level="30"
+	      name="Efigie divina de Ra"
+	      description="Restaura la salud del portador cada vez que acaba con un enemigo. Solo puede usarse cada 10 segundos."
+	      cursed="0"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/Ra.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Corona laurea de Romulo"
+	      image="gameres/icons/items/Corona laurea de Romulo.bmp"
+	      sound=""
+	      level="30"
+	      name="Corona laurea de Romulo"
+	      description="Los heroes romanos aumentan en 10 su nivel y en 10 su defensa. Los lideres romanos aumentan en 20 su nivel y en 20 su defensa."
+	      usecount="0"
+		equip_script="file://data/ItemScripts/elegidoroma.vs"
+	      	remove_script="file://data/ItemScripts/elegidoroma2.vs"
+	      important="yes">
+	      cursed="0">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Corona del alto y bajo Egipto"
+	      image="gameres/icons/items/Corona del alto y bajo Egipto.bmp"
+	      sound=""
+	      level="30"
+	      name="Corona del alto y bajo Egipto"
+	      description="Los heroes egipcios aumentan en 10 su nivel, en 10 su ataque y en 5 su defensa. Los lideres egipcios aumentan en 20 su nivel, en 20 su ataque y en 10 su defensa."
+	      usecount="0"
+	      	remove_script="file://data/ItemScripts/elegidoegipto2.vs"
+		equip_script="file://data/ItemScripts/elegidoegipto.vs"
+	      important="yes">
+	      cursed="0">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Corona de Wotan"
+	      image="gameres/icons/items/Corona de Wotan.bmp"
+	      sound=""
+	      level="30"
+	      name="Corona de Wotan"
+	      description="Los heroes germanos y normandos aumentan en 10 su nivel y en 20 su ataque. Los lideres germanos y normandos aumentan en 20 su nivel y en 40 su ataque."
+	      usecount="0"
+	      	remove_script="file://data/ItemScripts/elegidogermania2.vs"
+		equip_script="file://data/ItemScripts/elegidogermania.vs"
+	      important="yes">
+	      cursed="0">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Aro de los reyes"
+	      image="gameres/icons/items/Aro Reyes.bmp"
+	      sound=""
+	      level="30"
+	      name="Aro de los reyes"
+	      description="Los heroes galos y britanos no normandos aumentan en 10 su nivel, en 10 su ataque y en 5 su defensa. Los lideres galos y britanos no normandos aumentan en 20 su nivel y en 20 su ataque y en 5 su defensa."
+	      usecount="0"
+	      	remove_script="file://data/ItemScripts/elegidocelta2.vs"
+		equip_script="file://data/ItemScripts/elegidocelta.vs"
+	      important="yes">
+	      cursed="0">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0"/>
+	</item>
+	<item id="Espada flamigera de Belenos"
+	      image="gameres/icons/items/Espada flamigera de Belenos.bmp"
+	      sound="data/sound entities/ItemUse_ThrillerDrum.xml"
+	      level="30"
+	      name="Espada flamigera de Belenos"
+	      description="Aumenta en 300 los puntos de ataque de su portador. Cada vez que este acabe con un enemigo vera reducida su salud."
+	      cursed="0"
+	      usecount="0"
+	      kill_script="file://data/ItemScripts/espada flamigera de belenos2.vs"
+		equip_script="file://data/ItemScripts/espada flamigera de belenos.vs"
+		remove_script="file://data/ItemScripts/espada flamigera de belenos3.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	
+
+
+	
+	<item id="Mapa revelador"
+	      image="gameres/icons/items/mapa.bmp"
+	      level="30"
+	      name="Mapa revelador"
+	      description="Revela el mapa al completo."
+	      cursed="0"
+	      usecount="0"
+		equip_script="file://data/ItemScripts/mapa.vs"
+	      important="yes">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+
+<!--     LIDERES   -->
+
+	<item id="GranGeneral"
+	      image="gameres/icons/especialidades/GranGeneral.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Gran general"
+	      description="El maximo de tropas asignadas es 70"
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="PresenciaInspiradora"
+	      image="gameres/icons/especialidades/PresenciaInspiradora.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Presencia inspiradora"
+	      description="Los nuevos guerreros son inmunes al miedo."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="JarlLegendario"
+	      image="gameres/icons/especialidades/JarlLegendario.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Jarl legendario"
+	      description="Si se ha investigado Favoritos de Thor, todas las unidades nuevas portan la Bendicion de Thor."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="HijoCartago"
+	      image="gameres/icons/especialidades/HijoCartago.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Hijo de Cartago"
+	      description="Los nuevos nobles reclutados tienen el rango [Elite]."
+	      cursed="1"
+	      usecount="0"
+		die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="PrincesaGuerrera"
+	      image="gameres/icons/especialidades/PrincesaGuerrera.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Princesa guerrera"
+	      description="Las nuevas guerreras comienzan con 4 niveles extra."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="AvatarBelenos"
+	      image="gameres/icons/especialidades/AvatarBelenos.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Avatar de Belenos"
+	      description="Si se ha investigado Banquete de Belenos, las unidades tienen el doble de posibilidades de beneficiarse del aumento de nivel."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="RecuperarBotin"
+	      image="gameres/icons/especialidades/RecuperarBotin.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Recuperar botin"
+	      description="Cada vez que un guerrero asignado muere, sus pertenencias pueden cambiarse por oro al entrar en un edificio."
+	      cursed="1"
+	      usecount="0"
+		attacheddie_script="file://data/Especialidades/RecuperarBotin.vs"
+		die_script="file://data/ItemScripts/muerteheroe.vs"
+	      important="no">
+	  <bonus health="0" damage="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="FavoritoMarte"
+	      image="gameres/icons/especialidades/marte.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Favorito de Marte"
+	      description="Las tropas que porten el Regalo de Marte, pueden derrota un enemigo extra sin que desaparezca."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="FavoritoJupiter"
+	      image="gameres/icons/especialidades/jupiter.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Favorito de Marte"
+	      description="Las tropas que porten el Regalo de Jupiter, pueden derrota un enemigo extra sin que desaparezca."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="GranMaestro"
+	      image="gameres/icons/especialidades/GranMaestro.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Gran maestro"
+	      description="Las nuevas tropas comienzan con rango [Veterano]"
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="Misticismo"
+	      image="gameres/icons/especialidades/Misticismo.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Misticismo"
+	      description="Los nuevos sacerdotes tienen la habilidad Vitalidad."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="TropasRegulares"
+	      image="gameres/icons/especialidades/TropasRegulares.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Tropas regulares"
+	      description="Los nuevos guerreros y arqueros comienzan con 6 niveles extra."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="LiderEjemplar"
+	      image="gameres/icons/especialidades/LiderEjemplar.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Lider ejemplar"
+	      description="Los nuevos heroes comienzan con 5 niveles extra."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="ResistenciaNumantina"
+	      image="gameres/icons/especialidades/ResistenciaNumantina.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Resistencia numantina"
+	      description="Los nuevos milicianos no consumen viveres."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="AtaqueSorpresa"
+	      image="gameres/icons/especialidades/AtaqueSorpresa.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Ataque sorpresa"
+	      description="Los nuevos honderos comienzan ocultos."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="GuardiaReal"
+	      image="gameres/icons/especialidades/GuardiaReal.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Guardia real"
+	      description="Los nuevos guardias de elite sustituyen su habilidad Ferocidad por Determinacion."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="DisciplinaMilitar"
+	      image="gameres/icons/especialidades/DisciplinaMilitar.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Disciplina militar"
+	      description="Los nuevos legionarios, princeps y pretorianos tienen 2 puntos de defensa extra."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="LeyendasRoma"
+	      image="gameres/icons/especialidades/LeyendasRoma.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Leyendas de Roma"
+	      description="Los nuevos singular tribuni tienen un 10% de posibilidades de comenzar en rango [Leyenda]"
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="VeteranosNumidia"
+	      image="gameres/icons/especialidades/VeteranosNumidia.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Veteranos de Numidia"
+	      description="Los nuevos infantes numidas tienen la habilidad Resistencia."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="TributosMilitares"
+	      image="gameres/icons/especialidades/TributosMilitares.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Tributos militares"
+	      description="Los nuevos guerreros germanos comienzan con una pequena cantidad de carne."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+	<item id="TradicionLancera"
+	      image="gameres/icons/especialidades/TradicionLancera.bmp"
+	      sound=""
+	      level="0"
+	      name="[Especialidad]: Tradicion lancera"
+	      description="Los nuevos guerreros con jabalina y lanceros se benefician de Tradicion arquera."
+	      cursed="1"
+	      usecount="0"
+		  die_script="file://data/ItemScripts/muerteheroe.vs"  
+	      important="no">
+	  <bonus health="0" damage_percent="0" armor_slash="0" armor_pierce="0" level="0" experience="0"/>
+	</item>
+
+
+</items>
+<!-- Items to appear in ruins -->

@@ -1,0 +1,13 @@
+<class id="ILider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1400"/>
+	<properties damage="40" armor_slash="14" armor_pierce="14"/>
+	<properties race="Iberia"/>
+	<properties help="/contents/units/IHero"/>
+
+
+	<sounds command="data/sound entities/VoiceIHero.xml"/>
+
+
+
+</class>

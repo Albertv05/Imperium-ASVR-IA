@@ -1,0 +1,9 @@
+<class id="EHero1c" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero1/EHero1.ent.xml">
+
+	<properties display_name="Unis" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero14.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Unis"/>
+
+	<properties HeroSkills="Recovery, Vigor,  Survival, Quick March, Defensive cry"/>
+
+</class>

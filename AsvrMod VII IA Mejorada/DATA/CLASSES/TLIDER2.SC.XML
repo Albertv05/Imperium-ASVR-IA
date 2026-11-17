@@ -1,0 +1,15 @@
+<class id="TLider2" cpp_class="CVXHero" parent="TLider" entity="Units/THero2/THero2.ent.xml">
+
+	<properties race="Germany"/>
+	<properties help="/contents/units/THero"/>
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team defense, Epic endurance, Charge"/>
+	<properties display_name="Caudillo Rurik" display_name_plural="Heroes"/>
+<properties edittree_pos="Units/Germany/Heroes/Caudillo Rurik"/>
+	<properties icon="gameres/icons/TLIDER2.bmp"/>
+
+
+	<sounds command="data/sound entities/VoiceTHero.xml"/>
+
+
+
+</class>

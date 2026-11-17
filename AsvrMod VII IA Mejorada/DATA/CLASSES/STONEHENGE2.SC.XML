@@ -1,0 +1,7 @@
+<class id="Stonehenge2" cpp_class="CVXTownHall" parent="Stonehenge"
+entity="MapObjects/Stonehenge2/Stonehenge2.ent.xml">
+	<properties edittree_pos="Structures/Interactive/Altar de la vida"/>
+	<properties display_name="Altar de la vida"/>
+	<properties icon="gameres/icons/Stonehenge.bmp"/>
+	<properties radius="250" selection_radius="255"/>
+</class>

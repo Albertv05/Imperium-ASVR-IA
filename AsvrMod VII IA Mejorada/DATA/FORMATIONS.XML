@@ -1,0 +1,158 @@
+﻿<Formations>
+	<Default Name="Front"/>
+	
+	<FormationClass Name="Front"
+		Description="Formacion con las unidades agrupadas delante del heroe [+4 nivel]"
+		Width="2"
+		Height="1"
+		BonusLevel="4"
+		OffsetFrontLineByY="30"
+		OffsetWingsByX="0"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" FrontLine="1"/>
+		<Class Name="Peasant" CentralBlock="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Line"
+		Description="Formacion en linea delante del heroe cubriendo mas terreno [+2 ataque +10% alcance +2 defensa total]"
+		Width="6"
+		Height="1"
+		BonusDamage="2"
+		BonusArmor="2"
+		BonusRange="10"
+		OffsetFrontLineByY="50"
+		OffsetWingsByX="0"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" FrontLine="1"/>
+		<Class Name="BaseMage" CentralBlock="1"/>
+		<Class Name="Peasant" CentralBlock="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Block"
+		Description="Formacion en bloque con el heroe en el centro protegiendo todos los flancos [+9 defensa cuerpo a cuerpo +3 defensa a distancia]"
+		BonusDefenceSlash="9"
+		BonusDefencePierce="3"
+		OffsetFrontLineByY="0"
+		OffsetWingsByX="0"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" CentralBlock="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Cavalry core"
+		Description="Formacion con la caballeria en el centro delante del heroe y la infanteria en los laterales [+4 ataque +10% alcance]"
+		Width="2"
+		Height="1"
+		BonusDamage="4"
+		BonusRange="10"
+		OffsetFrontLineByY="30"
+		OffsetWingsByX="50"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" Wings="1"/>
+		<Class Name="Horse" FrontLine="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Horse Wings"
+		Description="Formacion con la caballeria en los laterales y la infanteria en el centro delante del heroe [+6 ataque]"
+		Width="3"
+		Height="1"
+		BonusDamage="6"
+		OffsetFrontLineByY="30"
+		OffsetWingsByX="50"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" FrontLine="1"/>
+		<Class Name="Horse" Wings="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Ranged Wings"
+		Description="Formacion con las unidades a distancia en los laterales con las unidades cuerpo a cuerpo delante del heroe [+5 ataque +5% alcance]"
+		Width="3"
+		Height="2"
+		BonusDamage="5"
+		BonusRange="5"
+		OffsetFrontLineByY="15"
+		OffsetWingsByX="50"
+		OffsetWingsByY="0">
+
+		<Class Name="Unit" CentralBlock="1"/>
+		<Class Name="Melee" FrontLine="1"/>
+		<Class Name="Horse" FrontLine="1"/>
+		<Class Name="Ranged" Wings="1"/>
+		<Class Name="BaseMage" CentralBlock="1"/>
+		<Class Name="Peasant" CentralBlock="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Hilera"
+		Description="Formacion con las unidades en hilera delante del heroe [+15% alcance +3 defensa total]"
+		Width="1"
+		Height="2"
+		BonusArmor="3"
+		BonusRange="15"
+		OffsetFrontLineByY="30"
+		OffsetWingsByX="20"
+		OffsetWingsByY="10">
+
+		<Class Name="Unit" FrontLine="1"/>
+		<Class Name="BaseMage" Wings="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Retaguardia"
+		Description="Formacion de unidades a distancia adelantadas y demas en retaguardia [+5 ataque +25% alcance -4 defensa total]"
+		Width="5"
+		Height="1"
+		BonusDamage="5"
+		BonusArmor="-4"
+		BonusRange="25"
+		OffsetFrontLineByY="100"
+		OffsetWingsByX="-100"
+		OffsetWingsByY="-250">
+
+		<Class Name="Unit" Wings="1"/>
+		<Class Name="Horse" Wings="1"/>
+		<Class Name="Ranged" FrontLine="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Cucaracha"
+		Description="Formacion con las unidades agrupadas en cucaracha con el heroe en el centro [+3 defensa cuerpo a cuerpo +9 defensa a distancia]"
+		Width="10"
+		Height="10"
+		BonusDefenceSlash="3"
+		BonusDefencePierce="9"
+
+		OffsetFrontLineByY="30"
+		OffsetWingsByX="60"
+		OffsetWingsByY="30">
+
+		<Class Name="Unit" CentralBlock="3"/>
+		<Class Name="Melee" CentralBlock="5"/>
+		<Class Name="Horse" CentralBlock="2"/>
+		<Class Name="Ranged" Wings="2"/>
+		<Class Name="BaseMage" CentralBlock="1"/>
+		<Class Name="Peasant" Wings="1"/>
+	</FormationClass>
+
+	<FormationClass Name="Alas Del Infierno"
+		Description="Formacion con las unidades cuerpo a cuerpo formando alas, la caballeria por el centro y las unidades mágicas alrededor [-3 ataque -3 defensa total +8 nivel]"
+		Width="50"
+		Height="2"
+		BonusArmor="-3"
+		BonusDamage="-3"
+		BonusLevel="8"
+
+		OffsetFrontLineByY="10"
+		OffsetWingsByX="100"
+		OffsetWingsByY="5">
+
+		<Class Name="Unit" Wings="4"/>
+		<Class Name="Melee" Wings="2"/>
+		<Class Name="Horse" FrontLine="1"/>
+		<Class Name="Ranged" Wings="3"/>
+		<Class Name="BaseMage" CentralBlock="1"/>
+		<Class Name="Peasant" Wings="1"/>
+	</FormationClass>
+
+</Formations>

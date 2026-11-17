@@ -1,0 +1,10 @@
+if (!owner.AsUnit().IsValid()) return;
+if (GetUseCount() != 100) return;
+if (!IsPassable3x3(target)) return;
+if (IsPointInWater(target)) return;
+SetUseCount(0);
+CreateFeedback("Damage1", owner.AsUnit().pos, 2000);
+CreateFeedback("Damage1", target, 2000);
+PlaySound("SOUNDS/NOTIFICATIONS/POSESION.OGG");
+Sleep(2000);
+owner.AsUnit().SetPos(target);

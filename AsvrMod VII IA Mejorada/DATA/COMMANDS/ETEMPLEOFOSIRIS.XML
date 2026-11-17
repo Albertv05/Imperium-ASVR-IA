@@ -1,0 +1,183 @@
+<commands>
+
+<!-- TEMPLE COMMANDS -->
+<!-- NOTE : train command must have names like this:"trainClassName" -->
+<!--        where ClassName is the class of the unit to be trained -->
+
+<cmd name="repairETemple" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay = "60000">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="trainEPriest" priority="2"
+	button="actions/train EPriest.bmp"
+	queueicon="gameres/icons/EPriest.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	traincommand="yes"
+	transpicon="1"
+	key="p"
+	help="/contents/units/EPriest"
+	costgold = "500"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "10000"
+	rollover="Call Priest"
+	method="train"
+	param="EPriest"
+	sclass="EPriest">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Chariot of Osiris" priority="2"
+	button="actions/chariot of osiris.bmp"
+	key="r"
+	queueicon="gameres/icons/chariot of osiris.bmp"
+	transpicon="1"
+	groupverifier="data/subai/verify_trainex.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
+	traincommand="yes"
+	costgold = "1000"
+	costpop = "1"
+	execdelay = "20000"
+ 	rollover="Chariot of Osiris"
+	method="trainex"
+	param="1, 10, EChariot,  EChariot, Cult of Osiris">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Cult of Osiris" priority="2"
+	button="research/cult of osiris.bmp"
+	key="o"
+	queueicon="gameres/icons/upgrades/cult of osiris.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Cult of Osiris"
+	description="Allows construction of chariots in the Temple of Osiris"
+	method="research"
+	param="NameSet, Cult of Osiris, , default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Favoritos de Osiris" priority="2"
+	button="research/bendicion de osiris.bmp"
+	key="o"
+	queueicon="gameres/icons/upgrades/bendicion de osiris.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Favoritos de Osiris"
+	description="Los nuevos carros reciben la bendicion de Osiris que les otorga +5 puntos de energia maxima"
+	method="research"
+	param="ReqSet, Cult of Osiris, , NamePlr, Favoritos de Osiris, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="EZombify" priority="3"
+	queueicon="gameres/icons/upgrades/Zombify.bmp"
+	button="research/zombify.bmp"
+	key="z"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "20000"
+    rollover="Zombify"
+	description="Allows priests to transform into ghouls when they die in battle or sacrifice themselves"
+	method="research"
+	param="ReqSet, Cult of Osiris, default, NamePlr, Zombify, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+<cmd name="ECloud of Plague" priority="4"
+	queueicon="gameres/icons/upgrades/mist.bmp"
+	button="research/mist.bmp"
+	key="c"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Cloud of Plague"
+	description = "Allows priests to sacrifice themselves to create a cloud of plague which damages all warriors it covers"
+	method="research"
+	param="ReqSet, Cult of Osiris, default, NamePlr, Cloud of Plague, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Mumification" priority="5"
+	queueicon="gameres/icons/upgrades/mumification.bmp"
+	key="m"
+	button="research/mumification.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Mummification"
+	description = "New heroes are hired with 2/3 the level of the best hero you've had"
+	method="research"
+	param="ReqSet, Cult of Osiris, default, NameSet, Mumification, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Lion Summoning" priority="5"
+	queueicon="gameres/icons/upgrades/summon lion.bmp"
+	button="actions/summon lion.bmp"
+	key="l"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Invocar leon"
+        description="Permite a los sacerdotes sacrificar su vida para invocar un leon."
+	method="research"
+	param="ReqSet, Cult of Osiris, default, NamePlr, Lion Summoning, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Condena eterna" priority="5"
+	queueicon="gameres/icons/upgrades/condenaeterna.bmp"
+	button="actions/condenaeterna.bmp"
+	key="e"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "4000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Condena eterna"
+        description="Permite a los sacerdotes sacrificar su vida para convertir en momia a una unidad amiga o enemiga."
+	method="research"
+	param="ReqSet, Cult of Osiris, default, NamePlr, Condena eterna, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+<cmd name="Elegido del faraon" priority="25"
+	button="Upgrades/ELIDER.bmp"
+	key="t"
+	queueicon="gameres/icons/upgrades/LIDERE.bmp"
+	costgold = "10000"
+	costfood = "0"
+	execdelay = "60000"
+	groupverifier="data/subai/verify_research.vs"
+	rollover="En nombre del Faraon"
+	description="Permite convocar un mano del faraon."
+	method="research"
+	researchcommand="yes"
+	param="ReqSet, Cult of Osiris, default, NameSet, En nombre del Faraon, default, NamePlr, Capital, default">
+	<src obj="ETempleOfOsiris"/>
+</cmd>
+
+</commands>

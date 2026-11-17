@@ -1,0 +1,12 @@
+<class id="CLider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1300"/>
+	<properties damage="50" armor_slash="14" armor_pierce="14"/>
+	<properties race="Carthage"/>
+	<properties help="/contents/units/CHero"/>
+
+	<sounds command="data/sound entities/VoiceCHero.xml"/>
+
+
+
+</class>

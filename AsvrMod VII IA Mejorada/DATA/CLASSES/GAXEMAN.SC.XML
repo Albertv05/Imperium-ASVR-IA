@@ -1,0 +1,15 @@
+<class id="GAxeman" cpp_class="CVXUnit" parent="Melee" entity="Units/GAxeman/GAxeman.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties maxhealth="350"/>
+	<properties damage="20" armor_slash="2" armor_pierce="2"/>
+	<properties speed="70"/>
+	<properties unit_specials="Triple strike, Learning"/>
+
+	<properties icon="gameres/icons/GAxeman.bmp"/>
+	<properties display_name="Axeman" display_name_plural="Axemen"/>
+	<properties help="contents/units/GAxeman"/>
+	<properties edittree_pos="Units/Gaul/Axeman"/>
+	<sounds command="data/sound entities/VoiceGAxeman.xml"/>
+        <sounds attack="AxeAttack" />
+</class>

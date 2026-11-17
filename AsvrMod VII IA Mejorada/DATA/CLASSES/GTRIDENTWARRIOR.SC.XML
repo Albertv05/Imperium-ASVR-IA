@@ -1,0 +1,19 @@
+<class id="GTridentWarrior" cpp_class="CVXUnit" parent="Melee" entity="Units/GTridentWarrior/GTridentWarrior.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties maxhealth="400"/>
+	<properties damage="50" armor_slash="10" armor_pierce="10"/>
+	<properties speed="70"/>
+	<properties unit_specials="Triumph, Spike armor"/>
+	<properties damaged_by_ghost="0"/>
+
+	<properties formation_priority="1000"/>
+	<properties icon="gameres/icons/GTridentWarrior.bmp"/>
+	<properties display_name="Trident Warrior" display_name_plural="Trident Warriors"/>
+	<properties help="contents/units/GTridentWarrior"/>
+	<properties edittree_pos="Units/Gaul/Trident Warrior"/>
+	<sounds command="data/sound entities/VoiceGTridentWarrior.xml" attack="UnitHammerFight"/>
+
+	<behavior script="data/subai/Inmune a los espiritus.vs"/>
+
+</class>

@@ -1,0 +1,54 @@
+<commands>
+
+<!-- GATE COMMANDS -->
+
+<cmd name="opengate" priority="1"
+	button="actions/open gate.bmp"
+	rollover="Open Gate"
+	key="o"
+	queueicon="gameres/icons/upgrades/open gate.bmp"
+	method="open">
+	<src obj="Gate"/>
+</cmd>
+
+<cmd name="opengateper" priority="2"
+	button="actions/open gate per.bmp"
+	rollover="Abrir puertas permanentemente"
+	key="p"
+	queueicon="gameres/icons/upgrades/open gate per.bmp"
+	method="open_permanent">
+	<src obj="Gate"/>
+</cmd>
+
+<cmd name="closegateper" priority="4"
+	button="actions/Close Gate per.bmp"
+	rollover="Cerrar puertas permanentemente"
+	key="v"
+	queueicon="gameres/icons/upgrades/close gate per.bmp"
+	method="close_permanent">
+	<src obj="Gate"/>
+</cmd>
+
+<cmd name="closegate" priority="3"
+	button="actions/Close Gate.bmp"
+	rollover="Close Gate"
+	key="c"
+	queueicon="gameres/icons/upgrades/close gate.bmp"
+	method="close">
+	<src obj="Gate"/>
+</cmd>
+
+<cmd name="repair gate" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold = "500"
+	costfood = "0"
+	execdelay = "60000">
+	<src obj="Gate"/>
+</cmd>
+
+</commands>

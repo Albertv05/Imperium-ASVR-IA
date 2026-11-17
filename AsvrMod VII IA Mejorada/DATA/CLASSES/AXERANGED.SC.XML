@@ -1,0 +1,16 @@
+<class id="AxeRanged" cpp_class="CVXUnit" parent="Ranged" entity="">
+	<properties formation_priority="900"/>
+	<properties sight="400" range="200" damage_type="slash"/>
+	<properties min_range="5"/>
+
+	<value1
+		icon="gameres/infobar/common/attack ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/attack"
+		rollover="Ataque | Alcance"/>
+
+
+
+
+
+</class>

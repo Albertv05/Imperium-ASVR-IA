@@ -1,0 +1,10 @@
+<class id="THero4d" cpp_class="CVXHero" parent="GermanHero" entity="Units/GHero2/GHero2.ent.xml">
+
+	<properties display_name="Recaredo" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero45.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Recaredo"/>
+
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Epic attack, Battle cry"/>
+
+</class>

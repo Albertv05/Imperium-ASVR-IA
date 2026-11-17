@@ -1,0 +1,9 @@
+<class id="CHero1e" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero1/CHero1.ent.xml">
+
+	<properties display_name="Itthobaal" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO16.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Itthobaal"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Quick March, Healing"/>
+
+</class>

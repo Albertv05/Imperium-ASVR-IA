@@ -1,0 +1,9 @@
+<class id="GHero1d" cpp_class="CVXHero" parent="GaulHero" entity="Units/NHero1/NHero1.ent.xml">
+
+	<properties display_name="Wotecorix" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero15.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Wotecorix"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Ceasefire, Epic armor"/>
+
+</class>

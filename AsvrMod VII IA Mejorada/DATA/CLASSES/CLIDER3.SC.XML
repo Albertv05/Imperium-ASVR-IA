@@ -1,0 +1,14 @@
+<class id="CLider3" cpp_class="CVXHero" parent="CLider" entity="Units/CHero4/CHero4.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties help="/contents/units/CHero"/>
+	<properties HeroSkills="Administration, Leadership, Euphoria, Team defense, Defensive cry, Discipline"/>
+	<properties display_name="General supremo Sikarbaal" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Carthage/Heroes/General supremo Sikarbaal"/>
+	<properties icon="gameres/icons/CLIDER3.bmp"/>
+
+	<sounds command="data/sound entities/VoiceCHero.xml"/>
+
+
+
+</class>

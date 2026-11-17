@@ -1,0 +1,9 @@
+<class id="EHero3" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties display_name="Imhotep" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero3.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Imhotep"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Administration, Epic armor"/>
+
+</class>

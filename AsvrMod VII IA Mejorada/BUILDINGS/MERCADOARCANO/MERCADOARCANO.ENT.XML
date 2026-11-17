@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../entity.xsl"?>
+
+<entity name="MERCADOARCANO" type="vx/building" variations="1" pass_file="MERCADOARCANO.pass">
+<images>
+<image idx="1" file="LAYER1A.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="2" file="LAYER1B.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="3" file="LAYER2A.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="4" file="LAYER2B.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="5" file="LAYER3A.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="6" file="LAYER3B.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+<image idx="7" file="LAYER3C.RLE" drawmode="player_color" remaping="none" rows="4" columns="1"/>
+
+
+</images>
+
+<points>
+<point idx="1" type="1" x="5" y="9"/>
+<point idx="2" type="2" x="4" y="9"/>
+<point idx="3" type="11" x="25" y="12"/>
+<point idx="4" type="12" x="-14" y="-1"/>
+<point idx="5" type="16" x="-31" y="70"/>
+<point idx="6" type="16" x="157" y="-77"/>
+<point idx="7" type="16" x="-30" y="118"/>
+<point idx="8" type="16" x="168" y="-33"/>
+<point idx="9" type="16" x="-4" y="-15"/>
+<point idx="10" type="11" x="106" y="81"/>
+</points>
+<layers>
+
+<layer idx="1" name="LAYER1A" image="1" z="1000" offsetx="-140" offsety="-20" sortoffsetx="0" sortoffsety="0" xray="0"/>
+<layer idx="2" name="LAYER1B" image="2" z="1000" offsetx="-140" offsety="-188" sortoffsetx="0" sortoffsety="0" xray="0"/>
+<layer idx="3" name="LAYER2A" image="3" z="1000" offsetx="-21" offsety="30" sortoffsetx="0" sortoffsety="80" xray="0"/>
+<layer idx="4" name="LAYER2B" image="4" z="1000" offsetx="-21" offsety="-75" sortoffsetx="0" sortoffsety="80" xray="0"/>
+<layer idx="5" name="LAYER3A" image="5" z="500" offsetx="-249" offsety="61" sortoffsetx="0" sortoffsety="0" xray="0"/>
+<layer idx="6" name="LAYER3B" image="6" z="500" offsetx="-249" offsety="-74" sortoffsetx="0" sortoffsety="0" xray="0"/>
+<layer idx="7" name="LAYER3C" image="7" z="500" offsetx="-249" offsety="-188" sortoffsetx="0" sortoffsety="0" xray="0"/>
+
+</layers>
+<states>
+<state idx="1" name="0" image_idx="0" image_row="0" offsetx="0" offsety="0" anim_idx="65536" anim_frame="65536"/>
+<state idx="2" name="1" image_idx="0" image_row="0" offsetx="0" offsety="0" anim_idx="65536" anim_frame="65536"/>
+<state idx="3" name="2" image_idx="0" image_row="0" offsetx="0" offsety="0" anim_idx="65536" anim_frame="65536"/>
+<state idx="4" name="3" image_idx="0" image_row="0" offsetx="0" offsety="0" anim_idx="65536" anim_frame="65536"/>
+</states>
+<anims>
+</anims>
+</entity>

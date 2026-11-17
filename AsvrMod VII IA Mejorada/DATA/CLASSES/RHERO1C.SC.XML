@@ -1,0 +1,9 @@
+<class id="RHero1c" cpp_class="CVXHero" parent="RepublicanRomanHero" entity="Units/RHero1/RHero1.ent.xml">
+
+	<properties display_name="Durio" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/RHero14.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/R Durio"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Assault, Epic attack"/>
+
+</class>

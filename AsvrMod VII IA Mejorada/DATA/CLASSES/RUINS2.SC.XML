@@ -1,0 +1,45 @@
+<class id="Ruins2" cpp_class="CVXBuilding" parent="BaseRuins" entity="Buildings/Piramide/Piramide.ent.xml">
+
+	<properties edittree_pos="Structures/Interactive/Piramide"/>
+	<properties radius="250" selection_radius="255"/>
+	<properties display_name="Piramide"/>
+	<properties hides_units="0"/>
+	<properties icon="gameres/icons/Piramide1.bmp"/>
+	<properties minimap_icon_type="black"/>
+
+	<properties itemtype="Conjuro oscuro"/>
+	<properties itemtype="Impetu faraonico"/>
+	<properties itemtype="Pluma de fenix"/>
+	<properties itemtype="Golden Ankh"/>
+	<properties itemtype="Ankh de plata"/>
+	<properties itemtype="Ankh de cobre"/>
+
+	<properties itemtype="Concentration stone"/>
+	<properties itemtype="Peto del Nilo"/>
+	<properties itemtype="Brazaletes del Nilo"/>
+
+	<properties itemtype="Piedad de Isis"/>
+	<properties itemtype="Orbe del conocimiento de Thot"/>
+	<properties itemtype="Mascara funeraria de Anubis"/>
+	<properties itemtype="Efigie divina de Ra"/>
+	<properties itemtype="Corona del alto y bajo Egipto"/>
+
+	<properties itemtype="Pocion extraordinaria"/>
+	<properties itemtype="Roca supurante"/>
+	<properties itemtype="Orbe del fuego destructor"/>
+	<properties itemtype="Cristal de sangre"/>
+	<properties itemtype="Cornucopia de la abundancia"/>
+	<properties itemtype="Gema aurea de Midas"/>
+	<properties itemtype="Arco solar"/>
+	<properties itemtype="Arco lunar"/>
+	<properties itemtype="Odre del agua inagotable"/>
+	<properties itemtype="Colgante estelar"/>
+	<properties itemtype="Tesoro"/>
+	<properties itemtype="Daga de la manticora"/>
+
+
+
+
+
+
+</class>

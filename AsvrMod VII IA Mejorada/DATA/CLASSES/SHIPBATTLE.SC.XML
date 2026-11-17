@@ -1,0 +1,75 @@
+<class id="ShipBattle" cpp_class="CVXShip" parent="Ranged" entity="">
+
+	<properties maxhealth="3000"/>
+	<properties sight="850"/>
+	<properties damage="200" armor_slash="10" armor_pierce="15"/>
+	<properties splash_radius="100"/>
+	<properties range="800"/>
+	<properties max_units_to_board="70"/>
+	<properties unit_specials="Penetration, Freedom"/>
+	<properties healthbar_type="1"/>
+	<properties maxstamina="100"/>
+
+	<properties damage_type="siege"/>
+	<properties water_unit="1"/>
+	<properties radius="90" selection_radius="90" speed="240"/>
+	<properties interface="thumb,unit,holder"/>
+	<properties projectile_class="Big_Arrow"/>
+	<properties building_projectile_class="Big_Arrow"/>
+	<properties icon="gameres/icons/Ship.bmp"/>
+	<properties description="-Atraviesa las defensas de los enemigos. \n-Puede transportar hasta 70 unidades."/>
+	<properties display_name="Ship" display_name_plural="Ships"/>
+	<properties help="/contents/units/Ship"/>
+
+
+	<method sig="boardunit" vs="data/subai/ship_board.vs" verify="data/subai/ship_board_verify.vs" onfinish="data/subai/ship_board_onfinish.vs"/>
+	<method sig="unboard" vs="data/subai/ship_unboard.vs"/>
+	<method sig="unboardall" vs="data/subai/ship_unboard_all.vs" verify="data/subai/ship_unboard_all_verify.vs"/>
+	<method sig="idle" vs="data/subai/ship_idle.vs"/>
+	<method sig="aitransport" vs="data/subai/ship_aitransport.vs"/>
+	<method sig="enter" vs= "data/subai/ship_enter.vs" verify="data/subai/ship_enter_verify.vs"/>
+	<method sig="move" vs= "data/subai/ship_move.vs"/>
+
+	<sounds attack="nothing" />
+	<sounds die="ShipDeath" />
+	<sounds walk="ShipWalk" />
+
+	<defaultcmd target="ShipBattle">
+		<cmd name="attack"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+	<defaultcmd target="ShipS">
+		<cmd name="attack"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+	<defaultcmd target="Unit">
+		<cmd name="boardunit"/>
+		<cmd name="attack"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+	<defaultcmd target="Building">
+		<cmd name="attack"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage;"
+		help="/contents/stats/attack"
+		rollover="Damage"/>
+
+	<value2
+		icon="gameres/infobar/common/defense ico.bmp"
+		script="return .AsUnit.armor_slash + ' - ' + .AsUnit.armor_pierce;"
+		help="/contents/stats/defense"
+		rollover="Defensa cuerpo a cuerpo - Defensa contra ataques a distancia."/>
+
+	<value3
+		icon=""
+		script=""
+		help=""/>
+
+</class>

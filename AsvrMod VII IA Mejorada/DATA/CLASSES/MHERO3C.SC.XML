@@ -1,0 +1,9 @@
+<class id="MHero3c" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/Caesar/Caesar.ent.xml">
+
+	<properties display_name="Claudius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero34.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Claudius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Discipline, Healing"/>
+
+</class>

@@ -1,0 +1,9 @@
+<class id="GHero4c" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHero4/GHero4.ent.xml">
+
+	<properties display_name="Orgetorix " display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero44.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Orgetorix"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Concealment, Epic armor"/>
+
+</class>

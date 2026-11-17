@@ -1,0 +1,9 @@
+<class id="CHero2e" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero2/CHero2.ent.xml">
+
+	<properties display_name="Adon" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO26.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Adon"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Team attack, Scout"/>
+
+</class>

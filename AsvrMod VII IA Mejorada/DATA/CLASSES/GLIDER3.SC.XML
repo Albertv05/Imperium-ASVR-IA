@@ -1,0 +1,15 @@
+<class id="GLider3" cpp_class="CVXHero" parent="GLider" entity="Units/NHero1/NHero1.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties help="/contents/units/GHero"/>
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Ceasefire, Administration, Quick March"/>
+	<properties display_name="Gran Jefe Cearbhall" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Gran jefe Cearbhall"/>
+	<properties icon="gameres/icons/GLIDER3.bmp"/>
+	<properties max_army="70"/>
+
+	<sounds command="data/sound entities/VoiceGHero.xml"/>
+
+
+
+</class>

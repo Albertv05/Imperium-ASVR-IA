@@ -1,0 +1,9 @@
+<class id="CHero1c" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero1/CHero1.ent.xml">
+
+	<properties display_name="Bythia" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO14.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Bythia"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Quick March, Recovery"/>
+
+</class>

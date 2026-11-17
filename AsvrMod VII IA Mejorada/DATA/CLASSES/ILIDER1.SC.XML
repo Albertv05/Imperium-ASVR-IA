@@ -1,0 +1,15 @@
+<class id="ILider1" cpp_class="CVXHero" parent="ILider" entity="Units/IHero1/IHero1.ent.xml">
+
+
+	<properties race="Iberia"/>
+	<properties help="/contents/units/IHero"/>
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Survival, Quick March, Euphoria"/>
+	<properties display_name="Lider Buntalos" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Lider Buntalos"/>
+	<properties icon="gameres/icons/ILIDER1.bmp"/>
+
+	<sounds command="data/sound entities/VoiceIHero.xml"/>
+
+
+
+</class>

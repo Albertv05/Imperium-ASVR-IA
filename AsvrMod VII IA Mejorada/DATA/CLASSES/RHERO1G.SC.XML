@@ -1,0 +1,9 @@
+<class id="RHero1g" cpp_class="CVXHero" parent="RepublicanRomanHero" entity="Units/RHero1/RHero1.ent.xml">
+
+	<properties display_name="Regillus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/RHero18.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/R Regillus"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Assault, Ceasefire"/>
+
+</class>

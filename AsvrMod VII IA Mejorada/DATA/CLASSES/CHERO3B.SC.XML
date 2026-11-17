@@ -1,0 +1,9 @@
+<class id="CHero3b" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero3/CHero3.ent.xml">
+
+	<properties display_name="Saunites" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO33.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Saunites"/>
+	
+	<properties HeroSkills="Administration, Leadership, Euphoria, Epic attack, Battle cry"/>
+
+</class>

@@ -1,0 +1,9 @@
+<class id="MHero3e" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/Caesar/Caesar.ent.xml">
+
+	<properties display_name="Silo" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero36.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Silo"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Discipline, Assault"/>
+
+</class>

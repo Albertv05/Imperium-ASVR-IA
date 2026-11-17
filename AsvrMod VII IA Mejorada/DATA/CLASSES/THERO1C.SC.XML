@@ -1,0 +1,11 @@
+<class id="THero1c" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero1/THero1.ent.xml">
+
+	<properties display_name="Hrodric" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero14.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Hrodric"/>
+	
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Defensive cry, Concealment"/>
+
+
+</class>

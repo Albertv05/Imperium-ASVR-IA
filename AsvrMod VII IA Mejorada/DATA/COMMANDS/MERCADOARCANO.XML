@@ -1,0 +1,66 @@
+<commands>
+
+<!-- GATE COMMANDS -->
+
+<cmd name="mercadoarcanocomprar1" priority="1"
+	execdelay = "10000"
+	key="a"
+	costgold = "500"
+	costfood="0"
+	method="mercadoarcanocomprar1"
+	researchcommand="yes"
+	groupverifier="data/subai/mercadoarcanocomprar1_verify.vs"
+	button="actions/comprar.bmp"
+	rollover="Comprar artefacto normal"
+	description = "Compra y equipa el artefacto normal disponible actualmente en el mercado arcano"
+	>
+	<src obj="MercadoArcano"/>
+</cmd>
+
+<cmd name="mercadoarcanocomprar2" priority="1"
+	execdelay = "10000"
+	key="b"
+	costgold = "3000"
+	costfood="0"
+	method="mercadoarcanocomprar2"
+	researchcommand="yes"
+	groupverifier="data/subai/mercadoarcanocomprar2_verify.vs"
+	button="actions/comprar.bmp"
+	rollover="Comprar artefacto epico"
+	description = "Compra y equipa el artefacto epico disponible actualmente en el mercado arcano"
+	>
+	<src obj="MercadoArcano"/>
+</cmd>
+
+<cmd name="mercadoarcanocomprar3" priority="1"
+	execdelay = "10000"
+	key="c"
+	costgold = "6000"
+	costfood="0"
+	method="mercadoarcanocomprar3"
+	researchcommand="yes"
+	groupverifier="data/subai/mercadoarcanocomprar3_verify.vs"
+	button="actions/comprar.bmp"
+	rollover="Comprar artefacto legendario"
+	description = "Compra y equipa el artefacto legendario disponible actualmente en el mercado arcano"
+	>
+	<src obj="MercadoArcano"/>
+</cmd>
+
+<cmd name="mercadoarcanocomprar4" priority="1"
+	execdelay = "10000"
+	key="d"
+	costgold = "12000"
+	costfood="0"
+	method="mercadoarcanocomprar4"
+	researchcommand="yes"
+	groupverifier="data/subai/mercadoarcanocomprar4_verify.vs"
+	button="actions/comprar.bmp"
+	rollover="Comprar artefacto divino"
+	description = "Compra y equipa el artefacto divino disponible actualmente en el mercado arcano"
+	>
+	<src obj="MercadoArcano"/>
+</cmd>
+
+
+</commands>

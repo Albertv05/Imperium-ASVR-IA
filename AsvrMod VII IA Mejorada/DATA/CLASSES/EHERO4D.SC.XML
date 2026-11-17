@@ -1,0 +1,11 @@
+<class id="EHero4d" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties display_name="Heqet" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero45.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Heqet"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Concealment, Ceasefire"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>

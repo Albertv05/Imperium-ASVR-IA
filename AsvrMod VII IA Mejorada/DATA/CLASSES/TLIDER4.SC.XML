@@ -1,0 +1,14 @@
+<class id="TLider4" cpp_class="CVXHero" parent="TLider" entity="Units/GHero2/GHero2.ent.xml">
+
+	<properties race="Germany"/>
+	<properties help="/contents/units/THero"/>
+	<properties HeroSkills="Quick March, Assault, Euphoria, Epic attack, Frenzy, Team defense"/>
+	<properties display_name="Caudillo Odovacar" display_name_plural="Heroes"/>
+<properties edittree_pos="Units/Germany/Heroes/Caudillo Odovacar"/>
+	<properties icon="gameres/icons/TLIDER4.bmp"/>
+
+	<sounds command="data/sound entities/VoiceTHero.xml"/>
+
+
+
+</class>

@@ -1,0 +1,16 @@
+<class id="CLider1" cpp_class="CVXHero" parent="CLider" entity="Units/CHero1/CHero1.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties help="/contents/units/CHero"/>
+	<properties HeroSkills="Administration, Leadership, Euphoria, Quick March, Survival, Recovery"/>
+	<properties display_name="General supremo Baldassare" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Carthage/Heroes/General supremo Baldassare"/>
+	<properties icon="gameres/icons/CLIDER1.bmp"/>
+	<properties max_army="70"/>
+
+
+	<sounds command="data/sound entities/VoiceCHero.xml"/>
+
+
+
+</class>

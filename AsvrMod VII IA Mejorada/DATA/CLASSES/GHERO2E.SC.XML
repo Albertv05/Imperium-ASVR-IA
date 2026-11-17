@@ -1,0 +1,9 @@
+<class id="GHero2e" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHero3/GHero3.ent.xml">
+
+	<properties display_name="Brennus " display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero26.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Brennus"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Wisdom, Recovery"/>
+
+</class>

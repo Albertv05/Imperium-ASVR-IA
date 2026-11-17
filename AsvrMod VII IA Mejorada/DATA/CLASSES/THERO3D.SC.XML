@@ -1,0 +1,9 @@
+<class id="THero3d" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero3/THero3.ent.xml">
+
+	<properties display_name="Hedwig" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero35.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Hedwig"/>
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team attack, Frenzy"/>
+
+</class>

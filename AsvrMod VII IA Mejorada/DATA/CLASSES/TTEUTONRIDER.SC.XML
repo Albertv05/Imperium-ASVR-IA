@@ -1,0 +1,22 @@
+<class id="TTeutonRider" cpp_class="CVXUnit" parent="Horse" entity="Units/TTeutonRider/TTeutonRider.ent.xml">
+
+	<properties race="Germany"/>
+	<properties maxhealth="600"/>
+	<properties damage="20" armor_slash="6" armor_pierce="6"/>
+	<properties speed="130"/>
+	<properties unit_specials="Charge, Trample"/>
+	<properties healthbar_type="3"/>
+
+	<properties max_food="25"/>
+
+	<properties icon="gameres/icons/TTeutonRider.bmp"/>
+	<properties display_name="Teuton Rider" display_name_plural="Teuton Riders"/>
+	<properties help="contents/units/TRider"/>
+	<properties edittree_pos="Units/Germany/Teuton Rider"/>
+	<sounds command="data/sound entities/VoiceTTeutonRider.xml"/>
+
+	<method sig="toTeutonArcher" vs="data/subai/teuton_convert.vs"/>
+
+
+
+</class>

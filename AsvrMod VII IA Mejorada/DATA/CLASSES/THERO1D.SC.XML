@@ -1,0 +1,11 @@
+<class id="THero1d" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero1/THero1.ent.xml">
+
+	<properties display_name="Selig" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero15.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Selig"/>
+	
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Defensive cry, Scout"/>
+
+
+</class>

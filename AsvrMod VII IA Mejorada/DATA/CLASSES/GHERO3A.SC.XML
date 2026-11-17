@@ -1,0 +1,12 @@
+<class id="GHero3a" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties display_name="Darhin" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero32.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Darhin"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Rush"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>
+

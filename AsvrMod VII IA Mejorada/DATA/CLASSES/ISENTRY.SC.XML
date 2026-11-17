@@ -1,0 +1,9 @@
+<class id="ISentry" cpp_class="CVXUnit" parent="Sentry" entity="Units/IArcher/ISentry.ent.xml">
+
+	<properties race="Iberia"/>
+	<properties maxhealth="200"/>
+	<properties damage="20" armor_slash="2" armor_pierce="2"/>
+	<properties icon="gameres/icons/IArcher.bmp"/>
+	<properties unit_specials="Drain, Freedom"/>
+
+</class>

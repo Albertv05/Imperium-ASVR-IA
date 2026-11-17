@@ -1,0 +1,15 @@
+<class id="ELider3" cpp_class="CVXHero" parent="ELider" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties race="Egypt"/>
+	<properties help="/contents/units/CHero"/>
+	<properties HeroSkills="Recovery, Vigor, Survival, Administration, Discipline, Epic endurance"/>
+	<properties display_name="Mano del faraon Heru" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Mano del faraon Heru"/>
+
+	<properties icon="gameres/icons/ELIDER3.bmp"/>
+
+	<sounds command="data/sound entities/VoiceEHero.xml"/>
+
+
+
+</class>

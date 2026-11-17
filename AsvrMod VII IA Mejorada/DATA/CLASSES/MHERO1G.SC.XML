@@ -1,0 +1,9 @@
+<class id="MHero1g" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero4/RHero4.ent.xml">
+
+	<properties display_name="Lartius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero18.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Lartius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Rush"/>
+
+</class>

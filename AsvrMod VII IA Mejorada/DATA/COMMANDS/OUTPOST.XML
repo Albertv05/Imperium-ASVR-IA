@@ -1,0 +1,39 @@
+<commands>
+
+<!-- OUTPOST COMMANDS -->
+
+<cmd name="Outpost Attack" priority="0"
+     method="attack"
+     button="Actions/Attack.bmp"
+     key="a"
+     rollover="Attack"
+>
+     <cmdtext target="Unit"
+	      text="Click to attack this enemy"/>
+
+     <src obj="Outpost"/>
+</cmd>
+
+<cmd name="trabajosforzosos_start" priority="9"
+	immediate="yes"
+	key="a"
+	method="trabajosforzosos_start"
+	groupverifier="data/subai/trabajosforzosos_start_verify.vs"
+	button="actions/trabajos.BMP"
+	description="Los mineros son obligados a trabajar sin descanso aumentando la produccion de la mina a costa de sus vidas."
+	rollover="Comenzar trabajos forzosos">
+     <src obj="IronMine"/>
+</cmd>
+
+<cmd name="trabajosforzosos_stop" priority="9"
+	immediate="yes"
+	key="a"
+	method="trabajosforzosos_stop"
+	groupverifier="data/subai/trabajosforzosos_stop_verify.vs"
+	button="actions/trabajos2.BMP"
+	description="Los mineros trabajan con normalidad disminuyendo la produccion de la mina."
+	rollover="Parar trabajos forzosos">
+     <src obj="IronMine"/>
+</cmd>
+
+</commands>

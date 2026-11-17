@@ -1,0 +1,21 @@
+<class id="TValkyrie" cpp_class="CVXUnit" parent="Horse" entity="Units/TValkyrie/TValkyrie.ent.xml">
+
+	<properties race="Germany"/>
+	<properties maxhealth="700"/>
+	<properties damage="60" armor_slash="12" armor_pierce="12"/>
+	<properties speed="160"/>
+	<properties unit_specials="Charge, Expertise, Ferocity"/>
+	<properties healthbar_type="3"/>
+
+	<properties max_food="25"/>
+
+	<properties icon="gameres/icons/TValkyrie.bmp"/>
+	<properties display_name="Valkyrie" display_name_plural="Valkyries"/>
+	<properties help="contents/units/TValkyrie"/>
+	<properties edittree_pos="Units/Germany/Valkyrie"/>
+	<properties description="-Inmune al miedo."/>
+	<sounds command="data/sound entities/VoiceTValkyrie.xml"/>
+
+	<behavior script="data/subai/Valor.vs"/>
+
+</class>

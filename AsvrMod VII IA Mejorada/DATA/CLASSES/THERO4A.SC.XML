@@ -1,0 +1,10 @@
+<class id="THero4a" cpp_class="CVXHero" parent="GermanHero" entity="Units/GHero2/GHero2.ent.xml">
+
+	<properties display_name="Heiner" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero42.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Heiner"/>
+
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Epic attack, Charge"/>
+
+</class>

@@ -1,0 +1,4 @@
+<class id="Pt3" cpp_class="CVXScriptObj" parent="Object" entity="MapObjects/CampWeaponRack2/CampWeaponRack2.ent.xml">
+
+		<method sig="idle" vs="data/subai/pt.vs"/>
+</class>

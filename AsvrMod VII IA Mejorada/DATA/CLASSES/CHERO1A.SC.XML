@@ -1,0 +1,10 @@
+<class id="CHero1a" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero1/CHero1.ent.xml">
+
+	<properties display_name="Xanthippus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO12.BMP"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Xanthippus"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Quick March, Scout"/>
+
+
+</class>

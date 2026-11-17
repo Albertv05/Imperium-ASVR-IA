@@ -1,0 +1,9 @@
+<class id="THero2e" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero2/THero2.ent.xml">
+
+	<properties display_name="Reudilo" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero26.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Reudilo"/>
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team defense, Vigor"/>
+
+</class>

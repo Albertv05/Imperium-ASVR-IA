@@ -1,0 +1,11 @@
+<class id="GHero3e" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties display_name="Lannildut" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero36.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Lannildut"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Concealment"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>

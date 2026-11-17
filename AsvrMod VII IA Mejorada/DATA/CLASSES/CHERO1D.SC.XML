@@ -1,0 +1,9 @@
+<class id="CHero1d" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero1/CHero1.ent.xml">
+
+	<properties display_name="Ahirom" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO15.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Ahirom"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Quick March, Discipline"/>
+
+</class>

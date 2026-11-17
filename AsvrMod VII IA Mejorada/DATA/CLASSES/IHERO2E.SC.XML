@@ -1,0 +1,10 @@
+<class id="IHero2e" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero2/IHero2.ent.xml">
+
+	<properties display_name="Mikolaus" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero26.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Mikolaus "/>
+
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Epic endurance, Quick March"/>
+
+
+</class>

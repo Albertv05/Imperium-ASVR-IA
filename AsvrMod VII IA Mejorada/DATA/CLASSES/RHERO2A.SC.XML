@@ -1,0 +1,9 @@
+<class id="RHero2a" cpp_class="CVXHero" parent="RepublicanRomanHero" entity="Units/RHero2/RHero2.ent.xml">
+
+	<properties display_name="Epicydes" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/RHero22.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/R Epicydes"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Euphoria, Discipline"/>
+
+</class>

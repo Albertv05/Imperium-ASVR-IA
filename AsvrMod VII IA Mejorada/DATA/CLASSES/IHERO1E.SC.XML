@@ -1,0 +1,9 @@
+<class id="IHero1e" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero1/IHero1.ent.xml">
+
+	<properties display_name="Megaravicos" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero16.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Megaravicos"/>
+
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Survival, Team attack"/>
+
+</class>

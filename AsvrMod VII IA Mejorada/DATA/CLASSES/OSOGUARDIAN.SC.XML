@@ -1,0 +1,36 @@
+<class id="OsoGuardian" cpp_class="CVXUnit" parent="AttackAnimal" entity="units/Bear/Bear.ent.xml">
+
+	<properties maxhealth="800"/>
+	<properties damage="40" armor_slash="8" armor_pierce="8"/>
+
+	<properties damage_type="slash"/>
+	<properties radius="39" selection_radius="40"/>
+	<properties sight="400"/>
+	<properties speed="80"/>
+	<properties unit_specials="Regeneration, Toughness, Defense skill"/>
+	<properties inventory_size="2"/>
+	<properties repair_rate="0"/>
+	<properties damaged_by_ghost="1"/>
+	<properties can_be_invisible="0" always_visible_on_minimap="0"/>
+	<properties feeds="0"/>
+
+	<properties formation_priority="1600"/>
+
+	<properties icon="gameres/icons/osoguardian.bmp"/>
+	<properties display_name="Oso guardian" display_name_plural="Osos guardianes"/>
+	<properties help="contents/units/Bear"/>
+	<properties edittree_pos="Units/Animals/Oso guardian"/>
+	<properties description="-Causa miedo. \n-Inmune al miedo. \n-No necesita comer. \n-Detecta unidades ocultas."/>
+
+
+	<sounds 
+		attack="Sounds/animals/Bear/Bear_attack.wav"
+		die ="Sounds/animals/Bear/Bear_die.wav"
+		idle="BearIdle"
+	/>
+
+	<behavior script="data/subai/keensight_observe.vs"/>
+	<behavior script="data/subai/miedo.vs"/>
+	<behavior script="data/subai/valor.vs"/>
+
+</class>

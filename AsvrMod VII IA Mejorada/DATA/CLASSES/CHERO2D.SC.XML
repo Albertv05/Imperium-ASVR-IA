@@ -1,0 +1,9 @@
+<class id="CHero2d" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero2/CHero2.ent.xml">
+
+	<properties display_name="Ayin" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO25.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Ayin"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Team attack, Egoism"/>
+
+</class>

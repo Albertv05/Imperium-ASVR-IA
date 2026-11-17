@@ -1,0 +1,39 @@
+<class id="Perro" cpp_class="CVXUnit" parent="AttackAnimal" entity="Units/Perro/Perro.ent.xml">
+
+	<properties maxhealth="150"/>
+	<properties damage="30" armor_slash="4" armor_pierce="4"/>
+	<properties feeds="1" max_food="10"/>
+	<properties damage_type="slash"/>
+	<properties radius="19" selection_radius="20"/>
+	<properties sight="600"/>
+	<properties speed="140"/>
+
+	<properties repair_rate="0"/>
+	<properties damaged_by_ghost="1"/>
+	<properties can_be_invisible="0" always_visible_on_minimap="0"/>
+
+	<properties inventory_size="2"/>
+
+	<properties formation_priority="1600"/>
+
+	<properties icon="gameres/icons/perro.bmp"/>
+	<properties display_name="Perro de guerra" display_name_plural="Perros de guerra"/>
+	<properties help="contents/units/Wolf"/>
+	<properties edittree_pos="Units/Animals/Perro de guerra"/>
+
+	<properties description="-Se vuelven neutrales si pasan hambre. \n-Recuperan viveres al matar."/>
+
+	<behavior script="data/subai/Rastreo.vs"/>
+	<behavior script="data/subai/Aterrador.vs"/>
+
+	<behavior script="data/subai/keensight_observe.vs"/>
+	<behavior script="data/subai/perros.vs"/>
+
+
+	<sounds 
+		die="Sounds/animals/wolf/wolf_die.wav"
+		attack="WolfAttack"
+		command="Sounds/animals/wolf/wolf_command.wav"
+	/>
+
+</class>

@@ -1,0 +1,1 @@
+owner.AsUnit().SetLevel(owner.AsUnit().inherentlevel - GetUseCount());

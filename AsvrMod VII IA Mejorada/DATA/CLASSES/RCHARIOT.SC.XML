@@ -1,0 +1,30 @@
+<class id="RChariot" cpp_class="CVXUnit" parent="Horse" entity="units/RChariot/RChariot.ent.xml">
+
+	<properties race="RepublicanRome"/>
+	<properties maxhealth="1200"/>
+	<properties damage="20" armor_slash="10" armor_pierce="10"/>
+	<properties sight="600" range="400" min_range="200" damage_type="pierce"/>
+	<properties speed="120"/>
+	<properties unit_specials="Bleeding attack, Combat skill"/>
+	<properties healthbar_type="3"/>
+
+	<properties max_food="40"/>
+	<properties formation_radius="60"/>
+	<properties radius="40" selection_radius="45"/>
+	<properties icon="gameres/icons/RChariot.bmp"/>
+	<properties display_name="Chariot" display_name_plural="Chariots"/>
+	<properties help="contents/units/RChariot"/>
+	<properties edittree_pos="Units/Roman/Chariot"/>
+
+	<sounds command="data/sound entities/VoiceRChariot.xml"/>
+	<sounds attack="UnitArrowFight" die="UnitDeath"/>
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

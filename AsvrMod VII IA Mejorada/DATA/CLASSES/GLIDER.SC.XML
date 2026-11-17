@@ -1,0 +1,12 @@
+<class id="GLider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1400"/>
+	<properties damage="50" armor_slash="12" armor_pierce="12"/>
+	<properties race="Gaul"/>
+	<properties help="/contents/units/GHero"/>
+
+	<sounds command="data/sound entities/VoiceGHero.xml"/>
+
+
+
+</class>

@@ -1,0 +1,16 @@
+<class id="ELider4" cpp_class="CVXHero" parent="ELider" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties race="Egypt"/>
+	<properties help="/contents/units/CHero"/>
+	<properties HeroSkills="Recovery, Vigor, Survival, Concealment, Assault, Egoism"/>
+	<properties display_name="Mano del faraon Asenath" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Mano del faraon Asenath"/>
+	<properties max_army="70"/>
+
+	<properties icon="gameres/icons/ELIDER4.bmp"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+
+
+</class>

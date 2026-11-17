@@ -1,0 +1,157 @@
+<commands>
+
+<!-- TEMPLE COMMANDS -->
+<!-- NOTE : train command must have names like this:"trainClassName" -->
+<!--        where ClassName is the class of the unit to be trained -->
+
+<cmd name="repairCTemple" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay = "60000">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="trainCShaman" priority="2"
+	button="actions/hire CShaman.bmp"
+	queueicon="gameres/icons/CShaman.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	traincommand="yes"
+	transpicon="1"
+	key="s"
+	help="/contents/units/CShaman"
+	costgold = "500"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "20000"
+	rollover="Call Shaman"
+	method="train"
+	param="CShaman"
+	sclass="CShaman">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Dark Rituals" priority="3"
+	button="research/dark rituals.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/Dark Rituals.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1000"
+	costfood = "0"
+	costpop = "30"
+	execdelay = "40000"
+	rollover="Dark Rituals"
+	description="Allows a shaman to feed 2 nearby allies"
+	method="research"
+	param="NameSet, Dark Rituals, default, NamePlr, Foraging, default">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Zombify" priority="4"
+	queueicon="gameres/icons/upgrades/Zombify.bmp"
+	button="research/zombify.bmp"
+	key="z"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Zombify"
+	description="Allows shamans to transform to ghouls when they die in battle or sacrifice themselves"
+	method="research"
+	param="ReqSet, Dark Rituals, default, NamePlr, Zombify, default">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Posesion" priority="5"
+	button="actions/posesion.bmp"
+	queueicon="gameres/icons/upgrades/posesion.bmp"
+	key="j"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Posesion"
+	description="Permite a los chamanes poseer unidades enemigas sacrificando su propia vida."
+	method="research"
+	param="ReqSet, Dark Rituals, default, NamePlr, Posesion, default">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Sacred Legion" priority="6"
+	button="Upgrades/Sacred Legion.bmp"
+	queueicon="gameres/icons/upgrades/Sacred Legion.bmp"
+	key="l"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "5000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Sacred Legion"
+	description="Allows Nobles to be equipped in the Temple"
+	method="research"
+	param="ReqSet, Dark Rituals, default, NameSet,Sacred Legion,default,NameSet, CNoble, ">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Culto de Moloch" priority="7"
+	queueicon="gameres/icons/upgrades/Culto de Moloch.bmp"
+	key="f"
+	button="research/Culto de Moloch.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Culto de Moloch"
+	description="Los nuevos nobles comienzan con la ira de Moloch que les otorga la habilidad furia y les permite causar miedo hasta que acaban con su primer enemigo."
+	method="research"
+	param="ReqSet, Sacred Legion, default, NameSet, Culto de Moloch, default">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="trainCNoble" priority="2"
+	button="actions/train CNoble.bmp"
+	queueicon="gameres/icons/CNoble.bmp"
+	groupverifier="data/subai/barrack_train_verify.vs"
+	transpicon="1"
+	traincommand="yes"
+	key="n"
+	help="/contents/units/CNoble"
+	costgold = "400"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "20000"
+	rollover="Equip Noble"
+	method="train"
+	param="CNoble"
+	sclass="CNoble">
+	<src obj="CTemple"/>
+</cmd>
+
+<cmd name="Ferocity" priority="5"
+	queueicon="gameres/icons/upgrades/ferocity.bmp"
+	key="f"
+	button="research/ferocity.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "3000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Fervor de Baal"
+	description="Allows a warrior to restores 3 stamina each time he kills an enemy"
+	method="research"
+	param="ReqSet, Dark Rituals, default, NamePlr, Ferocity, default">
+	<src obj="CTemple"/>
+</cmd>
+
+
+
+</commands>

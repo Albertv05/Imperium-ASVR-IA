@@ -1,0 +1,11 @@
+<class id="CHero4c" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero4/CHero4.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties display_name="Barekbaal" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO43.bmp"/>
+	<properties HeroSkills="Administration, Leadership, Euphoria, Team defense, Discipline"/>
+<properties edittree_pos="Units/Carthage/Heroes/Barekbaal"/>
+
+
+	<sounds command="data/sound entities/VoiceCHero.xml"/>
+</class>

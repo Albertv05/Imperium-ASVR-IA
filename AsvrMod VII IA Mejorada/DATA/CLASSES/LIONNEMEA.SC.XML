@@ -1,0 +1,34 @@
+<class id="LionNemea" cpp_class="CVXUnit" parent="AttackAnimal" entity="units/LionM/LionM.ent.xml">
+
+	<properties maxhealth="1000"/>
+	<properties damage="80" armor_slash="12" armor_pierce="12"/>
+
+	<properties damage_type="slash"/>
+	<properties radius="39" selection_radius="40"/>
+	<properties sight="500"/>
+	<properties speed="120"/>
+	<properties unit_specials="Regeneration, Toughness, Offensive tactics"/>
+	<properties repair_rate="0"/>
+	<properties damaged_by_ghost="1"/>
+	<properties can_be_invisible="0" always_visible_on_minimap="0"/>
+	<properties feeds="0"/>
+	<properties inventory_size="2"/>
+
+	<properties formation_priority="1600"/>
+
+	<properties icon="gameres/icons/nemea.bmp"/>
+	<properties display_name="Leon de Nemea" display_name_plural="Leones de Nemea"/>
+	<properties help="contents/units/Lion"/>
+	<properties edittree_pos="Units/Animals/Leon de Nemea"/>
+	<properties description="-Causa miedo. \n-Inmune al miedo. \n-No necesita comer. \n-Detecta unidades ocultas."/>
+
+	<sounds 
+		die="Sounds/animals/Lion/Lion_die.wav"
+		attack="Sounds/animals/Lion/Lion_attack.wav"
+		command="Sounds/animals/Lion/Lion_idle.wav"
+	/>
+
+	<behavior script="data/subai/miedo.vs"/>
+	<behavior script="data/subai/keensight_observe.vs"/>
+	<behavior script="data/subai/valor.vs"/>
+</class>

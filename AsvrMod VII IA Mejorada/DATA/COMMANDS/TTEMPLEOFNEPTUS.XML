@@ -1,0 +1,181 @@
+<commands>
+
+<!-- TEMPLE COMMANDS -->
+<!-- NOTE : train command must have names like this:"trainClassName" -->
+<!--        where ClassName is the class of the unit to be trained -->
+
+<cmd name="repairTTempleOfNeptus" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay = "60000">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="trainTEnchantress" priority="1"
+	button="actions/train TEnchantress.bmp"
+	queueicon="gameres/icons/TEnchantress.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	traincommand="yes"
+	transpicon="1"
+	key="s"
+	help="/contents/units/TEnchantress"
+	costgold = "350"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "20000"
+	rollover="Call Enchantress"
+	method="train"
+	param="TEnchantress"
+	sclass="TEnchantress">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="German chamber" priority="2"
+	key="r"
+	button="research/ritual chamber.bmp"
+	queueicon="gameres/icons/upgrades/ritual chamber.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Ritual sagrado"
+	description="Allows enchantresses to gain experience by learning from more experienced warriors"
+	method="research"
+	param="NamePlr, Ritual sagrado, default, NameSet, Ritual sagrado, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="Control" priority="7"
+	queueicon="gameres/icons/upgrades/possess.bmp"
+	button="actions/possess.bmp"
+	key="w"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Control animal"
+	description="Las hechiceras pierden casi toda su salud al invocar animales, evitando su muerte si no estan previamente heridas"
+	method="research"
+	param="ReqSet, Ritual sagrado, default, NamePlr, Control, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="German Wolf Summoning" priority="4"
+	queueicon="gameres/icons/upgrades/summon wolf.bmp"
+	button="actions/summon wolf.bmp"
+	key="w"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "400"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Wolf summoning"
+	description="Allows enchantresses to sacrifice themselves and summon a wolf, which is under your control for about 3 minutes"
+	method="research"
+	param="ReqSet, Ritual sagrado, default, NamePlr, Wolf Summoning, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+<cmd name="German Eagle Summoning" priority="5"
+	queueicon="gameres/icons/upgrades/summon eagle.bmp"
+	button="actions/summon eagle.bmp"
+	key="e"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1200"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Eagle summoning"
+        description="Allows enchantresses to sacrifice themselves and summon an eagle, which is under your control for about 2 minutes"
+	method="research"
+	param="ReqSet, Ritual sagrado, default, NamePlr, Eagle Summoning, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+<cmd name="German Bear Summoning" priority="5"
+	queueicon="gameres/icons/upgrades/summon bear.bmp"
+	button="actions/summon bear.bmp"
+	key="b"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1600"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Invocar oso"
+        description="Permite a las hechiceras sacrificar su vida para invocar un oso."
+	method="research"
+	param="ReqSet, Ritual sagrado, default, NamePlr, Invocar oso, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="German Mass Heal" priority="6"
+	queueicon="gameres/icons/upgrades/Mass Healing.bmp"
+	button="research/Mass Healing.bmp"
+	key="h"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Mass Heal"
+	description="Allows enchantresses to sacrifice themselves to heal nearby allies"
+	method="research"
+	param="ReqSet, Ritual sagrado, default, NamePlr, Mass Heal, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="Amuleto de los caidos" priority="8"
+	button="upgrades/amuletocaidos.bmp"
+	queueicon="gameres/icons/upgrades/amuletocaidos.bmp"
+	key="G"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Amuleto de los caidos"
+	description="Todos los nuevos guerreros estan equipados con un amuleto de los caidos, que aumenta los puntos de rango que pueden ganar en combate."
+	method="research"
+	param="ReqPlr, Ritual sagrado, default, NameSet, Amuleto de los caidos, default, SetsSet, items/Amuleto de los caidos, 1">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="Alucinogenos" priority="9"
+	queueicon="gameres/icons/upgrades/alucinogenos.bmp"
+	key="a"
+	button="upgrades/alucinogenos.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "4000"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Alucinogenos"
+	description="Permite reclutar berserkers en el cuartel"
+	method="research"
+	param="ReqPlr, Ritual sagrado, default, NameSet, Alucinogenos, ,default, NameSet, NVAEL,">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+<cmd name="Furia salvaje" priority="9"
+	button="upgrades/furiasalvaje.bmp"
+	key="a"
+	queueicon="gameres/icons/upgrades/furiasalvaje.bmp"
+	costgold = "1000"
+	costfood = "0"
+	execdelay = "15000"
+	groupverifier="data/subai/verify_research.vs"
+	rollover="Furia salvaje"
+	description="Permite a los berserkers entrar en trance furioso, haciendo que ataquen descontroladamente a cualquier unidad cercana hasta morir"
+	method="research"
+	researchcommand="yes"
+	param="ReqSet, Alucinogenos, , NamePlr, Furia salvaje, default">
+	<src obj="TTempleOfNeptus"/>
+</cmd>
+
+</commands>

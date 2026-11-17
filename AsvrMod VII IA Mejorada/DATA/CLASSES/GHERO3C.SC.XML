@@ -1,0 +1,11 @@
+<class id="GHero3c" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties display_name="Tancogeistla " display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero34.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Tancogeistla "/>
+
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Wisdom"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>

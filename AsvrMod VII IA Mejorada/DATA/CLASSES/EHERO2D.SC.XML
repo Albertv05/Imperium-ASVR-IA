@@ -1,0 +1,9 @@
+<class id="EHero2d" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero2/EHero2.ent.xml">
+
+	<properties display_name="Aswad" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero25.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Aswad"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Wisdom, Frenzy"/>
+
+</class>

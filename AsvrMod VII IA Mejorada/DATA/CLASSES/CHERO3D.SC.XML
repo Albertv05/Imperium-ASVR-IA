@@ -1,0 +1,9 @@
+<class id="CHero3d" cpp_class="CVXHero" parent="CarthaginianHero" entity="Units/CHero3/CHero3.ent.xml">
+
+	<properties display_name="Adonibaal" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/CHERO35.bmp"/>
+	<properties edittree_pos="Units/Carthage/Heroes/Adonibaal"/>
+
+	<properties HeroSkills="Administration, Leadership, Euphoria, Epic attack, Rush"/>
+
+</class>

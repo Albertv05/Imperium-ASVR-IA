@@ -1,0 +1,10 @@
+<class id="IHero4c" cpp_class="CVXHero" parent="IberianHero" entity="Units/IHero4/IHero4.ent.xml">
+
+
+	<properties display_name="Deunoro" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/IHero44.bmp"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Deunoro"/>
+
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Quick March, Assault"/>
+
+</class>

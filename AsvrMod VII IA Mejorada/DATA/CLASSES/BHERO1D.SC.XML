@@ -1,0 +1,23 @@
+<class id="BHero1d" cpp_class="CVXHero" parent="BritonHero" entity="Units/BHero1/BHero1.ent.xml">
+
+	<properties display_name="Ula" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/BHero15.bmp"/>
+	<properties edittree_pos="Units/Britain/Heroes/Ula"/>
+
+	<properties HeroSkills="Charge, Scout, Assault, Quick March, Rush"/>
+
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<properties help="/contents/units/BHero"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

@@ -1,0 +1,11 @@
+<class id="GHero3b" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties display_name="Myrna" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero33.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Myrna"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Team attack"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>

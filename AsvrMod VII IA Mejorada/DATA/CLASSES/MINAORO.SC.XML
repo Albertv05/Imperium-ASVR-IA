@@ -1,0 +1,31 @@
+﻿<class id="IronMine" cpp_class="CVXBuilding" parent="BaseVillage"
+	entity="BUILDINGS/IronMine/IronMine.ent.xml">
+
+	<properties maxhealth="10000"/>
+	<properties display_name="Mina de Oro"/>
+	<properties icon="gameres/icons/MINA.bmp"/>
+
+	<properties interface="thumb,building,queue"/>
+	<properties radius="300" selection_radius="280"/>
+	<properties auto_repair="yes" repair_rate="350"/>
+	<properties edittree_pos="Structures/Interactive/Mina de oro"/>
+	<properties help="/contents/buildings/IronMine"/>
+	<properties description="Produce oro. Cuanta más población tenga, mayor será la producción"/>
+	<properties is_single_building="1"/>
+	<properties is_central_building="1"/>
+	<properties produces_gold="1"/>
+	<properties produces_food="0"/>
+	<properties settlement_food="0"/>
+	<properties settlement_gold="0"/>
+	<properties max_population="50"/>
+
+	<behavior script="data/subai/minaoro_behavior.vs"/>
+	<behavior script="data/subai/trabajosforzosos.vs"/>
+
+	<method sig="trabajosforzosos_start"     vs="data/subai/trabajosforzosos_start.vs"/>
+	<method sig="trabajosforzosos_stop"      vs="data/subai/trabajosforzosos_stop.vs"/>
+
+	
+	<sounds select="Sounds/selection/IRONMINE.wav"/>
+
+</class>

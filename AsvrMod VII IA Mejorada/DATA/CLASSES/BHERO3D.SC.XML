@@ -1,0 +1,23 @@
+<class id="BHero3d" cpp_class="CVXHero" parent="BritonHero" entity="Units/BHero3/BHero3.ent.xml">
+
+	<properties display_name="Bricio" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/BHero35.bmp"/>
+	<properties edittree_pos="Units/Britain/Heroes/Bricio"/>
+
+	<properties HeroSkills="Charge, Scout, Assault, Concealment, Epic attack"/>
+
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<properties help="/contents/units/BHero"/>
+
+	<sounds command="data/sound entities/VoiceBHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

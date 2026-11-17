@@ -1,0 +1,19 @@
+<class id="BLider3" cpp_class="CVXHero" parent="BLider" entity="Units/Larax/Larax.ent.xml">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1500"/>
+	<properties damage="60" armor_slash="8" armor_pierce="8"/>
+	<properties damage_type="slash"/>
+	<properties sight="600"/>
+	<properties range="17" min_range="2"/>
+	<properties help="/contents/units/BHero"/>
+	<properties HeroSkills="Epic attack, Epic endurance, Team attack, Frenzy, Assault, Euphoria"/>
+	<properties display_name="Rey Axel" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Britain/Heroes/Rey Axel"/>
+	<properties icon="gameres/icons/BLIDER3.bmp"/>
+
+	<sounds command="data/sound entities/VoiceBVikingLord.xml" attack="HorseUnitSwordFight"/>
+
+
+
+</class>

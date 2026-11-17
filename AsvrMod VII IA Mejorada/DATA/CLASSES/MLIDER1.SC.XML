@@ -1,0 +1,15 @@
+<class id="MLider1" cpp_class="CVXHero" parent="MLider" entity="Units/Caesar/Caesar.ent.xml">
+
+
+	<properties race="ImperialRome"/>
+	<properties help="/contents/units/MHero"/>
+	<properties HeroSkills="Administration, Team attack, Team defense, Discipline, Leadership, Quick March"/>
+	<properties display_name="Pretor Lucio" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Roman/Heroes/Pretor Lucio"/>
+	<properties icon="gameres/icons/MLIDER1.bmp"/>
+
+	<sounds command="data/sound entities/VoiceRImperialHero.xml"/>
+
+
+
+</class>

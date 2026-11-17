@@ -1,0 +1,9 @@
+<class id="EHero2c" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero2/EHero2.ent.xml">
+
+	<properties display_name="Hekatef" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero24.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Hekatef"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Wisdom, Euphoria"/>
+
+</class>

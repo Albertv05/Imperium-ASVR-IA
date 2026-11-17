@@ -1,0 +1,9 @@
+<class id="MHero2e" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero5/RHero5.ent.xml">
+
+	<properties display_name="Vedius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero26.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Vedius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Euphoria, Vigor"/>
+
+</class>

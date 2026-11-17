@@ -1,0 +1,216 @@
+<commands>
+
+<!-- DRUIDS HOUSE COMMANDS -->
+
+<cmd name="repair druid house" priority="1"
+	method="repair"
+	button="actions/repair.bmp"
+	key="r"
+	queueicon="gameres/icons/upgrades/repair.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	rollover="Repair"
+	costgold="500"
+	costfood="0"
+	execdelay = "60000">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="trainGDruid" priority="2"
+	button="actions/train GDruid.bmp"
+	queueicon="gameres/icons/GDruid.bmp"
+	groupverifier="data/subai/verify_cmdcost_building.vs"
+	transpicon="1"
+	traincommand="yes"
+	key="d"
+	help="/contents/units/GDruid"
+	costgold = "300"
+	costfood = "0"
+	costpop = "1"
+	execdelay = "20000"
+	rollover="Call Druid"
+	method="train"
+	param="GDruid"
+	sclass="GDruid">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Convocar alto druida" priority="2"
+	button="actions/TRAIN GANCIENTDRUID.bmp"
+	queueicon="gameres/icons/GANCIENTDRUID.bmp"
+	groupverifier="data/subai/verify_trainex.vs"
+	onaddremovescript="data/subai/trainex_onaddremove.vs"
+	transpicon="1"
+	traincommand="yes"
+	key="z"
+	help="/contents/units/CMercenario"
+	costgold = "600"
+	costfood = "0"
+	costpop = "0"
+	execdelay = "40000"
+	rollover="Convoca un alto druida"
+	method="trainex"
+	param="1, 10, GAncientDruid, GAncientDruid, Consejo de ancianos, DruidHouse">
+	sclass="GAncientDruid">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Ritual Chamber" priority="2"
+	button="research/Consejo de Druidas.bmp"
+	queueicon="gameres/icons/upgrades/Consejo de Druidas.bmp"
+	key="r"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Consejo de druidas"
+	description="Allows druids to gain experience by learning from more experienced warriors"
+	method="research"
+	param="NamePlr, Consejo de druidas, ,NameSet, Consejo de druidas, ">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Consejo de ancianos" priority="2"
+	queueicon="gameres/icons/upgrades/Consejo de Ancianos.bmp"
+	key="r"
+	button="upgrades/Consejo de Ancianos.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "40000"
+	rollover="Consejo de ancianos"
+	description="Permite convocar altos druidas"
+	method="research"
+	param="ReqSet, Consejo de druidas, , NameSet, Consejo de ancianos, , NameSet, GAncientDruid,">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Grandes sabios" priority="2"
+	queueicon="gameres/icons/upgrades/druid relations.bmp"
+	key="r"
+	button="research/druid relations.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "30000"
+	rollover="Grandes sabios"
+	description="Los altos druidas convocados tienen nivel 12"
+	method="research"
+	param="ReqSet, Consejo de ancianos, ,SetsSet, levels/GAncientDruid, 12, NameSet, Grandes sabios, default">
+	<src obj="DruidHouse"/>
+</cmd>
+
+
+<cmd name="Ghoul Summoning" priority="6"
+	queueicon="gameres/icons/upgrades/Ghost.bmp"
+	button="research/Ghost.bmp"
+	key="g"
+	help="/contents/units/Ghost"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1600"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Ghoul summoning"
+	description="Allows druids to sacrifice themselves and summon a Ghoul, which drains the life from all enemies nearby for about 10 seconds"
+	method="research"
+	param="ReqSet, Consejo de druidas, default, NamePlr, Ghoul Summoning, default">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Restoration" priority="9"
+	queueicon="gameres/icons/upgrades/restoration.bmp"
+	button="research/restoration.bmp"
+	key="m"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1500"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Restoration"
+	description="Allows druids to sacrifice themselves to restore the stamina of 5 nearby allies"
+	method="research"
+	param="ReqSet, Consejo de druidas, default, NamePlr, Restoration, default">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Eagle Summoning" priority="8"
+	queueicon="gameres/icons/upgrades/summon eagle.bmp"
+	button="actions/summon eagle.bmp"
+	key="e"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "1200"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Eagle summoning"
+	description="Allows druids to sacrifice themselves and summon an eagle, which is under your control for about 2 minutes"
+	method="research"
+	param="ReqSet, Consejo de druidas, default, NamePlr, Eagle Summoning, default">
+	<src obj="DruidHouse"/>
+</cmd>
+<cmd name="Posesion" priority="8"
+	queueicon="gameres/icons/upgrades/posesion.bmp"
+	button="actions/posesion.bmp"
+	key="p"
+	researchcommand="yes"
+	groupverifier="data/subai/verify_research.vs"
+	costgold = "2000"
+	costfood = "0"
+	execdelay = "20000"
+	rollover="Posesion"
+	description="Permite a los druidas poseer unidades enemigas sacrificando su propia vida."
+	method="research"
+	param="ReqSet, Consejo de druidas, default, NamePlr, Posesion, default">
+	<src obj="DruidHouse"/>
+</cmd>
+
+<cmd name="Sacrificio a Taranis" priority="10"
+	queueicon="gameres/icons/upgrades/taranis.bmp"
+	key="u"
+	button="research/taranis.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/eblacksmith_charms_verify2.vs"
+	costgold = "1000"
+	costpop = "25"
+	execdelay = "10000"
+	rollover="Sacrificio a Taranis"
+	description="Da a hasta 50 guerreros cercanos al foro el favor de Taranis que aumenta en 50% el ataque y reduce 25% la vida."
+	method="getcharm2"
+	param="Favor de Taranis" >
+	<src obj="DruidHouse"/>
+</cmd>
+<cmd name="Sacrificio a Teutates" priority="10"
+	queueicon="gameres/icons/upgrades/teutates.bmp"
+	key="i"
+	button="research/teutates.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/eblacksmith_charms_verify2.vs"
+	costgold = "1000"
+	costpop = "25"
+	execdelay = "10000"
+	rollover="Sacrificio a Teutates"
+	description="Da a hasta 50 guerreros cercanos al foro el favor de Teutates que aumenta en 100% la defensa y reduce 50% el ataque."
+	method="getcharm2"
+	param="Favor de Teutates" >
+	<src obj="DruidHouse"/>
+</cmd>
+<cmd name="Sacrificio a Esus" priority="10"
+	queueicon="gameres/icons/upgrades/esus.bmp"
+	key="o"
+	button="research/esus.bmp"
+	researchcommand="yes"
+	groupverifier="data/subai/eblacksmith_charms_verify2.vs"
+	costgold = "1000"
+	costpop = "25"
+	execdelay = "10000"
+	rollover="Sacrificio a Esus"
+	description="Da a hasta 50 guerreros cercanos al foro el favor de Esus que aumenta en 25% la vida y reduce 100% la defensa."
+	method="getcharm2"
+	param="Favor de Esus" >
+	<src obj="DruidHouse"/>
+</cmd>
+
+</commands>

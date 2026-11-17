@@ -1,0 +1,23 @@
+<class id="BHero3b" cpp_class="CVXHero" parent="BritonHero" entity="Units/BHero3/BHero3.ent.xml">
+
+	<properties display_name="Alric" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/BHero33.bmp"/>
+	<properties edittree_pos="Units/Britain/Heroes/Alric"/>
+
+	<properties HeroSkills="Charge, Scout, Assault, Concealment, Healing"/>
+
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<properties help="/contents/units/BHero"/>
+
+	<sounds command="data/sound entities/VoiceBHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

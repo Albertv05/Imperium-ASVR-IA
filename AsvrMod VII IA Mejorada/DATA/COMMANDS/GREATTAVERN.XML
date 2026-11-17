@@ -1,0 +1,56 @@
+<commands>
+
+<!-- GreatTavern COMMANDS -->
+
+ <cmd name="Punto de reunion" priority="1"
+	researchcommand="yes"
+    method="punto"
+    button="actions/Punto.bmp"
+    key="j"
+    costgold="0"
+    execdelay="0"
+    queueicon="gameres/icons/upgrades/Punto.bmp"
+    rollover="Definir punto de reunion"
+    description="Selecciona el punto en que los guerreros reclutados se reunen"
+    param="ReqSet,NameSet">
+   <src obj="GreatTavern"/>
+</cmd>
+
+ <cmd name="Anular punto de reunion" priority="1"
+	researchcommand="yes"
+    method="anul_punto"
+    button="actions/Anular Punto.bmp"
+    groupverifier="data/subai/anular_punto_verify.vs"
+    key="x"
+    costgold="0"
+    execdelay="0"
+    queueicon="gameres/icons/upgrades/Punto.bmp"
+    rollover="Anular punto de reunion"
+    description="Anula el punto en que los guerreros se reunen y los manda al foro."
+    param="ReqSet,NameSet">
+   <src obj="GreatTavern"/>
+</cmd>
+
+<cmd name="greattavern_start" priority="9"
+	immediate="yes"
+	key="c"
+	method="greattavern_start"
+	groupverifier="data/subai/greattavern_start_verify.vs"
+	button="actions/reclutarheroeneutral.BMP"
+	description="Contrata automaticamente heroes mercenarios a cambio de 2000 de oro cada uno."
+	rollover="Comenzar a contratar heroes">
+     <src obj="GreatTavern"/>
+</cmd>
+
+<cmd name="greattavern_stop" priority="9"
+	immediate="yes"
+	key="c"
+	method="greattavern_stop"
+	groupverifier="data/subai/greattavern_stop_verify.vs"
+	button="actions/reclutarheroeneutral2.BMP"
+	description="Parar de contratar automaticamente heroes mercenarios."
+	rollover="Parar de contratar heroes">
+     <src obj="GreatTavern"/>
+</cmd>
+
+</commands>

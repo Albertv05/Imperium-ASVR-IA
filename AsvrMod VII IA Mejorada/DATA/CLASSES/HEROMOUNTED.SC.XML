@@ -1,0 +1,7 @@
+<class id="HeroMounted" cpp_class="CVXHero" parent="Hero" entity="">
+
+	<properties radius="30" selection_radius="32"/>
+	<properties max_food="25"/>
+	<properties sight="600"/>
+	<sounds attack="HorseUnitSwordFight" die="HorseUnitDeath"/>
+</class>

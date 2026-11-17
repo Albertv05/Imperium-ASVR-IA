@@ -1,0 +1,29 @@
+<class id="Bubo" cpp_class="CVXFlyingUnit" parent="Eagle" entity="Units/Eagle/Eagle.ent.xml">
+
+	<properties does_not_regenerate="1"/>
+	<properties icon="gameres/icons/buhomecanico.bmp"/>
+	<properties sight="1000"/>
+	<properties speed="200"/>
+	<properties healthbar_type="0"/>
+	<properties inventory_size="1"/>
+	<properties damaged_by_ghost="0"/>
+
+	<properties display_name="Bubo" display_name_plural="Buhos Mecanicos"/>
+	<properties help="contents/units/Eagle"/>
+
+	<properties stamina_dec_time = "5000"/>
+
+	<properties edittree_pos="Units/Animals/Bubo"/>
+
+	<behavior script = "data/subai/summoning_behavior.vs"/>
+	<behavior script="data/subai/keensight_observe.vs"/>
+
+	<behavior script="data/subai/Rastreo.vs"/>
+
+	<value2
+		icon="gameres/infobar/common/stamina ico.bmp"
+		script="return .AsUnit.stamina +' | '+.AsUnit.speed;"
+		help="/contents/stats/stamina"
+		rollover="Energia | Velocidad"/>
+
+</class>

@@ -1,0 +1,43 @@
+<class id="CShaman" cpp_class="CVXDruid" parent="BaseMage" entity="Units/CShaman/CShaman.ent.xml">
+
+	<properties race="Carthage"/>
+	<properties maxhealth="150"/>
+	<properties armor_slash="2" armor_pierce="2"/>
+	<properties speed="50"/>
+	<properties unit_specials="Life steal, Revenge"/>
+
+	<properties icon="gameres/icons/CShaman.bmp"/>
+	<properties display_name="Shaman" display_name_plural="Shamans"/>
+	<properties help="contents/units/CShaman"/>
+	<properties edittree_pos="Units/Carthage/Shaman"/>
+	<properties description=""/>
+	<properties shaman_food_gain="2"/>
+
+	<method sig="stand_position" vs="data/subai/2shaman_stand_position.vs"/>
+	<method sig="ondie"          vs="data/subai/shaman_ondie.vs"/>
+	<method sig="advance"        vs="data/subai/2shaman_advance.vs"/>
+	<method sig="idle"           vs="data/subai/2shaman_idle.vs"/>
+	<method sig="learn"          vs="data/subai/druid_learn.vs"/>
+
+	<method sig="robo" vs="data/subai/2shaman_curse.vs"/>
+	<method sig="zombify" vs="data/subai/druid_ghoul_summoning.vs"/>
+	<method sig="posesion" vs="data/subai/posesion.vs"/>
+
+	<behavior script="data/subai/Supervivencia.vs"/>
+
+	<defaultcmd target="Unit">
+		<cmd name="robo"/>
+	</defaultcmd>
+
+	<defaultcmd target="Hero">
+		<cmd name="attach"/>
+	</defaultcmd>
+
+	<defaultcmd target="ShipBattle">
+		<cmd name="boardship"/>
+		<cmd name="approach"/>
+	</defaultcmd>
+
+	<sounds command="data/sound entities/VoiceCShaman.xml"/>
+
+</class>

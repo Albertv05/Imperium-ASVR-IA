@@ -1,0 +1,32 @@
+<class id="GOutpost" cpp_class="CVXOutpost" parent="Outpost"
+	entity="Buildings/GOutpost/GOutpost_as.ent.XML"
+	entity_winter="Buildings/GOutpost/GOutpost_w.ent.XML"
+>
+	<properties race="Gaul"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/goutpost.bmp"/>
+	<properties display_name="Fortin galo"/>
+	<properties radius="345" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Fortin galo"/>
+	<properties help="/contents/buildings/GOutpost"/>
+	<properties description="Cambia el alimento almacenado por oro y da una mayor recompensa por la venta de botines de guerra, trofeos de caza o tesoros. Puede entrenar aldeanos convirtiendolos en guerreros si estan alimentados."/>
+
+	<properties sentry_class_name="GSentry2"/>
+	<properties
+		range = "1000"
+		settlement_food="500"
+		settlement_gold="1000"
+	    defender_cls_1  = "GAxeman"	
+	    defenders_max_1 = "10"
+	    defenders_out_1 = "10"
+	    start_level_1   = "12"
+	    end_level_1     = "25"   
+	    defender_cls_2  = "GHorseman"	
+	    defenders_max_2 = "5"
+	    defenders_out_2 = "5"
+	    start_level_2   = "12"
+	    end_level_2     = "25"
+	/>
+
+	<method sig="goutpost_sellfood" vs="data/subai/goutpost_sellfood.vs"/>
+</class>

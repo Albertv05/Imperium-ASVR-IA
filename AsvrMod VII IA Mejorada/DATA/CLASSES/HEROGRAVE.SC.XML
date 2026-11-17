@@ -1,0 +1,29 @@
+<class id="HeroGrave" cpp_class="CVXItemHolder" parent="ItemHolder" entity="MapObjects/HeroGrave/HeroGrave.ent.xml">
+
+	<properties edittree_pos="Structures/Item holders/Hero grave"/>
+	<properties icon="gameres/icons/Tombstone.bmp"/>
+	<properties radius="38" selection_radius="40" range="450" signt="0"/>
+	<properties display_name="Hero grave"/>
+	<properties description="Los heroes del mismo jugador que el heroe que yace en la tumba ganan puntos de experiencia, los guerreros puntos de rango"/>
+
+	<behavior script="data/subai/herograve_behavior.vs"/>
+
+	<value0
+		icon="gameres/infobar/common/level ico.bmp"
+		script="return .maxstamina;"
+		help="/contents/stats/level"
+		rollover="Nivel del heroe que yace en la tumba"/>
+	
+	<value1
+		icon="gameres/infobar/common/Loyality.bmp"
+		script="return .stamina;"
+		rollover="El numero de puntos de rango que pueden ganar los guerreros cercanos"/>
+
+	<value2
+		icon="gameres/infobar/common/train ico.bmp"
+		script="return .maxhealth-1;"
+		rollover="Tiempo restante"/>
+
+	
+
+</class>

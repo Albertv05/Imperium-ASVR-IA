@@ -1,0 +1,19 @@
+<bonuses>
+
+  <bonus attacker="Catapult" defender="Building" bonus="300"/>
+
+  <bonus attacker="IDefender" defender="Horse" bonus="20"/>
+
+  <bonus attacker="CLibyanFootman" defender="Horse" bonus="20"/>
+
+  <bonus attacker="BBronzeSpearman" defender="Horse" bonus="20"/>
+
+  <bonus attacker="GSpearman" defender="Horse" bonus="20"/>
+
+  <bonus attacker="RPraetorian" defender="Horse" bonus="20"/>
+
+  <bonus attacker="RPrinciple" defender="Horse" bonus="20"/>
+
+  <bonus attacker="EHoplita" defender="Horse" bonus="20"/>
+
+</bonuses>

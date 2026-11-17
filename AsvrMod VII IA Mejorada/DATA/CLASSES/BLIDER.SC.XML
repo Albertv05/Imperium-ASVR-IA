@@ -1,0 +1,18 @@
+<class id="BLider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties race="Britain"/>
+	<properties maxhealth="1200"/>
+	<properties range="500"/>
+	<properties sight="700"/>
+	<properties damage="40" armor_slash="10" armor_pierce="10"/>
+	<properties damage_type="pierce"/>
+	<properties max_food="25"/>
+	<properties help="/contents/units/BHero"/>
+
+
+	<sounds command="data/sound entities/VoiceBHero.xml"/>
+	<sounds attack="UnitArrowFight"/>
+
+
+
+</class>

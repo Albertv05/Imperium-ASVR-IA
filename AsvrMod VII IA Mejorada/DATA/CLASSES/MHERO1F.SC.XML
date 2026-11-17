@@ -1,0 +1,9 @@
+<class id="MHero1f" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero4/RHero4.ent.xml">
+
+	<properties display_name="Tuccius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero17.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Tuccius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Ceasefire"/>
+
+</class>

@@ -1,0 +1,1 @@
+owner.AsDruid().SetLevel(owner.AsDruid().inherentlevel - 20);

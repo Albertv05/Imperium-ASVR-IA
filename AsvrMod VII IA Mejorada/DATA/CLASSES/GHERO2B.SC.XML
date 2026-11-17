@@ -1,0 +1,9 @@
+<class id="GHero2b" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHero3/GHero3.ent.xml">
+
+	<properties display_name="Unferth" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero23.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Unferth"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Wisdom, Egoism"/>
+
+</class>

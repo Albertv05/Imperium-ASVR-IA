@@ -1,0 +1,79 @@
+<class id="GreatTavern" cpp_class="CVXBuilding" parent="Building" 
+entity="Buildings/Inn/Inn_as.ent.xml" entity_winter="Buildings/Inn/Inn_w.ent.xml"> 
+
+<properties display_name="Taberna recondita"/>
+<properties icon="gameres/icons/inn.bmp"/>
+<properties radius="270" selection_radius="280"/>
+<properties edittree_pos="Structures/Interactive/Taberna recondita"/>
+<properties maxhealth="5000" sight="900"/>
+<properties description="Por cada 2000 de oro recluta un poderoso heroe mercenario."/>
+<properties help="/contents/buildings/Inn"/><properties minimap_icon_type="color"/>
+<properties interface="thumb,building,queue"/>
+<sounds select="TavernSelect"/>
+
+<method sig="punto" vs="data/subai/punto.vs"/>
+<method sig="anul_punto" vs="data/subai/anular_punto.vs"/>
+<method sig="greattavern_start"     vs="data/subai/greattavern_start.vs"/>
+<method sig="greattavern_stop"      vs="data/subai/greattavern_stop.vs"/>
+
+<behavior script="data/subai/beh_punto.vs"/>
+<behavior script="data/subai/GREATTAVERN_HIREHERO.vs"/>
+
+	<properties
+		is_central_building="1"
+		is_single_building="1"
+		can_be_captured="1"
+		can_be_attacked="0"
+		produces_gold="0"
+		produces_food="1"
+		settlement_food="0"
+		settlement_gold="0"
+		settlement_maxfood="100"
+		settlement_maxgold="100000"
+		population="15"
+		efficiency="1"
+		max_population="15"
+		max_units="0"
+	/>
+
+	<properties interface="thumb,building,holder"/>
+
+	<value0
+		icon="gameres/infobar/common/pop ico.bmp"
+		script="Settlement set; set=.AsBuilding.settlement; return set.population + '/' + set.max_population;"
+		flags="-1"
+		help="/contents/resources"
+		rollover="Population"/>
+
+	<value1
+		icon="gameres/infobar/common/Loyality.bmp"
+		script="return .AsBuilding.settlement.loyalty;"
+		flags="-1"
+		help="/contents/capturing"
+		rollover="Loyalty"/>
+	<value2
+		icon="gameres/infobar/common/gold ico.bmp"
+		script="Settlement set; set=.AsBuilding.settlement; if(set.loan > 0)return set.gold + '(' + Translate('Debt') + ':' + set.loan +')'; else return set.gold; return '';"
+		flags="5"
+		help="/contents/resources"
+		rollover="Gold"/>
+	<value3
+		icon="gameres/infobar/common/food ico.bmp"
+		script="return .AsBuilding.settlement.food;"
+		flags="5"
+		help="/contents/resources"
+		rollover="Food"/>
+	<value4/>
+	<value5
+		icon="gameres/infobar/common/health ico.bmp"
+		script="return .health + '/' + .maxhealth;"
+		flags="-1"
+		help="/contents/stats/health"
+		rollover="Health"/>
+
+	/>
+
+	<defaultcmd target="">
+		<cmd name="unitsout"/>
+	</defaultcmd>
+</class>

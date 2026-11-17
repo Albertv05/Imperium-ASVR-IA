@@ -1,0 +1,9 @@
+<class id="EHero3b" cpp_class="CVXHero" parent="EgyptianHero" entity="Units/EHero3/EHero3.ent.xml">
+
+	<properties display_name="Sepi" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/EHero33.bmp"/>
+	<properties edittree_pos="Units/Egypt/Heroes/Sepi"/>
+
+	<properties HeroSkills="Recovery, Vigor, Survival, Administration, Epic endurance"/>
+
+</class>

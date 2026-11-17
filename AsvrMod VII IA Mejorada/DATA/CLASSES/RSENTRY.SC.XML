@@ -1,0 +1,9 @@
+<class id="RSentry" cpp_class="CVXUnit" parent="Sentry" entity="Units/RArcher/RSentry.ent.xml">
+
+	<properties race="RepublicanRome"/>
+	<properties maxhealth="200"/>
+	<properties damage="15" armor_slash="6" armor_pierce="6"/>
+	<properties icon="gameres/icons/RArcher.bmp"/>
+	<properties unit_specials="Attack skill, Freedom"/>
+
+</class>

@@ -1,0 +1,14 @@
+<class id="ILider3" cpp_class="CVXHero" parent="ILider" entity="Units/IHero3/IHero3.ent.xml">
+
+	<properties race="Iberia"/>
+	<properties help="/contents/units/IHero"/>
+	<properties HeroSkills="Healing, Ceasefire, Leadership, Recovery, Wisdom, Battle cry"/>
+	<properties display_name="Lider Arbiskar" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Iberia/Heroes/Lider Arbiskar"/>
+	<properties icon="gameres/icons/ILIDER3.bmp"/>
+
+	<sounds command="data/sound entities/VoiceIHero.xml"/>
+
+
+
+</class>

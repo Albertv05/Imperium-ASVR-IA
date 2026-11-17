@@ -1,0 +1,14 @@
+<class id="GLider2" cpp_class="CVXHero" parent="GLider" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties race="Gaul"/>
+	<properties help="/contents/units/GHero"/>
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Euphoria, Team defense"/>
+	<properties display_name="Princesa Gwendolyn" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Princesa Gwendolyn"/>
+	<properties icon="gameres/icons/GLIDER2.bmp"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+
+
+</class>

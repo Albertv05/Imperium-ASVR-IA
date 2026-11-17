@@ -1,0 +1,9 @@
+<class id="THero2b" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero2/THero2.ent.xml">
+
+	<properties display_name="Rusto" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero23.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Rusto"/>
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team defense, Wisdom"/>
+
+</class>

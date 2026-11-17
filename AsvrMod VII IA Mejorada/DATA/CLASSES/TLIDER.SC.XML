@@ -1,0 +1,14 @@
+<class id="TLider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1500"/>
+	<properties damage="60" armor_slash="8" armor_pierce="8"/>
+	<properties race="Germany"/>
+	<properties help="/contents/units/THero"/>
+	<properties HeroSkills="Team defense, Team attack, Defensive cry, Quick March, Assault, Euphoria"/>
+
+
+	<sounds command="data/sound entities/VoiceTHero.xml"/>
+
+
+
+</class>

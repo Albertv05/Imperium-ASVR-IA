@@ -1,0 +1,31 @@
+<class id="BOutpost" cpp_class="CVXOutpost" parent="Outpost" entity="Buildings/BOutpost/BOutpost.ent.xml">
+
+	<properties race="Britain"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/BOutpost.bmp"/>
+	<properties display_name="Fortin britano"/>
+	<properties radius="345" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Fortin britano"/>
+	<properties help="/contents/buildings/BOutpost"/>
+	<properties description="Incrementa gradualmente los puntos de rango de los guerreros guarecidos hasta el rango [Elite]. Puede entrenar aldeanos convirtiendolos en guerreros si estan alimentados."/>
+	
+	<properties sentry_class_name="BSentry2"/>
+	<properties
+		range = "1000"
+		settlement_food="2000"
+		settlement_gold="0"
+	    defender_cls_1  = "BBowman"	
+	    defenders_max_1 = "10"
+	    defenders_out_1 = "10"
+	    start_level_1   = "12"
+	    end_level_1     = "25"
+	    defender_cls_2  = "BHighlander"	
+	    defenders_max_2 = "5"
+	    defenders_out_2 = "5"
+	    start_level_2   = "12"
+	    end_level_2     = "25"   
+	/>
+
+	<behavior script="data/subai/boutpost_behavior.vs"/>
+
+</class>

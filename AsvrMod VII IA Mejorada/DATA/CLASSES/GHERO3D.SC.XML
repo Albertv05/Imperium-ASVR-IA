@@ -1,0 +1,11 @@
+<class id="GHero3d" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHeroWoman/GHeroWoman.ent.xml">
+
+	<properties display_name="Segovax" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero35.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Segovax"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Discipline, Battle cry, Assault"/>
+
+	<sounds command="data/sound entities/VoiceGFemaleHero.xml"/>
+
+</class>

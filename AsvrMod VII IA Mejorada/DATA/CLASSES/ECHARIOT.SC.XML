@@ -1,0 +1,32 @@
+<class id="EChariot" cpp_class="CVXUnit" parent="Horse" entity="units/EChariot/EChariot.ent.xml">
+
+	<properties race="Egypt"/>
+	<properties maxhealth="1200"/>
+	<properties damage="20" armor_slash="10" armor_pierce="10"/>
+	<properties sight="600" range="400" min_range="200" damage_type="pierce"/>
+	<properties speed="120"/>
+	<properties unit_specials="Disease attack, Cripple"/>
+	<properties healthbar_type="3"/>
+	
+	<properties max_food="40"/>
+	<properties formation_radius="60"/>
+	<properties radius="40" selection_radius="45"/>
+	<properties icon="gameres/icons/EChariot.bmp"/>
+	<properties display_name="Chariot of Osiris" display_name_plural="Chariots of Osiris"/>
+	<properties help="contents/units/EChariot"/>
+	<properties edittree_pos="Units/Egypt/Carro de Osiris"/>
+
+	<method sig="engage" vs="data/subai/echariot_engage.vs"/>
+
+	<sounds command="data/sound entities/VoiceEChariot.xml"/>
+	<sounds attack="UnitArrowFight" die="UnitDeath"/>
+	<properties projectile_class="Arrow"/>
+	<properties building_projectile_class="Fire_Arrow"/>
+
+	<value1
+		icon="gameres/infobar/common/piercing ico.bmp"
+		script="return .AsUnit.damage +' | '+.AsUnit.range;"
+		help="/contents/stats/rangedattack"
+		rollover="Ataque | Alcance"/>
+
+</class>

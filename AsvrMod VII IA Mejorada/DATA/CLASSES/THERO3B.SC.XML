@@ -1,0 +1,9 @@
+<class id="THero3b" cpp_class="CVXHero" parent="GermanHero" entity="Units/THero3/THero3.ent.xml">
+
+	<properties display_name="Willamar" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/THero33.bmp"/>
+	<properties edittree_pos="Units/Germany/Heroes/Willamar"/>
+
+	<properties HeroSkills="Quick March, Assault, Euphoria, Team attack, Scout"/>
+
+</class>

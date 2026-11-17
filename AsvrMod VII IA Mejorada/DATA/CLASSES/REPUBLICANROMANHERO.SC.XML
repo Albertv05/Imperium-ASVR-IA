@@ -1,0 +1,12 @@
+<class id="RepublicanRomanHero" cpp_class="CVXHero" parent="HeroMounted" entity="">
+
+	<properties maxhealth="1000"/>
+	<properties damage="30" armor_slash="12" armor_pierce="12"/>
+	<properties race="RepublicanRome"/>
+	<properties help="/contents/units/RHero"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Leadership"/>
+
+	<sounds command="data/sound entities/VoiceRRepublicanHero.xml"/>
+
+</class>

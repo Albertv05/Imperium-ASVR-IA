@@ -1,0 +1,118 @@
+﻿<tips>
+    <tip link="/contents/shortcuts"> <text>Puedes utilizar la combinación de teclas CONTROL+1, CONTROL+2, etc. para asociar a una tecla numérica la selección de unidades o el edificio que tengas en el momento. Para volver a esta selección, bastará con que pulses 1, 2, etc.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Para seleccionar unidades de dos o más tipos distintos cuando están alojadas en el foro o en un fortín, mantén pulsada la tecla 'Mayús' (la flecha hacia arriba a la izquierda del teclado) y pulsa con el ratón sobre sus iconos.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Para seleccionar una sola unidad de entre un grupo de unidades alojadas en un foro o en un fortín, mantén pulsada la tecla 'Control' y pulsa con el ratón sobre el icono.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Para asignar unidades a un héroe cuando están alojados en un foro mantén pulsada la tecla 'Mayús' (la flecha hacia arriba a la izquierda del teclado) a la vez que seleccionas los iconos de las unidades y después (sin soltar 'Mayús') pulsas con el botón derecho sobre el icono del héroe.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Si tienes dudas durante la partida o necesitas información sobre alguno de los elementos del juego, puedes acceder a la ventana de ayuda pulsando la tecla F1.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Para cambiar rápidamente entre tus héroes usa la rueda del ratón o la tecla del tabulador.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Para enviar mensajes a otros jugadores en una partida en red, pulsa 'Intro' y escribe el mensaje en la ventana que se abrirá a continuación.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Si necesitas revisar los objetivos de una misión durante una batalla, pulsa F8 o pulsa el botón 'Objetivos'.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Si pulsas con el botón derecho del ratón en alguna parte del mapa a la vez que mantienes pulsada la tecla CONTROL, las unidades seleccionas se dirigirán a esa posición atacando a cualquier enemigo que se cruce en su camino.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Si quieres que tus unidades ataquen a unidades de un tipo determinado, mantén pulsada la tecla CONTROL y pulsa con botón derecho del ratón sobre cualquier unidad de ese tipo.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Durante una partida del modo estrategia, puedes pulsar la tecla F4 para ver el tipo y duración de la partida y una lista de todos los jugadores con sus puntuaciones respectivas.</text></tip>
+
+    <tip link="/contents/shortcuts"> <text>Puedes pulsar la tecla 'ñ' para activar o desactivar las barras de salud y energía en pantalla.</text></tip>
+
+    <tip link="/contents/map"> <text>Para abrir el mapa estratégico, pulsa la barra espaciadora.</text></tip>
+
+    <tip link="/contents/capturing"> <text>Para capturar un edificio enemigo desguarnecido, tan sólo has de seleccionar un grupo de guerreros y pulsar sobre el edificio con el botón derecho del ratón.</text></tip>
+
+    <tip link="/contents/stats/level"> <text>El nivel de la unidad seleccionada se muestra en la parte superior de la pantalla tras el icono con la letra "N".</text></tip>
+
+    <tip link="/contents/stats/level"> <text>Cuanto mayor sea el nivel de un guerrero, más daño infligirá al enemigo.</text></tip>
+
+    <tip link="/contents/stats/level"> <text>Los guerreros cambian de color según van ganando niveles. ¡Cuidado con los enemigos dorados!</text></tip>
+
+    <tip link="/contents/buildings/Ruins"> <text>Sólo un héroe con el nivel suficiente puede coger un objeto mágico o amuleto de las ruinas o piramides. Para conocer el nivel mínimo necesario para conseguir un objeto de una ruina o pirámide determinada, selecciónala y mira en la parte superior de la pantalla.</text></tip>
+
+    <tip link="/contents/buildings/stonehenge"> <text>El ritual de 'Castigo Espiritual' realizado en un Altar de Sacrificios dañará constantemente a todas las unidades espirituales del mapa durante 1 minuto.</text></tip>
+
+    <tip link="/contents/buildings/stonehenge"> <text>El ritual 'Hambruna' realizado en un Altar de Sacrificios provocará que todos los víveres del mapa se reduzcan.</text></tip>
+
+    <tip link="/contents/feeding"> <text>Los guerreros necesitan víveres para recuperar la salud y pierden salud cuando no disponen de ellos.</text></tip>
+
+    <tip link="/contents/units/GCatapult"> <text>Los guerreros pueden construir catapultas, arietes y otras máquinas de asedio para asaltar fortalezas. Selecciona unos cuantos y pulsa el botón 'Construir máquina de asedio'.</text></tip>
+
+    <tip link="/contents/specials"> <text>Las Guerreras galas pueden acabar con un enemigo de un solo golpe si éste tiene un nivel lo suficientemente inferior. Esta habilidad especial se llama 'Golpe Experto'.</text></tip>
+
+    <tip link="/contents/units/EHOPLITA"> <text>Los hoplitas macedonios son capaces de exterminar a la caballería y los elefantes de guerra gracias a la combinación de su bonificación de daño y su habilidad 'obstinación'.</text></tip>
+
+    <tip link="/contents/specials"> <text>Los guerreros armados con lanzas cuerpo a cuerpo poseen una bonificación de daño contra caballería y elefantes, úsalos para enfrentarte a este tipo de enemigos.</text></tip>
+
+    <tip link="/contents/buildings/COutpost"> <text>Los campesinos que permanezcan en un fortín serán convertidos en guerreros, siempre que estén alimentados.</text></tip>
+
+    <tip link="/contents/heroes"> <text>Cada líder tiene una especialidad diferente que le otorga una ventaja concreta a su pueblo. </text></tip>
+
+    <tip link="/contents/heroes"> <text>Convoca un líder en tu ciudad principal para que dirija a tu pueblo hacia la victoria. </text></tip>
+
+    <tip link="/contents/items"> <text>Algunos objetos mágicos otorgan nuevas ventajas si se combinan con otros. </text></tip>
+
+    <tip link="/contents/buildings/IronMine"> <text>Las minas producen oro para el jugador al que pertenecen. Cuanta más población albergue una mina, mayor será su producción</text></tip>
+
+    <tip link="/contents/specials"> <text>Los guerreros con la habilidad de realizar una "Carga" golpean con 8 veces su ataque habitual si llevan 10 segundos o más sin combatir.</text></tip>
+
+    <tip link="/contents/specials"> <text>Algunos guerreros tienen la habilidad especial "Inmunidad", lo que les permite, mientras tengan energía, bloquear los ataques enemigos.</text></tip>
+
+    <tip link=""> <text>Los íberos son valerosos guerreros. En combate aprovechan la superioridad táctica que les da su velocidad para realizar ataques sorpresa comandados por experimentadísimos héroes.</text></tip>
+
+    <tip link=""> <text>Los egipcios son un pueblo milenario cuyo poder militar reside en su magia ancestral y su gran resistencia convirtiendo así la guerra de desgaste en su arma más temible.</text></tip>
+
+    <tip link=""> <text>Los germanos son un pueblo guerrero que vive por y para la guerra. Sus ejércitos dependen únicamente de los víveres y marchan hacia la batalla prácticamente desprotegidos sabiéndose ofensivamente superiores.</text></tip>
+
+    <tip link=""> <text>Los britanos son fieros guerreros cuya especialidad es el combate a distacia, pudiendo acabar con sus enemigos antes de que sean capaces siquiera de acercarse. Además apoyados por los normandos y los pueblos de las tierras altas cuentan también con algunas de las unidades cuerpo a cuerpo más fuertes.</text></tip>
+
+    <tip link=""> <text>Los galos son un pueblo supersticioso que realiza sacrificios humanos para honrar a sus dioses. Sus guerreros son baratas de equipar y ganan experiencia a una velocidad extraordinaria, por lo que la superioridad numérica y empírica, junto con el favor de sus dioses les convierte en rivales formidables.</text></tip>
+
+    <tip link=""> <text>La república de Cartago es una poderosa nación. Sus ejércitos están formados en su mayoría por profesionales mercenarios que saquean en cada batalla al enemigo lo que les otorga una gran superioridad económica. Además cuentan con los temibles elefantes de guerra capaces de aplastar ejercitos enteros como si de insectos se tratase.</text></tip>
+
+    <tip link=""> <text>Roma cuenta con los soldados más disciplinados y mejor equipados del mundo. Sus ejércitos formados por tropas de élite son defensivamente casi impenetrables y ofensivamente no se quedan atrás.</text></tip>
+
+    <tip link="/contents/units/GVikingLord"> <text>Los Jefes Normandos recuperan salud con cada golpe infligido al enemigo. Esto permite que, en ocasiones, unos pocos jefes normandos puedan acabar con un ejército entero.</text></tip>
+
+    <tip link="/contents/capturing"> <text>Si tu ejército se encuentra una unidad de suministros enemiga desguarnecida, puedes capturarla seleccionando algunas de tus unidades y pulsando sobre ella con el botón derecho del ratón.</text></tip>
+
+    <tip link="/contents/buildings/TTent"> <text>Es posible capturar un campamento de bandidos acabando con la guarnición que lo protege. Una vez sea tuyo, 5 bandidos estarán bajo tus órdenes. Posteriormente, si llevas 400 víveres al campamento, aparecerá un nuevo bandido.</text></tip>
+
+    <tip link="/contents/buildings"> <text>Si un edificio de tu fortaleza es destruido, debes pagar por su reparación antes de que vuelva a funcionar de nuevo.</text></tip>
+
+    <tip link="/contents/buildings/GOutpost"> <text>Hay una orden en los fortines galos que hace que se empiecen a vender los víveres almacenados a cambio de oro. Por el contrario en los fortines germanos puede activarse una orden para comprar víveres a costa del oro acumulado.</text></tip>
+
+    <tip link="/contents/buildings/ROutpost"> <text>Lleva 2.000 piezas de oro a un fortín romano y observa como la cantidad aumenta.</text></tip>
+
+    <tip link="/contents/buildings/IOutpost"> <text>Cuanto más tiempo pase un guerrero en un fortín britano, más experiencia recibe.</text></tip>
+
+    <tip link="/contents/buildings/COutpost"> <text>Lleva 2.000 víveres a un fortín cartaginés y observa como la cantidad aumenta.</text></tip>
+
+    <tip link="/contents/GOutpost"> <text>Puedes ordenar a tus aldeas y fortines que envíen recursos a tu foro de forma automática.</text></tip>
+
+    <tip link=""> <text>En una partida del modo 'Estrategia', deberías explorar tan rápido el terreno como te sea posible.</text></tip>
+
+    <tip link=""> <text>En una partida del modo 'Estrategia', es mejor tener la población de tu fortaleza al máximo para obtener la mayor cantidad posible de oro.</text></tip>
+
+    <tip link="/contents/heroes"> <text>Los héroes tienen 5 habilidades especiales que pueden ser reforzadas hasta nivel 10.</text></tip>
+
+    <tip link="/contents/stats/stamina"> <text>Las unidades tienen 10 puntos de energía que les permiten emplear sus habilidades especiales. Cuando han agotado su energía, deben esperar a que ésta se regenere.</text></tip>
+
+    <tip link="/contents/heroes"> <text>Los héroes pueden hacer uso de la sanación heroica, que les hace recuperar 100 puntos de salud instantáneamente si tienen energía suficiente.</text></tip>
+
+    <tip link=""> <text>Los iberos pueden aumentar el nivel de sus héroes haciendo que varias sacerdotisas los entrenen.</text></tip>
+
+    <tip link="/contents/specials"> <text>Los sacerdotes egipcios son capaces de quitarle al enemigo la energía.</text></tip>
+
+    <tip link=""> <text>Investigar la orden cartaginesa "Botín de guerra" te permitirá obtener oro al eliminar enemigos.</text></tip>
+
+    <tip link=""> <text>Cuando juegues con los germanos, utiliza su habilidad "Audacia" para enfrentarte en igualdad de condiciones con enemigos de mayor nivel.</text></tip>
+
+    <tip link="/contents/buildings/RTavern"> <text>Una vez por partida, pide "Tributos" de todos tus fortines y obtén una gran cantidad de oro de cada uno de ellos.</text></tip>
+
+    <tip link="/contents/items"> <text>Hay muchos lugares con objetos mágicos o amuletos en los que estos objetos reaparecen cada cierto tiempo. Echa un vistazo en su interior cada cierto tiempo.</text></tip>

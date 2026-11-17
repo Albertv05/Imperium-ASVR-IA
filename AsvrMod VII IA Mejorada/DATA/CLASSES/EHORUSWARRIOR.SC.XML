@@ -1,0 +1,21 @@
+<class id="EHorusWarrior" cpp_class="CVXUnit" parent="Melee" entity="units/EHorusWarrior/EHorusWarrior.ent.xml">
+
+	<properties race="Egypt"/>
+	<properties maxhealth="300"/>
+	<properties damage="20" armor_slash="6" armor_pierce="0"/>
+	<properties speed="80"/>
+	<properties unit_specials="Spike armor, Revenge"/>
+	<properties damaged_by_ghost="0"/>
+
+	<properties icon="gameres/icons/EHorusWarrior.bmp"/>
+	<properties display_name="Vengador de Horus" display_name_plural="Vengadores de Horus"/>
+	<properties help="contents/units/EHorusWarrior"/>
+	<properties edittree_pos="Units/Egypt/Vengador de Horus"/>
+	<properties description="-Inmune al miedo. \n-Inmune a los espiritus."/>
+	<sounds command="data/sound entities/VoiceEHorusWarrior.xml"/>
+
+	<behavior script="data/subai/Inmune a los espiritus.vs"/>
+
+	<behavior script="data/subai/Valor.vs"/>
+
+</class>

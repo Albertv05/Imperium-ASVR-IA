@@ -1,0 +1,14 @@
+<class id="MLider" cpp_class="CVXHero" parent="Lider" entity="">
+
+	<properties maxhealth="1200"/>
+	<properties damage="40" armor_slash="16" armor_pierce="16"/>
+	<properties race="ImperialRome"/>
+	<properties help="/contents/units/MHero"/>
+	<properties HeroSkills="Administration, Team attack, Team defense, Quick March, Discipline, Leadership"/>
+
+
+	<sounds command="data/sound entities/VoiceRImperialHero.xml"/>
+
+
+
+</class>

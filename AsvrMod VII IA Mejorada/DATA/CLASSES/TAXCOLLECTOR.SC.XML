@@ -1,0 +1,25 @@
+<class id="TaxCollector" cpp_class="CVXUnit" parent="Unit" entity="Units/RVillager/RVillager.ent.xml"> 
+	<properties armor_slash="0" armor_pierce="0"/>
+	<properties speed="60"/>
+	<properties damage_type="none"/>
+	<properties sight="400"/>
+	<properties range="0"/>
+	<properties inventory_size="0"/>
+	<properties formation_priority="100"/>
+	<properties formation_radius="26"/>
+	<properties radius="15" selection_radius="15"/>
+	<properties maxhealth="150"/>
+	<properties race="ImperialRome"/>
+	<properties display_name="Recaudador de impuestos" display_name_plural="Recaudadores de impuestos"/>
+	<properties icon="gameres/icons/recaudador.BMP"/>
+	<properties edittree_pos="Units/Roman/Recaudador de impuestos"/>
+	<properties description="-Produce 2 de oro cada 2 segundos si el recaudador esta en un edificio (Solo puede haber un recaudador por edificio)."/>
+	<sounds command="data/sound entities/VoiceRMaleVillager.xml"/>
+	<behavior script="data/subai/tax_collector.vs"/>
+
+	<value1
+		icon="gameres/infobar/common/attack ico.bmp"
+		script="return Translate('None');"
+		help="contents/stats/attack"
+		rollover= "Damage"/>
+</class>

@@ -1,0 +1,9 @@
+<class id="GHero4d" cpp_class="CVXHero" parent="GaulHero" entity="Units/GHero4/GHero4.ent.xml">
+
+	<properties display_name="Casticos" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/GHero45.bmp"/>
+	<properties edittree_pos="Units/Gaul/Heroes/Casticos"/>
+
+	<properties HeroSkills="Leadership, Epic attack, Epic endurance, Concealment, Team attack"/>
+
+</class>

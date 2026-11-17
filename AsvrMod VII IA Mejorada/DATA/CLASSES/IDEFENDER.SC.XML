@@ -1,0 +1,21 @@
+<class id="IDefender" cpp_class="CVXUnit" parent="Melee2" entity="Units/IDefender/IDefender.ent.xml">
+
+	<properties race="Iberia"/>
+	<properties maxhealth="300"/>
+	<properties sight="400"/>
+	<properties damage="20" armor_slash="10" armor_pierce="10"/>
+	<properties speed="80"/>
+	<properties unit_specials="Deflection"/>
+
+	<properties icon="gameres/icons/IDefender.bmp"/>
+	<properties display_name="Defender" display_name_plural="Defenders"/>
+	<properties help="contents/units/IDefender"/>
+	<properties edittree_pos="Units/Iberia/Defender"/>
+	<sounds attack="UnitPikeFight" command="data/sound entities/VoiceIDefender.xml"/>
+
+	<behavior script="data/subai/Bonus contra caballeria.vs"/>
+
+	<behavior script="data/subai/contracaballeria.vs"/>
+	<behavior script="data/subai/contraelefantes.vs"/>
+
+</class>

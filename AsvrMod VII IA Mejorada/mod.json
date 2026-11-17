@@ -1,0 +1,15 @@
+{
+  "id": "asvrmod-vii-ia-mejorada",
+  "name": "AsvrMod VII IA Mejorada (Hard)",
+  "version": "7a 0.8 + IA Plus 1.2",
+  "authors": [
+    "Asur",
+    "David (ajustes de IA)"
+  ],
+  "description": {
+    "spanish": "AsvrMod VII completo con la IA mejorada en dificultad Difícil: ejércitos y aperturas más grandes, reacción más rápida, comportamiento adaptativo, mejor concentración de fuerzas contra fortalezas y defensas en 3 niveles. Un solo mod, sin capas.",
+    "english": "Full AsvrMod VII with an improved Hard AI: bigger armies and openings, faster reactions, adaptive behaviour, better force concentration against strongholds and 3-level stronghold defences. Single mod, no layering."
+  },
+  "category": "Gameplay & Balance",
+  "redistributable": false
+}

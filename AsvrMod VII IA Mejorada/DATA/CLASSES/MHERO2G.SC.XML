@@ -1,0 +1,9 @@
+<class id="MHero2g" cpp_class="CVXHero" parent="ImperialRomanHero" entity="Units/RHero5/RHero5.ent.xml">
+
+	<properties display_name="Culleo" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/MHero28.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/M Culleo"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Euphoria, Assault"/>
+
+</class>

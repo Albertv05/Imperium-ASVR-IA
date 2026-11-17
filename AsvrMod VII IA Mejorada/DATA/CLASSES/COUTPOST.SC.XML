@@ -1,0 +1,31 @@
+<class id="COutpost" cpp_class="CVXOutpost" parent="Outpost"
+	entity="Buildings/COutpost/COutpost.ent.XML"
+>
+	<properties race="Carthage"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/COutpost.bmp"/>
+	<properties display_name="Fortin cartagines"/>
+	<properties radius="333" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Fortin cartagines"/>
+	<properties help="/contents/buildings/CForth"/>
+	<properties description="Produce alimento adicional si tiene una cantidad de alimento superior a 2000. Puede entrenar aldeanos convirtiendolos en guerreros si estan alimentados."/>
+	<properties sentry_class_name="CSentry2"/>
+	<properties
+		range = "1000"
+		settlement_food="1000"
+		settlement_gold="700"
+	    defender_cls_1  = "CLibyanFootman"	
+	    defenders_max_1 = "10"
+	    defenders_out_1 = "10"
+	    start_level_1   = "12"
+	    end_level_1     = "25"
+	    defender_cls_2  = "CWarElephant"	
+	    defenders_max_2 = "2"
+	    defenders_out_2 = "2"
+	    start_level_2   = "12"
+	    end_level_2     = "25"     
+	/>
+
+
+<!--	<method sig="routpost_interest" vs="data/subai/routpost_interest.vs"/> -->
+</class>

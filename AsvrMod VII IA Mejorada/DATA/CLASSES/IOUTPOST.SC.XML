@@ -1,0 +1,32 @@
+<class id="IOutpost" cpp_class="CVXOutpost" parent="Outpost"
+	entity="Buildings/IOutpost/IOutpost.ent.XML"
+>
+	<properties race="Iberia"/>
+	<properties maxhealth="10000"/>
+	<properties icon="gameres/icons/ioutpost.bmp"/>
+	<properties display_name="Fortin ibero"/>
+	<properties radius="345" selection_radius="350"/>
+	<properties edittree_pos="Structures/Outposts/Fortin ibero"/>
+	<properties help="/contents/buildings/ITrainingCamp"/>
+	<properties description="Incrementa gradualmente la experiencia de los guerreros guarecidos hasta el nivel 12. Puede entrenar aldeanos convirtiendolos en guerreros si estan alimentados."/>
+	<properties sentry_class_name="ISentry2"/>
+	<properties
+		range = "1000"
+		settlement_food="500"
+		settlement_gold="1000"
+	    defender_cls_1  = "ISlinger"	
+	    defenders_max_1 = "10"
+	    defenders_out_1 = "10"
+	    start_level_1   = "12"
+	    end_level_1     = "25"   
+	    defender_cls_2  = "IDefender"	
+	    defenders_max_2 = "10"
+	    defenders_out_2 = "10"
+	    start_level_2   = "12"
+	    end_level_2     = "25"   
+	/>
+	<behavior script="data/subai/ioutpost_behavior.vs"/>
+	<method sig="ioutpost_start"     vs="data/subai/ioutpost_start.vs"/>
+	<method sig="ioutpost_stop"      vs="data/subai/ioutpost_stop.vs"/>
+
+</class>

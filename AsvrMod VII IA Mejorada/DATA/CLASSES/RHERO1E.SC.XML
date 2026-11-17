@@ -1,0 +1,9 @@
+<class id="RHero1e" cpp_class="CVXHero" parent="RepublicanRomanHero" entity="Units/RHero1/RHero1.ent.xml">
+
+	<properties display_name="Sertorius" display_name_plural="Heroes"/>
+	<properties icon="gameres/icons/RHero16.bmp"/>
+	<properties edittree_pos="Units/Roman/Heroes/R Sertorius"/>
+
+	<properties HeroSkills="Administration, Team attack, Team defense, Assault, Discipline"/>
+
+</class>

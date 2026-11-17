@@ -1,0 +1,16 @@
+<class id="RLider2" cpp_class="CVXHero" parent="RLider" entity="Units/RHero2/RHero2.ent.xml">
+
+	<properties race="ImperialRome"/>
+	<properties help="/contents/units/RHero"/>
+	<properties HeroSkills="Administration, Team attack, Team defense, Euphoria, Ceasefire, Defensive cry"/>
+	<properties display_name="Consul Cilo" display_name_plural="Heroes"/>
+	<properties edittree_pos="Units/Roman/Heroes/Consul Cilo"/>
+	<properties icon="gameres/icons/RLIDER2.bmp"/>
+
+	<properties max_army="70"/>
+
+	<sounds command="data/sound entities/VoiceRRepublicanHero.xml"/>
+
+
+
+</class>
