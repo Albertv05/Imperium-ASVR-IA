@@ -130,9 +130,7 @@ while (set.player == idPlayer && EnvReadInt(set, "RestartEconomyScript") == 0)
 	if (bCanDrain)
 		cb.ExecCmd(strCmd, ptDummy, objDummy, false);
 
-	nVillSleep = AIVar(idPlayer, AIV_Sleep_ES); // IA Plus: villages keep the original pace (no more food wagons than before)
-	if (nVillSleep < 3000) nVillSleep = 3000;
-	Sleep(nVillSleep);
+	Sleep(AIVar(idPlayer, AIV_Sleep_ES));
 }
 
 EnvWriteInt(set, "RestartEconomyScript", 0);

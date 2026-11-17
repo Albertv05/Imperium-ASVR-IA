@@ -34,7 +34,13 @@ strTechMarket[6] = "GrainTrade";
 strTechMarket[7] = "TGrainTrade";
 
 //pr("test market");
-// IA Plus: hidden AI-only resource grant REMOVED (the original gave every AI stronghold free gold/food each economy cycle)
+// IA Plus: the free GOLD grant stays removed, but the original FOOD grant is restored (same food per second as the original mod)
+if (set.food < 15000) {
+	if (nRace == Germany)
+		set.SetFood(set.food + 120 * nGrantScale / 3000);
+	else
+		set.SetFood(set.food + 66 * nGrantScale / 3000);
+}
 
 for (i = 0; i < 8; i += 1)
 	if (IsResearched(set, strTechMarket[i]))
@@ -54,8 +60,8 @@ if (set.food < 2000)
 		if (IsResearched(set, "TGrainTrade")) if (IsResearched(set, "TFoodTax")) if (IsResearched(set, "TFights"))
 			bBuyFood = true;
 	} else {
-		// IA Plus: keep a food reserve so food wagons can always be loaded for marching armies
-		if (set.food < 300 && set.gold > 1500)
+		if (rand(3) == 2)
+		if (set.food < 100)
 			bBuyFood = true;
 	}
 	if (bBuyFood)
