@@ -201,8 +201,8 @@
       "sha256": "c390ce3bb191e3dd6b2fa991908d98af683f9fb4a35aef598a10f052d335dd56"
     },
     "data/ai/ai.ini": {
-      "t": "21022:134393459826267850",
-      "sha256": "172bbcdaaa95e064ffa38cc01cf6414cbd1e3dc1fa9587928581ea9fd68d815d"
+      "t": "20970:134393872041246912",
+      "sha256": "caa91634e2d45fb5e5d4c26b6593a411b35b1f8d90345f2b4b397800f0ae4e9e"
     },
     "data/ai/aiosendsquad.vs": {
       "t": "2691:134393203062144026",
@@ -225,8 +225,8 @@
       "sha256": "2cb1c9008c1c67f5302e700be8cbeba0fa85630fae776d156362ea2a730467ca"
     },
     "data/ai/es_stronghold.vs": {
-      "t": "20717:134393459826451509",
-      "sha256": "331f2f4abc6eafd50da07124093ecc13046d593123f5f2cc251bd4f814fb4679"
+      "t": "20484:134394142856327956",
+      "sha256": "0efa22ae394acb690777702721b98670c4363382cb3b96f6bd7a9abc45e2c00e"
     },
     "data/ai/es_village.vs": {
       "t": "4362:134393459826501707",
@@ -237,8 +237,8 @@
       "sha256": "af18fffc91cef9ac1ee6da8a5701407956233cfc1e9e52fabd24308a400cf5f7"
     },
     "data/ai/esh_buildarmy.vs": {
-      "t": "16280:134393459826325675",
-      "sha256": "169222e1a5e728d62740499e79652848d396b2e7a406f8b5404a1bb83fb94ba8"
+      "t": "15706:134394147743988702",
+      "sha256": "491af81a79526b1c6415664a51082337d765d9cf891b7b45509e1ada813d7e39"
     },
     "data/ai/esh_buildgermanarmy.vs": {
       "t": "7376:134393203066586074",
@@ -249,8 +249,8 @@
       "sha256": "678a9ef361511bcd193d095ddc5b457650d297373bf7fdbb82628b6c5038709d"
     },
     "data/ai/esh_market.vs": {
-      "t": "19207:134393459826385736",
-      "sha256": "d230218071c7d055163060bec546e67a67a201d8c47953cecad1c2ff2e048853"
+      "t": "18332:134394147744189639",
+      "sha256": "3bcd90f279d8bfe05f0ab5c32fb9243e2a251f18c94149e783f12e5125e48314"
     },
     "data/ai/esh_needtech.vs": {
       "t": "13472:134393203064502458",
@@ -269,20 +269,24 @@
       "sha256": "ba787eb6a78428e2b1167c48fd54dd23b4c9c95e343ba227a937530a443b5236"
     },
     "data/ai/gs_capture.vs": {
-      "t": "9330:134393459826652309",
-      "sha256": "b17887d072d2b651626563c4cdc7a719c5257aa6a1dc59fec5a6480ad3eae02e"
+      "t": "9471:134393884505666710",
+      "sha256": "1d1df6b9155bda20fdcd17739227157dbe5a1aed44513c7a91fd92e654d4119d"
     },
     "data/ai/gs_killenemies.vs": {
-      "t": "4251:134393203062763051",
-      "sha256": "c3970b7d286c76bf556f49b6ba4eb5ba9bbccaae5c8d31b864cc53de5fe5c280"
+      "t": "4425:134393884505998465",
+      "sha256": "619b7a869dd1d2a63521308bd1610a01c8974c022702a94165731eddff79d380"
+    },
+    "data/ai/gs_siege.vs": {
+      "t": "5290:134393884505826390",
+      "sha256": "d02c42197ec0156cc73a1b12d61676af7ab7b627e42c0c1f5fe34bf180b959c8"
     },
     "data/ai/gsh_synchapproach.vs": {
-      "t": "3566:134393459826607034",
-      "sha256": "caba75782410e4843edea55e77ba0ffd4a4188e6ab3f338f419fb0d49ce0517a"
+      "t": "3566:134393879660946918",
+      "sha256": "87f8f81af5faeec19ca67bc8528c04c8c0ecaeaa33f33a92dc0c1f6638485177"
     },
     "data/ai/squadmonitor.vs": {
-      "t": "21964:134393459826702468",
-      "sha256": "433b50c2016b313c5c79fbfe0cce3a00c44e647221b9b235df1ddaee9d86454d"
+      "t": "21361:134394164596376041",
+      "sha256": "bf2671629bf373f3cc553635e95e1a574d55492550905171b69fba6fb743e4ce"
     },
     "data/ai/ts_attackatwill.vs": {
       "t": "6327:134393459826747588",
@@ -921,8 +925,8 @@
       "sha256": "29c1b1d1003089ee95014fc8c19275f149fad092a57c662775d2bc6935767f3d"
     },
     "data/classes/ehoplita.sc.xml": {
-      "t": "851:134393203078299734",
-      "sha256": "c5c1fa3e6d16d4c1ca1af84e947efb55a4e999c67a539c877ae6102f69022048"
+      "t": "857:134393466989470496",
+      "sha256": "6f43cee88048f1ea45c8b4283ca3f8be531d8b337c9d57699703106a604f58bb"
     },
     "data/classes/ehoruswarrior.sc.xml": {
       "t": "875:134393203078442601",
@@ -1185,8 +1189,8 @@
       "sha256": "1fcdefd52992add06c0253d6c58ab1c41886639e372da74b5223b4058e0db881"
     },
     "data/classes/hipatista.sc.xml": {
-      "t": "688:134393203088024766",
-      "sha256": "6062868494e1193dc81a7e74133651369362dc2f60b3afc7c1993eb589589b73"
+      "t": "692:134393466989909390",
+      "sha256": "5667a84390e02cd723957710e4632ae8396df16977f333405fcbef5dffaba33d"
     },
     "data/classes/horse.sc.xml": {
       "t": "396:134393203088218761",
@@ -7713,6 +7717,6 @@
       "sha256": "02f7624a17553573a45662f7ca92d881e779bf075bb15aea0f82835977646f4e"
     }
   },
-  "fingerprint": "a8e26972ffe1bd470e00679d9c85e6b67a22d7825065965ad315dc9ddba3e3de",
-  "gameplayFingerprint": "974bf4a77deadb6e4510d3cf93ccd374367fc665a757b448edecf2882091394a"
+  "fingerprint": "342b4a56e28c781e5be9495be4bc56103228e06507b9dd9c5a358918e47e9ac7",
+  "gameplayFingerprint": "e6b56361c1f8a2571f42c6bfb3d3fe05698204d90c5cedf24dc4f294b48ccb6f"
 }
