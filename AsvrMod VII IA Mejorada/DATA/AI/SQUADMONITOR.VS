@@ -340,9 +340,7 @@ for (i = 1; i < NumSquads(AIPlayer); i += 1)
 
 	if (AIVar(AIPlayer, AIV_FeedWithWagons) != 0)
 	if (nSqState != SS_Flee)
-	if (nSqState != SS_IDLE) // IA Plus: squads idling in a settlement don't call for food wagons over and over (squads on the move still do)
-	if (nSqState != SS_Wait)
-	if (Count(AIPlayer, "Wagon") < 35) // IA Plus: never keep creating wagons when many already exist
+	if (Count(AIPlayer, "Wagon") < 60) // IA Plus: only a high cap; idle/wait states are NOT excluded (marching squads often carry those states)
 	if (sq.Eval >= 3000)
 	{ // check feeding
 		int dist, food, needed;
