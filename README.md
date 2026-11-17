@@ -30,7 +30,8 @@ reforzadas en Egipto y Britania, mayor fuerza necesaria antes de atacar, ejérci
 sincronización de 30 s como máximo, búsqueda de ruinas hasta 9000 de distancia, curanderos desde 5 bajas.
 
 **Esperas bajo fuego:** los ejércitos que esperan (reunirse o sincronizar la llegada) ya no se quedan quietos mientras los
-arqueros o torres enemigas les disparan: retroceden fuera del alcance.
+arqueros o torres enemigas les disparan: retroceden fuera del alcance. Además, la fase de reunión previa a capturar, asediar o limpiar una zona dura como
+máximo 45 segundos (`GS_CAPTURE`, `GS_SIEGE`, `GS_KILLENEMIES`).
 
 **Defensa:** las 3 defensas de fortaleza se activan antes (20 y 30 min, y la tercera pasados 40) y se asigna
 más oro y refuerzos a las fortalezas atacadas.

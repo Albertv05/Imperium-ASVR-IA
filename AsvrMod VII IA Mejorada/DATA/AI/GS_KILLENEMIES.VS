@@ -48,6 +48,7 @@ if (!set.IsAlly(AIPlayer))
 
 		if (gaika.GetStrat(AIPlayer) != GS_KillEnemies)
 			break;
+		if (GetTime - gtStart > 45000) break; // IA Plus: never wait more than 45 s
 		if (bWait)
 			Sleep(AIVar(AIPlayer, AIV_Sleep_GS));
 	}
