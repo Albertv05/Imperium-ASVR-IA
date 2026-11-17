@@ -171,7 +171,7 @@ if (nArmyBuilds == 0)	{
 	bBuildArmy = true;
 	strDbg = "Stronghold have no mind";
 } else
-if (set.food < 100 && nMilUnits >= 100) {
+if (set.food < 600 && nMilUnits >= 50) {
 	bBuildArmy = false;
 	strDbg = "Too large army and no food";
 } else {

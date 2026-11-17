@@ -54,8 +54,8 @@ if (set.food < 2000)
 		if (IsResearched(set, "TGrainTrade")) if (IsResearched(set, "TFoodTax")) if (IsResearched(set, "TFights"))
 			bBuyFood = true;
 	} else {
-		if (rand(3) == 2)
-		if (set.food < 100)
+		// IA Plus: keep a food reserve so food wagons can always be loaded for marching armies
+		if (set.food < 1500)
 			bBuyFood = true;
 	}
 	if (bBuyFood)
