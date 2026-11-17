@@ -3,7 +3,7 @@
 Mod completo **AsvrMod VII IA Mejorada (Hard)**: AsvrMod VII "Ancient Generals" 7a 0.8 de **Asur**
 (https://gamebanana.com/mods/729311) con la IA de dificultad Difícil mejorada, para Imperivm III Great Battles of Rome HD
 (cargador Imperivm Resurrected). Los créditos del contenido original son de Asur; los ajustes de IA son de David.
-Se ha excluido la carpeta `musica` (música original del juego).
+Incluye el mod completo (también la carpeta `musica`).
 
 Versión: 7a 0.8 + IA Plus 1.2. Afecta solo a la dificultad **Difícil**. Sin probar en todas las situaciones.
 
